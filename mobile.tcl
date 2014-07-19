@@ -19,10 +19,11 @@ set opt(rp)     DSDV                       ;# routing protocol
 set opt(x)      100                        ;# X dimension of topography
 set opt(y)      100                        ;# Y dimension of topography
 set opt(stop)   100                        ;# time of simulation end
-set opt(nfnode) 300;                        # number of fixed nodes
-set opt(nmnode) 50;                         # number of mobile nodes
+set opt(nfnode) 100                        ;# number of fixed nodes
+set opt(nmnode) 10                         ;# number of mobile nodes
 set opt(nn) [expr 1 + $opt(nfnode) + $opt(nmnode)] ;# sum of nodes and a target
 set opt(node_size) 1                       ;# Size of nodes
+set opt(target_size) 2                     ;# Size of the target
 set opt(radius_f) 2                        ;# Sensing Radius of Fixed nodes
 set opt(radius_m) 5                        ;# Sensing Radius of Mobile nodes
 
@@ -110,7 +111,7 @@ $target set X_ [$r_x value]
 $target set Y_ [$r_y value]
 $target set Z_ 0
 $target random-motion 0
-$ns initial_node_pos $target 20
+$ns initial_node_pos $target $opt(target_size)
 
 #===================================
 #        Generate movement
