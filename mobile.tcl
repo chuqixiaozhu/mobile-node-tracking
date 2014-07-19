@@ -24,8 +24,12 @@ set opt(nmnode) 10                         ;# number of mobile nodes
 set opt(nn) [expr 1 + $opt(nfnode) + $opt(nmnode)] ;# sum of nodes and a target
 set opt(node_size) 1                       ;# Size of nodes
 set opt(target_size) 2                     ;# Size of the target
-set opt(radius_f) 2                        ;# Sensing Radius of Fixed nodes
-set opt(radius_m) 5                        ;# Sensing Radius of Mobile nodes
+set opt(radius_f) 7                        ;# Sensing Radius of Fixed nodes
+set opt(radius_m) 10                       ;# Sensing Radius of Mobile nodes
+set opt(mnode_speed) 2;                     # Velocity of Mobile nodes
+set opt(target_speed) 5;                    # Mean velocity of the Target
+set opt(target_move_time_max) 20;           # Maxium time of the Target one movement
+set opt(time_click) 1;                      # Duration of a time slice
 
 #===================================
 #        Initialization
@@ -72,24 +76,24 @@ $ns node-config -adhocRouting  $opt(rp) \
 # Settings for Random X positions
 set rng_x [new RNG]
 $rng_x seed 0
-set r_x [new RandomVariable/Uniform]
-$r_x use-rng $rng_x
-$r_x set min_ 0
-$r_x set max_ 100
+set rd_x [new RandomVariable/Uniform]
+$rd_x use-rng $rng_x
+$rd_x set min_ 0
+$rd_x set max_ opt(x)
 
 # Settings for Random Y positions
 set rng_y [new RNG]
 $rng_y seed 0
-set r_y [new RandomVariable/Uniform]
-$r_y use-rng $rng_y
-$r_y set min_ 0
-$r_y set max_ 100
+set rd_y [new RandomVariable/Uniform]
+$rd_y use-rng $rng_y
+$rd_y set min_ 0
+$rd_y set max_ opt(y)
 
 # Create Fixed nodes
 for {set i 0} {$i < $opt(nfnode)} {incr i} {
     set fnode($i) [$ns node]
-    $fnode($i) set X_ [$r_x value]
-    $fnode($i) set Y_ [$r_y value]
+    $fnode($i) set X_ [$rd_x value]
+    $fnode($i) set Y_ [$rd_y value]
     $fnode($i) set Z_ 0
     $fnode($i) random-motion 0
     $ns initial_node_pos $fnode($i) $opt(node_size)
@@ -98,45 +102,128 @@ for {set i 0} {$i < $opt(nfnode)} {incr i} {
 # Create Mobile nodes
 for {set i 0} {$i < $opt(nmnode)} {incr i} {
     set mnode($i) [$ns node]
-    $mnode($i) set X_ [$r_x value]
-    $mnode($i) set Y_ [$r_y value]
+    $mnode($i) set X_ [$rd_x value]
+    $mnode($i) set Y_ [$rd_y value]
     $mnode($i) set Z_ 0
     $mnode($i) random-motion 0
     $ns initial_node_pos $mnode($i) $opt(node_size)
+    $mnode($i) color "black"
+    $ns at 0 "$mnode($i) color \"red\""
+    #$ns color $mnode($i) "red"
 }
 
 # Create the Target
 set target [$ns node]
-$target set X_ [$r_x value]
-$target set Y_ [$r_y value]
+$target set X_ [$rd_x value]
+$target set Y_ [$rd_y value]
 $target set Z_ 0
 $target random-motion 0
 $ns initial_node_pos $target $opt(target_size)
+$target color "black"
+$ns at 0 "$target color \"green\""
 
+#===================================
+#        Utilities
+#===================================
+# If node can sense the target
+proc be_sensed {node target radius itime} {
+    global ns
+    $ns at $itime "$node update_position"
+    $ns at $itime "$target update_position"
+    set node_x [set $node X_]
+    set node_y [set $node Y_]
+    set target_x [set $target X_]
+    set target_y [set $target Y_]
+    set dx [expr $node_x - $target_x]
+    set dy [expr $node_y - $target_y]
+    set dist [expr sqrt(dx * dx + dy * dy)]
+    if {$radius <= $dist} {
+        return 1
+    } else {
+        return 0
+    }
+}
+proc set_destination {node target itime} {
+    global ns opt(mnode_speed)
+    $ns at $itime "$node update_position"
+    $ns at $itime "$target update_position"
+    set target_x [set $target X_]
+    set target_y [set $target Y_]
+    $ns at $itime "$node setdest $target_x $target_y $opt(mnode_speed)"
+}
 #===================================
 #        Generate movement
 #===================================
-#$ns at 0 " $n0 setdest 20 20 1 "
-##$ns at 10 "$n0 setdest 300 200 10"
-#$ns at 5 "puts \"**********Hello**********\""
-##$n0 update_position
-#$ns at 5 "$n0 update_position"
-##$ns flush-trace
-##$ns at 5.1 "global n0; $n0 update_position; puts \"5x = [$n0 set X_]\""
-##$ns at 6 "puts \"6x = [$n0 set X_]\""
-#set i 0
-#$ns at 7 "set i [$n0 set X_]; puts \"i = $i\""
-#$ns at 7.1 "puts [$n0 set X_]"
-#set index 0
-#proc test {node} {
-#    upvar $node n
-#    set t 0
-#    #set t [$node set X_]
-#    puts [$n set X_]
-#    set t [$n set X_]
-#    puts "t = $t"
-#}
-#$ns at 5 "test n$index"
+# Create time index
+set time_line 0
+
+# Settings of random Time for Target one movement
+set rng_target_time [new RNG]
+$rng_target_time seed 0
+set rd_target_time [new RandomVariable/Uniform]
+$rd_target_time use-rng $rng_target_time
+$rd_target_time set min_ 1
+$rd_target_time set max_ opt(target_move_time_max)
+
+# Settings of random Speed for Target
+set rng_target_speed [new RNG]
+$rng_target_speed seed 0
+set rd_target_speed [new RandomVariable/Normal]
+$rd_target_speed use-rng $rng_target_speed
+$rd_target_speed set avg_ opt(target_speed)
+$rd_target_speed set std_ 1
+
+# the whole process of Movement, scheduled by Time
+set to_move 1
+while {$time_line < $opt(stop)} {
+# a Stop after moving
+    if {!$to_move} {
+        set to_move 1
+        set stop_time [expr [$rd_target_time value] / 2]
+        #incr time_line $stop_time
+        set time_line [expr $time_line + $stop_time]
+        continue
+    }
+
+# Time-stamp
+    set time_stamp $time_line
+
+# Random Destination
+    set dest_x [$rd_x value]
+    set dest_y [$rd_y value]
+# Random Velocity
+    set target_speed [$rd_target_speed value]
+# Movement of the Target
+    $ns at $time_line "$target setdest $dest_x $dest_y $target_speed"
+    #incr time_line [$rd_target_time value]
+    set move_time [expr int([$rd_target_time value])]
+    #incr time_line $move_time
+    set time_line [expr $time_line + $move_time]
+    set to_move 0
+
+# Movement of some Mobile nodes
+    while {$time_stamp < $time_line} {
+    # Choosing Mobile nodes, set them in the array moving_mnode_index
+        set num_mobile 0
+        for {set i 0} {$i < $opt(nmnode)} {incr i} {
+            if {[be_sensed $mnode($i) $target $opt(radius_m) $time_stamp]} {
+                #$ns at time_line "$mnode($i) setdest $dest_x $dest_y $opt(mnode_speed)"
+                set moving_mnode_index($num_mobile) $i
+                incr num_mobile
+            }
+        }
+
+    # Movement for those chosen Mobile nodes
+        for {set i 0} {$i < $num_mobile} {incr i} {
+            set_destination $mnode($moving_mnode_index($i)) $target $time_stamp
+            #$ns at time_stamp "$mnode($moving_mnode_index($i)) update_position"
+            #$ns at time_stamp "$target update_position"
+            #$mnode($moving_mnode_index($i))
+        # Computing for Fixed nodes
+            # to-do !!!! 20140719-22:48
+        }
+    }
+}
 
 #===================================
 #        Agents Definition
@@ -172,6 +259,6 @@ for {set i 0} {$i < $opt(nfnode)} {incr i} {
 
 # Finish
 $ns at $opt(stop) "$ns nam-end-wireless $opt(stop)"
-$ns at $opt(stop).01 "finish"
-$ns at $opt(stop).02 "puts \"Done.\"; $ns halt"
+$ns at $opt(stop) "finish"
+$ns at $opt(stop) "puts \"Done.\"; $ns halt"
 $ns run
