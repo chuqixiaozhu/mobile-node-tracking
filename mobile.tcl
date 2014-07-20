@@ -24,14 +24,25 @@ set opt(nmnode) 10                         ;# number of mobile nodes
 set opt(nn) [expr 1 + $opt(nfnode) + $opt(nmnode)] ;# sum of nodes and a target
 set opt(node_size) 1                       ;# Size of nodes
 set opt(target_size) 2                     ;# Size of the target
-set opt(radius_f) 15                       ;# Sensing Radius of Fixed nodes
 set opt(radius_m) 20                       ;# Sensing Radius of Mobile nodes
 set opt(mnode_speed) 2;                     # Velocity of Mobile nodes
 set opt(target_speed) 5;                    # Mean velocity of the Target
 set opt(target_move_time_max) 20;           # Maxium time of the Target one movement
 set opt(time_click) 1;                      # Duration of a time slice
 #set MOVE_TIME 0;                            # global variable
+set opt(energy_comsumption) 0;              # Energy comsumption of fixed noded
+set opt(noise_avg) 1;                       # Noise average
+set opt(noise_std) 1;                       # Noise standard deviation
+set opt(source_signal_max) 10;              # Maximum of source singal
+set opt(decay_factor) 2;                    # Decay factor
+set opt(dist_threshold_f) 12               ;# Distance threshold of Fixed nodes
+set opt(dist_threshold_m) 15;               # Distance threshold of Mobile nodes
+set opt(sen_intensity_threshold) 10;        # threshold of Sensing intensity
+set opt(sen_probability) 0.8;               # System Sensing probability
+set opt(normal) "normal.tcl";               # file for normal distribution
+set tcl_precision 17;                       # Tcl variaty
 
+source $opt(normal)
 #===================================
 #        Initialization
 #===================================
@@ -203,13 +214,6 @@ proc be_sensed {node target radius itime} {
     set dy [expr $node_y - $target_y]
     set dist [expr sqrt($dx * $dx + $dy * $dy)]
     if {$dist <= $radius} {
-        # test
-        puts "@162 itime = $itime"
-        puts "node = $node"
-        puts "node = ($node_x, $node_y)"
-        puts "target = ($target_x, $target_y)"
-        # /test
-
         return 1
     } else {
         return 0
@@ -226,13 +230,7 @@ proc set_destination {node target itime} {
     $target update_position
     set target_x [$target set X_]
     set target_y [$target set Y_]
-    #$ns at $itime "$node setdest $target_x $target_y $opt(mnode_speed)"
     $node setdest $target_x $target_y $opt(mnode_speed)
-    # test
-    puts "@183 itime = $itime"
-    puts "node = $node"
-    puts "target = ($target_x, $target_y)"
-    # /test
 }
 
 proc moblie_node_action {time_stamp} {
@@ -241,8 +239,6 @@ proc moblie_node_action {time_stamp} {
     set num_mobile 0
     for {set i 0} {$i < $opt(nmnode)} {incr i} {
         if {[be_sensed $mnode($i) $target $opt(radius_m) $time_stamp]} {
-            #if {[be_sensed mnode($i) $target $opt(radius_m) $time_stamp]} {}
-            #$ns at time_line "$mnode($i) setdest $dest_x $dest_y $opt(mnode_speed)"
             set moving_mnode_index($num_mobile) $i
             incr num_mobile
         }
@@ -250,15 +246,95 @@ proc moblie_node_action {time_stamp} {
 
     # Movement for those chosen Mobile nodes
     for {set i 0} {$i < $num_mobile} {incr i} {
-        #puts "@225 time_stamp = $time_stamp"; # test
         set_destination $mnode($moving_mnode_index($i)) $target $time_stamp
-        #$ns at time_stamp "$mnode($moving_mnode_index($i)) update_position"
-        #$ns at time_stamp "$target update_position"
-        #$mnode($moving_mnode_index($i))
         # Computing for Fixed nodes
         # to-do !!!! 20140719-22:48
     }
+
+    # Probability
+
 }
+proc distance {node target time_stamp} {
+    $node update_position
+    $target update_position
+    set target_x [$target set X_]
+    set target_y [$target set Y_]
+    set node_x [$node set X_]
+    set node_y [$node set Y_]
+    set dx [expr $node_x - $target_x]
+    set dy [expr $node_y - $target_y]
+    set dist [expr sqrt($dx * $dx + $dy * $dy)]
+
+    return $dist
+}
+
+proc fixed_node_actiong {m_m_index num_m_m time_stamp} {
+    global opt mnode fnode target
+    if {$num_m_m} {
+        upvar 1 $m_m_index moving_mnode_index
+    }
+
+    for {set i 0} {$i < $num_m_m} {incr i} {
+        $mnode($moving_mnode_index($i)) update_position
+    }
+    $target update_position
+    set target_x [$target set X_]
+    set target_y [$target set Y_]
+    set fnode_list ""
+    for {set i 0} {$i < $opt(nfnode)} {incr i} {
+        lappend fnode_list [distance $mnode($i) $target $time_stamp]
+    }
+    set fnode_list [lsort -real $fnode_list]
+    for {set i 0} {$i < $opt(nfnode)} {incr i} {
+
+    }
+}
+
+proc local_probability {dist dist_threshold} {
+    global opt normal
+    if {$dist > $dist_threshold} {
+        set decay [expr pow((double($dist) / $dist_threshold), $opt(decay_factor))]
+        puts "@296 decay = $decay"; # test
+        set source_intensity [expr $opt(source_signal_max) / $decay]
+    } else {
+        set source_intensity $opt(source_signal_max)
+    }
+    puts "@300 source_intensity = $source_intensity"; # test
+    set member \
+        [expr $opt(sen_intensity_threshold) - ($source_intensity + $opt(noise_avg))]
+    puts "@302 member = $member"; # test
+    set y [expr double($member) / $opt(noise_std)]
+    puts "@304 y = $y";         # test
+    if {$y < 0} {
+        if {[string length $y] == 2} {
+            append y ".00"
+        } elseif {[string length $y] ==4} {
+            append y "0"
+        }
+        set y [string range $y 1 4]
+        if {$y > 4.99} {
+            set y "4.99"
+        }
+        set np $normal($y)
+        set np [expr 1 - $np]
+    } else {
+        if {[string length $y] == 1} {
+            append y ".00"
+        } elseif {[string length $y] == 3} {
+            append y "0"
+        }
+        set y [string range $y 0 3]
+        if {$y > 4.99} {
+            set y "4.99"
+        }
+        set np $normal($y)
+    }
+    puts "@321 np = $np";       # test
+    set local_proba [expr 1 - $np]
+
+    return $local_proba
+}
+puts "@325 ================== [local_probability 9 10]"; # test
 
 #===================================
 #        Generate movement
@@ -273,12 +349,12 @@ set to_move 1
 while {$time_line < $opt(stop)} {
 # Time-stamp
     set time_stamp $time_line
-    puts "@275 time_line = $time_line"; # test
+    #puts "@275 time_line = $time_line"; # test
 
 # a Stop after moving
     if {!$to_move} {
         set stop_time [expr int($move_time / 3)]
-        puts "@282 stop_time = $stop_time"; # test
+        #puts "@282 stop_time = $stop_time"; # test
         if {!$stop_time} {
             set stop_time 1
         }
@@ -304,7 +380,7 @@ while {$time_line < $opt(stop)} {
     set move_time [expr int(floor($dist / $target_speed) + 1)]
 # Movement of the Target
     $ns at $time_line "$target setdest $dest_x $dest_y $target_speed"
-    puts "@307 move_time = $move_time"; # test
+    #puts "@307 move_time = $move_time"; # test
     incr time_line $move_time
     set to_move 0
 
