@@ -1,0 +1,18 @@
+@273
+valid_sur_time = 100.0
+time_stamp = 98
+nmnode = 50
+@273
+valid_sur_time = 100.0
+time_stamp = 99
+nmnode = 50
+@273
+valid_sur_time = 100.0
+time_stamp = 98
+nmnode = 50
+target speed = 2
+@273
+valid_sur_time = 101.0
+time_stamp = 99
+nmnode = 50
+target speed = 2
