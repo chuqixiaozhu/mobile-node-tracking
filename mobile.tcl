@@ -36,7 +36,7 @@ set opt(noise_avg) 0.1;                       # Noise average
 set opt(noise_std) 1;                       # Noise standard deviation
 set opt(source_signal_max) 5;              # Maximum of source singal
 set opt(decay_factor) 2;                    # Decay factor
-set opt(dist_threshold_f) 7               ;# Distance threshold of Fixed nodes
+set opt(dist_threshold_f) 5               ;# Distance threshold of Fixed nodes
 set opt(dist_threshold_m) 10;               # Distance threshold of Mobile nodes
 set opt(sen_intensity_threshold) 5;        # threshold of Sensing intensity
 set opt(sys_proba_threshold) 0.8;           # System Sensing probability

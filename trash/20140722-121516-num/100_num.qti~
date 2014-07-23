@@ -1,0 +1,202 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	4
+<table>
+100_num_vs_ec	21	2	22 Jul 2014 14:47:28
+geometry	0	0	445	220	
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	/home/piglet/pppp/code/Mobile_140718/20140722-121516-num/100_num_vs_ec	2
+<data>
+0	0	6757.46
+1	1	6098.54
+2	2	6079.46
+3	3	5325.12
+4	4	4954.5
+5	5	4670.21
+6	6	4056.78
+7	7	3871.99
+8	8	3199.2
+9	9	3121.28
+10	10	3194.93
+11	11	2969.02
+12	12	2248.01
+13	13	2270.03
+14	14	2192.3
+15	15	1892.96
+16	16	1803.78
+17	17	1803.66
+18	18	1872.2
+19	19	1628.54
+20	20	1394.23
+</data>
+</table>
+<multiLayer>
+Graph1	1	1	22 Jul 2014 14:47:35
+geometry	584	69	559	469	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	541	406
+<PageGeometry>0.00907441	0.0118765	0.981851	0.964371</PageGeometry>
+PlotTitle	Title	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Number of Mobile Nodes	Energy Consumption		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+TitleFont	Ubuntu	13	75	0	0	0
+ScaleFont0	Ubuntu	11	75	0	0	0
+ScaleFont1	Ubuntu	11	75	0	0	0
+ScaleFont2	Ubuntu	11	75	0	0	0
+ScaleFont3	Ubuntu	11	75	0	0	0
+AxisFont0	Ubuntu	11	50	0	0	0
+AxisFont1	Ubuntu	11	50	0	0	0
+AxisFont2	Ubuntu	11	50	0	0	0
+AxisFont3	Ubuntu	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#3c3c3c	#3c3c3c	#3c3c3c	#3c3c3c
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	100_num_vs_ec_1	100_num_vs_ec_2	1	0	#000000	0	1	11	9	#000000	#000000	0	#000000	14	1	2	0	0	20	1
+scale	0	1000	7000	0	7	5	0	0
+scale	1	1000	7000	0	7	5	0	0
+scale	2	-1	21	2	12	1	0	0
+scale	3	-1	21	2	12	1	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	3	1	3	1
+MinorTicks	3	1	3	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<table>
+100_num_vs_vt	21	2	22 Jul 2014 14:56:37
+geometry	13	20	445	220	
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	/home/piglet/pppp/code/Mobile_140718/20140722-121516-num/100_num_vs_vt	2
+<data>
+0	0	33.45
+1	1	40.21
+2	2	40.26
+3	3	47.85
+4	4	51.49
+5	5	54.3
+6	6	60.49
+7	7	62.23
+8	8	68.8
+9	9	69.67
+10	10	68.81
+11	11	71.02
+12	12	78.35
+13	13	77.98
+14	14	78.76
+15	15	81.72
+16	16	82.47
+17	17	82.6
+18	18	81.73
+19	19	84.25
+20	20	86.55
+</data>
+</table>
+<multiLayer>
+Graph2	1	1	22 Jul 2014 14:56:52
+geometry	28	57	519	469	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	501	406
+<PageGeometry>0.00978474	0.0118765	0.980431	0.964371</PageGeometry>
+PlotTitle	Title	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Number of Mobile Nodes	Valid Surveillance Time<br>		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+TitleFont	Ubuntu	13	75	0	0	0
+ScaleFont0	Ubuntu	11	75	0	0	0
+ScaleFont1	Ubuntu	11	75	0	0	0
+ScaleFont2	Ubuntu	11	75	0	0	0
+ScaleFont3	Ubuntu	11	75	0	0	0
+AxisFont0	Ubuntu	11	50	0	0	0
+AxisFont1	Ubuntu	11	50	0	0	0
+AxisFont2	Ubuntu	11	50	0	0	0
+AxisFont3	Ubuntu	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#3c3c3c	#3c3c3c	#3c3c3c	#3c3c3c
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	100_num_vs_vt_1	100_num_vs_vt_2	1	0	#000000	0	1	11	9	#000000	#000000	0	#000000	14	1	2	0	0	20	1
+scale	0	30	90	0	7	5	0	0
+scale	1	30	90	0	7	5	0	0
+scale	2	-1	21	2	12	1	0	0
+scale	3	-1	21	2	12	1	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	3	1	3	1
+MinorTicks	3	1	3	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<open>1</open>

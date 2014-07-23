@@ -16,8 +16,9 @@ do
     for i in $(seq 1 $count)
     do
         #echo ""
-        now_time="$(date +%H%M%S)"
+        #now_time="$(date +%H%M%S)"
         ns mobile.tcl 100 100 100 20 ${speed} ${result_file}
+        #ns mobile.tcl 100 100 100 0 ${speed} ${result_file}
     done
 done
 #cd $path

@@ -16,7 +16,7 @@ do
     for i in $(seq 1 $count)
     do
         #echo ""
-        now_time="$(date +%H%M%S)"
+        #now_time="$(date +%H%M%S)"
         ns mobile.tcl 100 100 100 ${nmnode} 2 ${result_file}
     done
 done
