@@ -15,11 +15,16 @@ BEGIN {
     ++count[nmnode];
 }
 END {
+    result1 = "m_num_vs_vt"
+    result2 = "m_num_vs_ec"
     for (i = 0; i < max_nmnode + 1; ++i) {
         avg_valid_time[i] = 1.0 * sum_valid_time[i] / count[i];
         avg_energy_consumption[i] = 1.0 * sum_energy_consumption[i] / count[i];
     }
     for (i = 0; i < max_nmnode + 1; ++i) {
-        printf("%2d %5.1f%% %2d %15f\n", i, avg_valid_time[i], i, avg_energy_consumption[i]);
+        printf("%3d %5.1f\n", i, avg_valid_time[i]) > result1;
+    }
+    for (i = 0; i < max_nmnode + 1; ++i) {
+        printf("%3d %15f\n", i, avg_energy_consumption[i]) > result2;
     }
 }

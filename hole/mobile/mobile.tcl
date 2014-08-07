@@ -20,13 +20,12 @@ set opt(x)      100                        ;# X dimension of topography
 set opt(y)      100                        ;# Y dimension of topography
 set opt(stop)   1000                        ;# time of simulation end
 set opt(nfnode) 100                        ;# number of fixed nodes
-set opt(nmnode) 20                         ;# number of mobile nodes
-set opt(nn) [expr 1 + $opt(nfnode) + $opt(nmnode)] ;# sum of nodes and a target
+set opt(nmnode) 10                         ;# number of mobile nodes
 set opt(node_size) 1                       ;# Size of nodes
 set opt(target_size) 2                     ;# Size of the target
-set opt(radius_m) 20                       ;# Sensing Radius of Mobile nodes
+set opt(radius_m) 15                       ;# Sensing Radius of Mobile nodes
 set opt(mnode_speed) 1;                     # Velocity of Mobile nodes
-set opt(target_speed_max) 2;                    # Mean velocity of the Target
+set opt(target_speed_max) 3;                    # Mean velocity of the Target
 #set opt(target_move_time_max) 20;           # Maxium time of the Target one movement
 set opt(time_click) 1;                      # Duration of a time slice
 #set MOVE_TIME 0;                            # global variable
@@ -36,8 +35,8 @@ set opt(noise_avg) 0.1;                       # Noise average
 set opt(noise_std) 1;                       # Noise standard deviation
 set opt(source_signal_max) 5;              # Maximum of source singal
 set opt(decay_factor) 2;                    # Decay factor
-set opt(dist_threshold_f) 5               ;# Distance threshold of Fixed nodes
-set opt(dist_threshold_m) 10;               # Distance threshold of Mobile nodes
+set opt(dist_threshold_f) 6               ;# Distance threshold of Fixed nodes
+set opt(dist_threshold_m) 6;               # Distance threshold of Mobile nodes
 set opt(sen_intensity_threshold) 5;        # threshold of Sensing intensity
 set opt(sys_proba_threshold) 0.8;           # System Sensing probability
 set opt(normal) "normal.tcl";               # file for normal distribution
@@ -45,12 +44,15 @@ set tcl_precision 17;                       # Tcl variaty
 set opt(trace_file) "out.tr"
 set opt(nam_file) "out.nam"
 set opt(hole_number) 5;                     # number of holes
+set opt(hole_length) 30;                    # Length of a hole edge
 
 source $opt(normal)
 if {0 < $argc} {
-    set opt(nmnode) [lindex $argv 0]
-    set opt(hole_number) [lindex $argv 1]
-    set opt(result_file) [lindex $argv 2]
+    set opt(nfnode) [lindex $argv 0]
+    set opt(nmnode) [lindex $argv 1]
+    set opt(hole_number) [lindex $argv 2]
+    set opt(target_speed_max) [lindex $argv 3]
+    set opt(result_file) [lindex $argv 4]
     #set opt(x) [lindex $argv 0]
     #set opt(y) [lindex $argv 1]
     #set opt(nfnode) [lindex $argv 2]
@@ -58,6 +60,7 @@ if {0 < $argc} {
     #set opt(target_speed_max) [lindex $argv 4]
     #set opt(result_file) [lindex $argv 5]
 }
+set opt(nn) [expr 1 + $opt(nfnode) + $opt(nmnode)] ;# sum of nodes and a target
 #puts "@59 hole_number = $opt(hole_number)"; # test
 #===================================
 #        Initialization
@@ -140,46 +143,66 @@ proc create_holes {x_ y_} {
     global opt rd_x rd_y
     upvar 1 $x_ x
     upvar 1 $y_ y
+    set h $opt(hole_length)
+    set g [expr ($opt(x) - 3 * $h) / 4.0]
+    set p1 $g
+    set p2 [expr $g + $h]
+    set p3 [expr 2.0 * $g + $h]
     #set x [$rd_x value]
     #set y [$rd_y value]
     #puts "@144 ($x, $y)";       # test
     switch -exact -- $opt(hole_number) {
         1 {
-            while {21.25 <= $x && $x <= 26.25 && 21.25 <= $y && $y <= 26.25} {
+            while {$p1 <= $x && $x <= $p2 && \
+                   $p1 <= $y && $y <= $p2} {
                 set x [$rd_x value]
                 set y [$rd_y value]
             }
         }
         2 {
-            while {21.25 <= $x && $x <= 26.25 && 21.25 <= $y && $y <= 26.25 || \
-                   73.75 <= $x && $x <= 78.75 && 21.25 <= $y && $y <= 26.25} {
+            while {$p1 <= $x && $x <= $p2 && \
+                   $p1 <= $y && $y <= $p2 \
+                || [expr 100 - $p2] <= $x && $x <= [expr 100 - $p1] && \
+                   $p1 <= $y && $y <= $p2} {
                 set x [$rd_x value]
                 set y [$rd_y value]
             }
         }
         3 {
-            while {21.25 <= $x && $x <= 26.25 && 21.25 <= $y && $y <= 26.25 || \
-                   73.75 <= $x && $x <= 78.75 && 21.25 <= $y && $y <= 26.25 || \
-                    47.5 <= $x && $x <= 52.5  &&  47.5 <= $y && $y <= 52.5} {
+            while {$p1 <= $x && $x <= $p2 && \
+                   $p1 <= $y && $y <= $p2 \
+                || [expr 100 - $p2] <= $x && $x <= [expr 100 - $p1] && \
+                   $p1 <= $y && $y <= $p2 \
+                || $p3 <= $x && $x <= [expr 100 - $p3] && \
+                   $p3 <= $y && $y <= [expr 100 - $p3]}  {
                 set x [$rd_x value]
                 set y [$rd_y value]
             }
         }
         4 {
-            while {21.25 <= $x && $x <= 26.25 && 21.25 <= $y && $y <= 26.25 || \
-                   73.75 <= $x && $x <= 78.75 && 21.25 <= $y && $y <= 26.25 || \
-                    47.5 <= $x && $x <= 52.5  &&  47.5 <= $y && $y <= 52.5  || \
-                   21.25 <= $x && $x <= 26.25 && 73.75 <= $y && $y <= 78.75} {
+            while {$p1 <= $x && $x <= $p2 && \
+                   $p1 <= $y && $y <= $p2 \
+                || [expr 100 - $p2] <= $x && $x <= [expr 100 - $p1] && \
+                   $p1 <= $y && $y <= $p2 \
+                || $p3 <= $x && $x <= [expr 100 - $p3] && \
+                   $p3 <= $y && $y <= [expr 100 - $p3]  \
+                || $p1 <= $x && $x <= $p2 && \
+                   [expr 100 - $p2] <= $y && $y <= [expr 100 - $p1]} {
                 set x [$rd_x value]
                 set y [$rd_y value]
             }
         }
         5 {
-            while {21.25 <= $x && $x <= 26.25 && 21.25 <= $y && $y <= 26.25 || \
-                   73.75 <= $x && $x <= 78.75 && 21.25 <= $y && $y <= 26.25 || \
-                    47.5 <= $x && $x <= 52.5  &&  47.5 <= $y && $y <= 52.5  || \
-                   21.25 <= $x && $x <= 26.25 && 73.75 <= $y && $y <= 78.75 || \
-                   73.75 <= $x && $x <= 78.75 && 73.75 <= $y && $y <= 78.75} {
+            while {$p1 <= $x && $x <= $p2 && \
+                   $p1 <= $y && $y <= $p2 \
+                || [expr 100 - $p2] <= $x && $x <= [expr 100 - $p1] && \
+                   $p1 <= $y && $y <= $p2 \
+                || $p3 <= $x && $x <= [expr 100 - $p3] && \
+                   $p3 <= $y && $y <= [expr 100 - $p3]  \
+                || $p1 <= $x && $x <= $p2 && \
+                   [expr 100 - $p2] <= $y && $y <= [expr 100 - $p1] \
+                || [expr 100 - $p2] <= $x && $x <= [expr 100 - $p1] && \
+                   [expr 100 - $p2] <= $y && $y <= [expr 100 - $p1]} {
                 set x [$rd_x value]
                 set y [$rd_y value]
                 #puts "($x, $y)"; # test
@@ -207,6 +230,7 @@ for {set i 0} {$i < $opt(nfnode)} {incr i} {
     $fnode($i) random-motion 0
     $ns initial_node_pos $fnode($i) $opt(node_size)
     $fnode($i) color "black"
+    $fnode($i) shape "circle"
 }
 
 # Create Mobile nodes
@@ -224,6 +248,7 @@ for {set i 0} {$i < $opt(nmnode)} {incr i} {
     $mnode($i) random-motion 0
     $ns initial_node_pos $mnode($i) $opt(node_size)
     $mnode($i) color "black"
+    $mnode($i) shape "square"
     $ns at 0 "$mnode($i) color \"blue\""
     #$ns color $mnode($i) "red"
 }
@@ -236,6 +261,7 @@ $target set Z_ 0
 $target random-motion 0
 $ns initial_node_pos $target $opt(target_size)
 $target color "black"
+$target shape "hexagon"
 $ns at 0 "$target color \"red\""
 
 #===================================

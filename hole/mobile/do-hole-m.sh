@@ -1,6 +1,7 @@
 #! /bin/bash
 path="$(date +%Y%m%d-%H%M%S)-hole-m"
 result_file="${path}/${path}-result"
+filen="${path}-result"
 #file_speed="${path}/${path}-result_target_speed"
 mkdir $path
 #cp -u process-num.awk ${path}
@@ -17,8 +18,12 @@ do
     do
         #echo ""
         #now_time="$(date +%H%M%S)"
-        ns mobile.tcl 20 ${hole_num} ${result_file}
+        ns mobile.tcl 300 10 ${hole_num} 3 ${result_file}
     done
 done
 #cd $path
-awk -f process-hole-m.awk ${result_file} > ${path}/${path}-avg
+#awk -f process-hole-m.awk ${result_file} > ${path}/${path}-avg
+cp -u process-hole-m.awk ${path}
+cd ${path}
+awk -f process-hole-m.awk ${filen}
+#awk -f process-hole-m.awk ${result_file}
