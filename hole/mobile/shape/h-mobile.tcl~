@@ -18,10 +18,10 @@ set opt(ifqlen) 50                         ;# max packet in ifq
 set opt(rp)     DSDV                       ;# routing protocol
 set opt(x)      100                        ;# X dimension of topography
 set opt(y)      100                        ;# Y dimension of topography
-set opt(stop)   10                        ;# time of simulation end
-set opt(nfnode) 50                        ;# number of fixed nodes
+set opt(stop)   1                        ;# time of simulation end
+set opt(nfnode) 100                        ;# number of fixed nodes
 set opt(nmnode) 10                         ;# number of mobile nodes
-set opt(node_size) 8                       ;# Size of nodes
+set opt(node_size) 5                       ;# Size of nodes
 set opt(target_size) [expr $opt(node_size) + 2]                     ;# Size of the target
 set opt(radius_m) 20                       ;# Sensing Radius of Mobile nodes
 set opt(mnode_speed) 1;                     # Velocity of Mobile nodes
@@ -43,8 +43,8 @@ set opt(normal) "normal.tcl";               # file for normal distribution
 set tcl_precision 17;                       # Tcl variaty
 set opt(trace_file) "out.tr"
 set opt(nam_file) "out.nam"
-set opt(hole_number) 0;                     # number of holes
-set opt(hole_length) 30;                    # Length of a hole edge
+set opt(hole_number) 5;                     # number of holes
+set opt(hole_length) 22;                    # Length of a hole edge
 
 source $opt(normal)
 if {0 < $argc} {

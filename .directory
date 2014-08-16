@@ -1,4 +1,4 @@
 [Dolphin]
-AdditionalInfo=Details_Size,Details_Date,CustomizedDetails
-Timestamp=2014,7,20,8,54,30
+AdditionalInfo=CustomizedDetails,Details_Size,Details_Date,Details_Type
+Timestamp=2014,8,13,15,29,18
 ViewMode=1

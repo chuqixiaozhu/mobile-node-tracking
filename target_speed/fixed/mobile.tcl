@@ -398,8 +398,7 @@ proc output_file {} {
     global ns opt
     set result_file [open $opt(result_file) a]
     puts $result_file \
-         "$opt(nmnode) \
-          $opt(target_speed_max) \
+         "$opt(target_speed_max) \
           [$ns set valid_sur_time] \
           [$ns set energy_consumption]"
     flush $result_file

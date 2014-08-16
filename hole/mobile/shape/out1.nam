@@ -1,0 +1,328 @@
+n -t * -s 0  -x 32.108339999999998 -y 0.21148929999999999 -Z 0 -z 5  -v circle -c black
+n -t * -s 1  -x 59.28107 -y 80.109629999999996 -Z 0 -z 5  -v circle -c black
+n -t * -s 2  -x 69.380030000000005 -y 59.839730000000003 -Z 0 -z 5  -v circle -c black
+n -t * -s 3  -x 24.77017 -y 62.125889999999998 -Z 0 -z 5  -v circle -c black
+n -t * -s 4  -x 40.951949999999997 -y 14.87552 -Z 0 -z 5  -v circle -c black
+n -t * -s 5  -x 48.742910000000002 -y 91.539770000000004 -Z 0 -z 5  -v circle -c black
+n -t * -s 6  -x 68.011480000000006 -y 82.542770000000004 -Z 0 -z 5  -v circle -c black
+n -t * -s 7  -x 5.9925620000000004 -y 87.727459999999994 -Z 0 -z 5  -v circle -c black
+n -t * -s 8  -x 84.788560000000004 -y 93.859520000000003 -Z 0 -z 5  -v circle -c black
+n -t * -s 9  -x 67.332490000000007 -y 13.55087 -Z 0 -z 5  -v circle -c black
+n -t * -s 10  -x 1.6101570000000001 -y 1.8759079999999999 -Z 0 -z 5  -v circle -c black
+n -t * -s 11  -x 6.6783989999999998 -y 81.782049999999998 -Z 0 -z 5  -v circle -c black
+n -t * -s 12  -x 33.401989999999998 -y 99.761300000000006 -Z 0 -z 5  -v circle -c black
+n -t * -s 13  -x 29.33135 -y 0.83938639999999998 -Z 0 -z 5  -v circle -c black
+n -t * -s 14  -x 40.336329999999997 -y 85.757080000000002 -Z 0 -z 5  -v circle -c black
+n -t * -s 15  -x 46.239170000000001 -y 62.660510000000002 -Z 0 -z 5  -v circle -c black
+n -t * -s 16  -x 30.892309999999998 -y 72.764809999999997 -Z 0 -z 5  -v circle -c black
+n -t * -s 17  -x 31.34703 -y 40.591850000000001 -Z 0 -z 5  -v circle -c black
+n -t * -s 18  -x 7.5735570000000001 -y 38.637720000000002 -Z 0 -z 5  -v circle -c black
+n -t * -s 19  -x 21.06316 -y 63.468209999999999 -Z 0 -z 5  -v circle -c black
+n -t * -s 20  -x 53.846730000000001 -y 17.258430000000001 -Z 0 -z 5  -v circle -c black
+n -t * -s 21  -x 14.816789999999999 -y 32.273879999999998 -Z 0 -z 5  -v circle -c black
+n -t * -s 22  -x 58.818919999999999 -y 94.241389999999996 -Z 0 -z 5  -v circle -c black
+n -t * -s 23  -x 29.256060000000002 -y 38.369149999999998 -Z 0 -z 5  -v circle -c black
+n -t * -s 24  -x 54.955109999999998 -y 69.244479999999996 -Z 0 -z 5  -v circle -c black
+n -t * -s 25  -x 37.39913 -y 66.397360000000006 -Z 0 -z 5  -v circle -c black
+n -t * -s 26  -x 15.565759999999999 -y 59.685380000000002 -Z 0 -z 5  -v circle -c black
+n -t * -s 27  -x 3.6001530000000002 -y 25.00628 -Z 0 -z 5  -v circle -c black
+n -t * -s 28  -x 83.870630000000006 -y 68.658060000000006 -Z 0 -z 5  -v circle -c black
+n -t * -s 29  -x 20.274740000000001 -y 35.898780000000002 -Z 0 -z 5  -v circle -c black
+n -t * -s 30  -x 93.321939999999998 -y 2.0785300000000002 -Z 0 -z 5  -v circle -c black
+n -t * -s 31  -x 38.385869999999997 -y 14.628590000000001 -Z 0 -z 5  -v circle -c black
+n -t * -s 32  -x 36.295529999999999 -y 18.773569999999999 -Z 0 -z 5  -v circle -c black
+n -t * -s 33  -x 58.862810000000003 -y 11.71458 -Z 0 -z 5  -v circle -c black
+n -t * -s 34  -x 47.599719999999998 -y 11.329129999999999 -Z 0 -z 5  -v circle -c black
+n -t * -s 35  -x 59.92201 -y 61.505549999999999 -Z 0 -z 5  -v circle -c black
+n -t * -s 36  -x 29.679639999999999 -y 34.166420000000002 -Z 0 -z 5  -v circle -c black
+n -t * -s 37  -x 77.841849999999994 -y 45.026699999999998 -Z 0 -z 5  -v circle -c black
+n -t * -s 38  -x 93.49024 -y 28.594439999999999 -Z 0 -z 5  -v circle -c black
+n -t * -s 39  -x 49.401350000000001 -y 35.46893 -Z 0 -z 5  -v circle -c black
+n -t * -s 40  -x 4.1540780000000002 -y 52.502600000000001 -Z 0 -z 5  -v circle -c black
+n -t * -s 41  -x 2.9047670000000001 -y 95.36336 -Z 0 -z 5  -v circle -c black
+n -t * -s 42  -x 29.685110000000002 -y 62.356079999999999 -Z 0 -z 5  -v circle -c black
+n -t * -s 43  -x 71.430779999999999 -y 60.689540000000001 -Z 0 -z 5  -v circle -c black
+n -t * -s 44  -x 76.300489999999996 -y 1.4111849999999999 -Z 0 -z 5  -v circle -c black
+n -t * -s 45  -x 92.094620000000006 -y 7.1220840000000001 -Z 0 -z 5  -v circle -c black
+n -t * -s 46  -x 54.433100000000003 -y 74.778300000000002 -Z 0 -z 5  -v circle -c black
+n -t * -s 47  -x 65.752129999999994 -y 99.043570000000003 -Z 0 -z 5  -v circle -c black
+n -t * -s 48  -x 64.065370000000001 -y 68.052030000000002 -Z 0 -z 5  -v circle -c black
+n -t * -s 49  -x 11.91075 -y 51.828519999999997 -Z 0 -z 5  -v circle -c black
+n -t * -s 50  -x 89.82208 -y 52.042349999999999 -Z 0 -z 5  -v circle -c black
+n -t * -s 51  -x 80.251329999999996 -y 53.328919999999997 -Z 0 -z 5  -v circle -c black
+n -t * -s 52  -x 99.141769999999994 -y 85.177520000000001 -Z 0 -z 5  -v circle -c black
+n -t * -s 53  -x 7.2835970000000003 -y 50.819180000000003 -Z 0 -z 5  -v circle -c black
+n -t * -s 54  -x 55.064639999999997 -y 2.2141709999999999 -Z 0 -z 5  -v circle -c black
+n -t * -s 55  -x 21.778749999999999 -y 41.978140000000003 -Z 0 -z 5  -v circle -c black
+n -t * -s 56  -x 37.982170000000004 -y 80.855339999999998 -Z 0 -z 5  -v circle -c black
+n -t * -s 57  -x 49.754950000000001 -y 66.068659999999994 -Z 0 -z 5  -v circle -c black
+n -t * -s 58  -x 59.305590000000002 -y 88.098230000000001 -Z 0 -z 5  -v circle -c black
+n -t * -s 59  -x 97.479069999999993 -y 9.5196020000000008 -Z 0 -z 5  -v circle -c black
+n -t * -s 60  -x 95.944010000000006 -y 93.618039999999993 -Z 0 -z 5  -v circle -c black
+n -t * -s 61  -x 10.01061 -y 7.5416639999999999 -Z 0 -z 5  -v circle -c black
+n -t * -s 62  -x 33.676560000000002 -y 73.180599999999998 -Z 0 -z 5  -v circle -c black
+n -t * -s 63  -x 30.802990000000001 -y 17.190850000000001 -Z 0 -z 5  -v circle -c black
+n -t * -s 64  -x 34.298760000000001 -y 53.431719999999999 -Z 0 -z 5  -v circle -c black
+n -t * -s 65  -x 98.546620000000004 -y 82.73245 -Z 0 -z 5  -v circle -c black
+n -t * -s 66  -x 71.464359999999999 -y 5.8318940000000001 -Z 0 -z 5  -v circle -c black
+n -t * -s 67  -x 50.729019999999998 -y 17.665939999999999 -Z 0 -z 5  -v circle -c black
+n -t * -s 68  -x 48.908819999999999 -y 90.562460000000002 -Z 0 -z 5  -v circle -c black
+n -t * -s 69  -x 85.540610000000001 -y 32.614750000000001 -Z 0 -z 5  -v circle -c black
+n -t * -s 70  -x 84.067390000000003 -y 46.902729999999998 -Z 0 -z 5  -v circle -c black
+n -t * -s 71  -x 81.301850000000002 -y 33.203609999999998 -Z 0 -z 5  -v circle -c black
+n -t * -s 72  -x 76.164689999999993 -y 93.973259999999996 -Z 0 -z 5  -v circle -c black
+n -t * -s 73  -x 36.66507 -y 22.577570000000001 -Z 0 -z 5  -v circle -c black
+n -t * -s 74  -x 63.708280000000002 -y 2.29731 -Z 0 -z 5  -v circle -c black
+n -t * -s 75  -x 37.666049999999998 -y 98.177909999999997 -Z 0 -z 5  -v circle -c black
+n -t * -s 76  -x 29.578859999999999 -y 64.131960000000007 -Z 0 -z 5  -v circle -c black
+n -t * -s 77  -x 63.999670000000002 -y 23.542439999999999 -Z 0 -z 5  -v circle -c black
+n -t * -s 78  -x 62.743639999999999 -y 40.248379999999997 -Z 0 -z 5  -v circle -c black
+n -t * -s 79  -x 31.2637 -y 11.49014 -Z 0 -z 5  -v circle -c black
+n -t * -s 80  -x 54.882629999999999 -y 2.1961409999999999 -Z 0 -z 5  -v circle -c black
+n -t * -s 81  -x 6.5087419999999998 -y 62.265129999999999 -Z 0 -z 5  -v circle -c black
+n -t * -s 82  -x 62.073970000000003 -y 11.632860000000001 -Z 0 -z 5  -v circle -c black
+n -t * -s 83  -x 98.561390000000003 -y 57.477040000000002 -Z 0 -z 5  -v circle -c black
+n -t * -s 84  -x 1.383256 -y 84.456149999999994 -Z 0 -z 5  -v circle -c black
+n -t * -s 85  -x 52.84901 -y 87.576580000000007 -Z 0 -z 5  -v circle -c black
+n -t * -s 86  -x 56.469830000000002 -y 16.518940000000001 -Z 0 -z 5  -v circle -c black
+n -t * -s 87  -x 97.633129999999994 -y 62.612499999999997 -Z 0 -z 5  -v circle -c black
+n -t * -s 88  -x 96.165390000000002 -y 7.7904499999999999 -Z 0 -z 5  -v circle -c black
+n -t * -s 89  -x 1.33663 -y 92.110320000000002 -Z 0 -z 5  -v circle -c black
+n -t * -s 90  -x 95.738470000000007 -y 50.292700000000004 -Z 0 -z 5  -v circle -c black
+n -t * -s 91  -x 97.470910000000003 -y 53.361319999999999 -Z 0 -z 5  -v circle -c black
+n -t * -s 92  -x 58.421970000000002 -y 67.070009999999996 -Z 0 -z 5  -v circle -c black
+n -t * -s 93  -x 64.761629999999997 -y 48.738489999999999 -Z 0 -z 5  -v circle -c black
+n -t * -s 94  -x 47.88579 -y 69.235889999999998 -Z 0 -z 5  -v circle -c black
+n -t * -s 95  -x 37.607439999999997 -y 77.248609999999999 -Z 0 -z 5  -v circle -c black
+n -t * -s 96  -x 80.060789999999997 -y 66.590249999999997 -Z 0 -z 5  -v circle -c black
+n -t * -s 97  -x 67.392960000000002 -y 2.7786240000000002 -Z 0 -z 5  -v circle -c black
+n -t * -s 98  -x 58.162120000000002 -y 1.1044689999999999 -Z 0 -z 5  -v circle -c black
+n -t * -s 99  -x 13.10482 -y 0.095089199999999999 -Z 0 -z 5  -v circle -c black
+n -t * -s 100  -x 41.85483 -y 0.2200038 -Z 0 -z 5  -v square -c blue
+n -t * -s 101  -x 89.100250000000003 -y 41.039650000000002 -Z 0 -z 5  -v square -c blue
+n -t * -s 102  -x 57.028910000000003 -y 10.816050000000001 -Z 0 -z 5  -v square -c blue
+n -t * -s 103  -x 22.576280000000001 -y 69.115690000000001 -Z 0 -z 5  -v square -c blue
+n -t * -s 104  -x 46.899799999999999 -y 94.450400000000002 -Z 0 -z 5  -v square -c blue
+n -t * -s 105  -x 7.143669 -y 24.688009999999998 -Z 0 -z 5  -v square -c blue
+n -t * -s 106  -x 45.053899999999999 -y 32.635480000000001 -Z 0 -z 5  -v square -c blue
+n -t * -s 107  -x 14.437659999999999 -y 97.126419999999996 -Z 0 -z 5  -v square -c blue
+n -t * -s 108  -x 95.689840000000004 -y 48.71454 -Z 0 -z 5  -v square -c blue
+n -t * -s 109  -x 33.741860000000003 -y 12.91666 -Z 0 -z 5  -v square -c blue
+n -t * -s 110  -x 79.240759999999995 -y 10.50808 -Z 0 -z 7  -v hexagon -c red
+V -t * -v 1.0a5 -a 0
+W -t * -x 100 -y 100
+A -t * -n 1 -p 0 -o 0x7fffffff -c 30 -a 1
+A -t * -h 1 -m 1073741823 -s 0
+n -t 0 -s 100 -S COLOR -c blue -o black -i blue -I black
+n -t 0 -s 101 -S COLOR -c blue -o black -i blue -I black
+n -t 0 -s 102 -S COLOR -c blue -o black -i blue -I black
+n -t 0 -s 103 -S COLOR -c blue -o black -i blue -I black
+n -t 0 -s 104 -S COLOR -c blue -o black -i blue -I black
+n -t 0 -s 105 -S COLOR -c blue -o black -i blue -I black
+n -t 0 -s 106 -S COLOR -c blue -o black -i blue -I black
+n -t 0 -s 107 -S COLOR -c blue -o black -i blue -I black
+n -t 0 -s 108 -S COLOR -c blue -o black -i blue -I black
+n -t 0 -s 109 -S COLOR -c blue -o black -i blue -I black
+n -t 0 -s 110 -S COLOR -c red -o black -i red -I black
+n -t 0.000000 -s 110 -x 99.240760 -y 10.508080 -U -1.594807 -V 1.717230 -T 51.533470
+n -t 0 -s 0 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 1 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 2 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 3 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 4 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 5 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 6 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 7 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 8 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 9 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 10 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 11 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 12 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 13 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 14 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 15 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 16 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 17 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 18 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 19 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 20 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 21 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 22 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 23 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 24 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 25 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 26 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 27 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 28 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 29 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 30 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 31 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 32 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 33 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 34 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 35 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 36 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 37 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 38 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 39 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 40 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 41 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 42 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 43 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 44 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 45 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 46 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 47 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 48 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 49 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 50 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 51 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 52 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 53 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 54 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 55 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 56 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 57 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 58 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 59 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 60 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 61 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 62 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 63 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 64 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 65 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 66 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 67 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 68 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 69 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 70 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 71 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 72 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 73 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 74 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 75 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 76 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 77 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 78 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 79 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 80 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 81 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 82 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 83 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 84 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 85 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 86 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 87 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 88 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 89 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 90 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 91 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 92 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 93 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 94 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 95 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 96 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 97 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 98 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 99 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 59 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 88 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 45 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 30 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 38 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 44 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 69 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 66 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 71 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 9 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 97 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 74 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 82 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 77 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 70 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 90 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 33 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 37 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 98 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 50 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 91 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 86 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 54 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 80 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 20 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 51 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 83 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 78 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 67 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 93 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 34 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 87 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 39 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 43 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 2 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 4 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 96 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 28 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 31 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 32 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 73 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 35 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 48 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 0 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 79 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 63 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 92 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 13 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 65 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 36 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 24 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 17 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 15 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 57 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 52 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 23 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 64 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 94 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 46 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 6 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 1 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 29 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 60 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 25 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 55 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 8 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 72 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 42 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 99 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 21 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 58 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 76 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 61 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 85 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 3 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 62 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 95 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 16 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 22 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 56 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 19 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 68 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 47 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 5 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 14 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 18 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 49 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 27 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 26 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 10 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 53 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 40 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 81 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 75 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 12 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 11 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 7 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 84 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 89 -S COLOR -c green -o black -i green -I black
+n -t 0 -s 41 -S COLOR -c green -o black -i green -I black
+W -t 1

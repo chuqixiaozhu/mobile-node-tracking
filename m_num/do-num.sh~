@@ -1,6 +1,7 @@
 #! /bin/bash
 path="$(date +%Y%m%d-%H%M%S)-num"
 result_file="${path}/${path}-result"
+filen="${path}-result"
 #file_speed="${path}/${path}-result_target_speed"
 mkdir $path
 #cp -u process-num.awk ${path}
@@ -22,4 +23,7 @@ do
 done
 #cd $path
 #awk -f process-num.awk ${result_file} > ${path}/${path}-avg
-awk -f process-num.awk ${result_file}
+cp -u process-num.awk ${path}
+cd ${path}
+awk -f process-num.awk ${filen}
+#awk -f process-num.awk ${result_file}
