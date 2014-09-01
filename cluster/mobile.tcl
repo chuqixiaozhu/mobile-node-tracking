@@ -32,10 +32,10 @@ set opt(time_click) 1;                      # Duration of a time slice
 #set opt(energy_comsumption) 0;              # Energy comsumption of fixed noded
 #set opt(valid_time) 0;                      # Valid surveillance time
 set opt(noise_avg) 0.1;                       # Noise average
-set opt(noise_std) 1;                       # Noise standard deviation
+set opt(noise_std) 0.2;                       # Noise standard deviation
 set opt(source_signal_max) 5;              # Maximum of source singal
 set opt(decay_factor) 2;                    # Decay factor
-set opt(dist_threshold_f) 6               ;# Distance threshold of Fixed nodes
+set opt(dist_threshold_f) 7               ;# Distance threshold of Fixed nodes
 #set opt(dist_threshold_m) 6;               # Distance threshold of Mobile nodes
 set opt(sen_intensity_threshold) 5;        # threshold of Sensing intensity
 set opt(sys_proba_threshold) 0.8;           # System Sensing probability
@@ -43,7 +43,7 @@ set opt(normal) "normal.tcl";               # file for normal distribution
 set tcl_precision 17;                       # Tcl variaty
 set opt(trace_file) "out.tr"
 set opt(nam_file) "out.nam"
-set opt(target_radius_time) 15;                    # Target moving radius = vt
+set opt(target_radius_time) 5;                    # Target moving radius = vt
 set opt(radius_cluster) \
     [expr $opt(target_speed_max) * $opt(target_radius_time)] ;# Cluster' radius
 

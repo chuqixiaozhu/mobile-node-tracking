@@ -32,11 +32,11 @@ set opt(time_click) 1;                      # Duration of a time slice
 #set opt(energy_comsumption) 0;              # Energy comsumption of fixed noded
 #set opt(valid_time) 0;                      # Valid surveillance time
 set opt(noise_avg) 0.1;                       # Noise average
-set opt(noise_std) 1;                       # Noise standard deviation
+set opt(noise_std) 0.2;                       # Noise standard deviation
 set opt(source_signal_max) 5;              # Maximum of source singal
 set opt(decay_factor) 2;                    # Decay factor
-set opt(dist_threshold_f) 6               ;# Distance threshold of Fixed nodes
-set opt(dist_threshold_m) 6;               # Distance threshold of Mobile nodes
+set opt(dist_threshold_f) 7               ;# Distance threshold of Fixed nodes
+#set opt(dist_threshold_m) 6;               # Distance threshold of Mobile nodes
 set opt(sen_intensity_threshold) 5;        # threshold of Sensing intensity
 set opt(sys_proba_threshold) 0.8;           # System Sensing probability
 set opt(normal) "normal.tcl";               # file for normal distribution
@@ -45,6 +45,7 @@ set opt(trace_file) "out.tr"
 set opt(nam_file) "out.nam"
 set opt(hole_number) 5;                     # number of holes
 set opt(hole_length) 30;                    # Length of a hole edge
+set opt(dist_limit) 20;                  # Maximum distance from target to active nodes
 
 source $opt(normal)
 if {0 < $argc} {
@@ -337,58 +338,6 @@ proc distance {node target time_stamp} {
     return $dist
 }
 
-# Computing the valid surveillance time and energy comsumption
-proc fixed_node_computing {m_m_index num_m_m time_stamp} {
-# Preparation for mobile nodes
-    global opt mnode fnode target ns
-    set m_proba_tmp 1.0
-    set sys_proba_tmp 1.0
-    for {set i 0} {$i < $opt(nfnode)} {incr i} {
-        $fnode($i) color "black"
-    }
-    if {0 < $num_m_m} {
-        upvar 1 $m_m_index moving_mnode_index
-        for {set i 0} {$i < $num_m_m} {incr i} {
-            set dist [distance $mnode($moving_mnode_index($i)) $target $time_stamp]
-            set m_local_proba [local_probability $dist $opt(dist_threshold_f)]
-            set m_proba_tmp [expr $m_proba_tmp * (1.0 - $m_local_proba)]
-        }
-        set sys_proba_tmp [expr $sys_proba_tmp * $m_proba_tmp]
-        set sys_proba [expr 1.0 - $sys_proba_tmp]
-        if {$opt(sys_proba_threshold) <= $sys_proba} {
-            $ns set valid_sur_time [expr [$ns set valid_sur_time] + $opt(time_click)]
-            return
-        }
-    }
-
-# Sorting the fixed node distances
-    set fnode_list ""
-    for {set i 0} {$i < $opt(nfnode)} {incr i} {
-        lappend fnode_list [list [distance $fnode($i) $target $time_stamp] $i]
-    }
-    set fnode_list [lsort -real -index 0 $fnode_list]
-
-# Compute the system probability and energy comsumption
-    set f_node_act_num 0
-    foreach f_node $fnode_list {
-        set index [lindex $f_node 1]
-        $fnode($index) color "green"
-        incr f_node_act_num
-        set dist [lindex $f_node 0]
-        set f_local_proba [local_probability $dist $opt(dist_threshold_f)]
-        set sys_proba_tmp [expr $sys_proba_tmp * (1.0 - $f_local_proba)]
-        set sys_proba [expr 1.0 - $sys_proba_tmp]
-        if {$opt(sys_proba_threshold) <= $sys_proba} {
-            $ns set valid_sur_time [expr [$ns set valid_sur_time] + $opt(time_click)]
-            $ns set energy_consumption \
-                [expr [$ns set energy_consumption] + $f_node_act_num * $opt(time_click)]
-            return
-        }
-    }
-    $ns set energy_consumption \
-        [expr [$ns set energy_consumption] + $f_node_act_num * $opt(time_click)]
-}
-
 # Compute local probability
 proc local_probability {dist dist_threshold} {
     global opt normal
@@ -428,6 +377,66 @@ proc local_probability {dist dist_threshold} {
     set local_proba [expr 1.0 - $np]
     return $local_proba
 }
+
+# Computing the valid surveillance time and energy comsumption
+proc fixed_node_computing {m_m_index num_m_m time_stamp} {
+# Preparation for mobile nodes
+    global opt mnode fnode target ns
+    set m_proba_tmp 1.0
+    set sys_proba_tmp 1.0
+    for {set i 0} {$i < $opt(nfnode)} {incr i} {
+        $fnode($i) color "black"
+    }
+    if {0 < $num_m_m} {
+        upvar 1 $m_m_index moving_mnode_index
+        for {set i 0} {$i < $num_m_m} {incr i} {
+            set dist [distance $mnode($moving_mnode_index($i)) $target $time_stamp]
+            set m_local_proba [local_probability $dist $opt(dist_threshold_f)]
+            set m_proba_tmp [expr $m_proba_tmp * (1.0 - $m_local_proba)]
+        }
+        set sys_proba_tmp [expr $sys_proba_tmp * $m_proba_tmp]
+        set sys_proba [expr 1.0 - $sys_proba_tmp]
+        if {$opt(sys_proba_threshold) <= $sys_proba} {
+            $ns set valid_sur_time [expr [$ns set valid_sur_time] + $opt(time_click)]
+            return
+        }
+    }
+
+# Sorting the fixed node distances
+    set fnode_list ""
+    for {set i 0} {$i < $opt(nfnode)} {incr i} {
+        #lappend fnode_list [list [distance $fnode($i) $target $time_stamp] $i]
+        lappend fnode_list [distance $fnode($i) $target $time_stamp]
+    }
+    #set fnode_list [lsort -real -index 0 $fnode_list]
+    set fnode_list [lsort -real $fnode_list]
+
+# Compute the system probability and energy comsumption
+    set f_node_act_num 0
+    foreach f_node $fnode_list {
+        #set index [lindex $f_node 1]
+        #$fnode($index) color "green"
+        #set dist [lindex $f_node 0]
+        set dist $f_node
+        if {$dist > $opt(dist_limit)} {
+            break
+        }
+        incr f_node_act_num
+        set f_local_proba [local_probability $dist $opt(dist_threshold_f)]
+        set sys_proba_tmp [expr $sys_proba_tmp * (1.0 - $f_local_proba)]
+        set sys_proba [expr 1.0 - $sys_proba_tmp]
+        if {$opt(sys_proba_threshold) <= $sys_proba} {
+            $ns set valid_sur_time [expr [$ns set valid_sur_time] + $opt(time_click)]
+            #$ns set energy_consumption \
+            #    [expr [$ns set energy_consumption] + $f_node_act_num * $opt(time_click)]
+            #return
+            break
+        }
+    }
+    $ns set energy_consumption \
+        [expr [$ns set energy_consumption] + $f_node_act_num * $opt(time_click)]
+}
+
 
 #===================================
 #        Generate movement

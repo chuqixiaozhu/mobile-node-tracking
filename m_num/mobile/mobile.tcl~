@@ -32,11 +32,11 @@ set opt(time_click) 1;                      # Duration of a time slice
 #set opt(energy_comsumption) 0;              # Energy comsumption of fixed noded
 #set opt(valid_time) 0;                      # Valid surveillance time
 set opt(noise_avg) 0.1;                       # Noise average
-set opt(noise_std) 1;                       # Noise standard deviation
+set opt(noise_std) 0.2;                       # Noise standard deviation
 set opt(source_signal_max) 5;              # Maximum of source singal
 set opt(decay_factor) 2;                    # Decay factor
-set opt(dist_threshold_f) 6               ;# Distance threshold of Fixed nodes
-set opt(dist_threshold_m) 6;               # Distance threshold of Mobile nodes
+set opt(dist_threshold_f) 5               ;# Distance threshold of Fixed nodes
+#set opt(dist_threshold_m) 6;               # Distance threshold of Mobile nodes
 set opt(sen_intensity_threshold) 5;        # threshold of Sensing intensity
 set opt(sys_proba_threshold) 0.8;           # System Sensing probability
 set opt(normal) "normal.tcl";               # file for normal distribution
@@ -399,7 +399,6 @@ proc output_file {} {
     set result_file [open $opt(result_file) a]
     puts $result_file \
          "$opt(nmnode) \
-          $opt(target_speed_max) \
           [$ns set valid_sur_time] \
           [$ns set energy_consumption]"
     flush $result_file

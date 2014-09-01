@@ -18,7 +18,7 @@ do
     do
         #echo ""
         #now_time="$(date +%H%M%S)"
-        ns mobile.tcl 300 0 ${hole_num} 3 ${result_file} 15
+        ns mobile.tcl 300 0 ${hole_num} 3 ${result_file} 5
     done
 done
 #cd $path
