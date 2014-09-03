@@ -19,15 +19,16 @@ BEGIN {
 END {
     result1 = "m_num-c_vs_vt"
     result2 = "m_num-c_vs_ec"
+    result3 = "m_num-c_vs_ee"
     # result3 = "m_num_vs_ee"
 #    for (i = min_m_num; i < max_m_num + 1; ++i) {
         avg_valid_time = 1.0 * sum_valid_time / count;
         avg_energy_consumption = 1.0 * sum_energy_consumption / count;
 #    }
     for (i = min_m_num; i < max_m_num + 1; ++i) {
-        printf("%3d %5.1f\n", 0, avg_valid_time) > result1;
+        printf("%3d %5.1f\n", i, avg_valid_time) > result1;
     }
     for (i = min_m_num; i < max_m_num + 1; ++i) {
-        printf("%3d %15f\n", 0, avg_energy_consumption) > result2;
+        printf("%3d %15f\n", i, avg_energy_consumption) > result2;
     }
 }

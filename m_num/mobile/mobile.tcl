@@ -43,7 +43,7 @@ set opt(normal) "normal.tcl";               # file for normal distribution
 set tcl_precision 17;                       # Tcl variaty
 set opt(trace_file) "out.tr"
 set opt(nam_file) "out.nam"
-set opt(dist_limit) 20;                  # Maximum distance from target to active nodes
+set opt(dist_limit) 15;                  # Maximum distance from target to active nodes
 
 source $opt(normal)
 if {0 < $argc} {

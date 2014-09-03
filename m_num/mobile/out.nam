@@ -1,124 +1,124 @@
-n -t * -s 0  -x 33.696350000000002 -y 21.23339 -Z 0 -z 1  -v circle -c black
-n -t * -s 1  -x 60.928229999999999 -y 87.05247 -Z 0 -z 1  -v circle -c black
-n -t * -s 2  -x 1.372992 -y 21.294789999999999 -Z 0 -z 1  -v circle -c black
-n -t * -s 3  -x 32.228360000000002 -y 12.089740000000001 -Z 0 -z 1  -v circle -c black
-n -t * -s 4  -x 59.248959999999997 -y 76.805970000000002 -Z 0 -z 1  -v circle -c black
-n -t * -s 5  -x 86.326260000000005 -y 98.938630000000003 -Z 0 -z 1  -v circle -c black
-n -t * -s 6  -x 49.38908 -y 88.195660000000004 -Z 0 -z 1  -v circle -c black
-n -t * -s 7  -x 18.32555 -y 83.567639999999997 -Z 0 -z 1  -v circle -c black
-n -t * -s 8  -x 41.550049999999999 -y 19.992750000000001 -Z 0 -z 1  -v circle -c black
-n -t * -s 9  -x 58.869669999999999 -y 21.516030000000001 -Z 0 -z 1  -v circle -c black
-n -t * -s 10  -x 71.419870000000003 -y 5.0616580000000004 -Z 0 -z 1  -v circle -c black
-n -t * -s 11  -x 87.970789999999994 -y 85.896990000000002 -Z 0 -z 1  -v circle -c black
-n -t * -s 12  -x 0.29162959999999999 -y 95.826930000000004 -Z 0 -z 1  -v circle -c black
-n -t * -s 13  -x 51.562150000000003 -y 56.650030000000001 -Z 0 -z 1  -v circle -c black
-n -t * -s 14  -x 37.081829999999997 -y 0.19588050000000001 -Z 0 -z 1  -v circle -c black
-n -t * -s 15  -x 43.79289 -y 87.135859999999994 -Z 0 -z 1  -v circle -c black
-n -t * -s 16  -x 63.671190000000003 -y 42.108759999999997 -Z 0 -z 1  -v circle -c black
-n -t * -s 17  -x 53.663339999999998 -y 1.157742 -Z 0 -z 1  -v circle -c black
-n -t * -s 18  -x 57.505679999999998 -y 21.312809999999999 -Z 0 -z 1  -v circle -c black
-n -t * -s 19  -x 35.75094 -y 16.2013 -Z 0 -z 1  -v circle -c black
-n -t * -s 20  -x 85.777540000000002 -y 2.6302989999999999 -Z 0 -z 1  -v circle -c black
-n -t * -s 21  -x 10.699009999999999 -y 73.888019999999997 -Z 0 -z 1  -v circle -c black
-n -t * -s 22  -x 64.189830000000001 -y 82.616799999999998 -Z 0 -z 1  -v circle -c black
-n -t * -s 23  -x 48.738639999999997 -y 43.769170000000003 -Z 0 -z 1  -v circle -c black
-n -t * -s 24  -x 19.81362 -y 76.074219999999997 -Z 0 -z 1  -v circle -c black
-n -t * -s 25  -x 32.082059999999998 -y 74.37379 -Z 0 -z 1  -v circle -c black
-n -t * -s 26  -x 18.41724 -y 85.399699999999996 -Z 0 -z 1  -v circle -c black
-n -t * -s 27  -x 48.971780000000003 -y 17.664069999999999 -Z 0 -z 1  -v circle -c black
-n -t * -s 28  -x 97.943820000000002 -y 40.3459 -Z 0 -z 1  -v circle -c black
-n -t * -s 29  -x 84.928030000000007 -y 58.034869999999998 -Z 0 -z 1  -v circle -c black
-n -t * -s 30  -x 44.788530000000002 -y 16.442640000000001 -Z 0 -z 1  -v circle -c black
-n -t * -s 31  -x 54.849919999999997 -y 84.716139999999996 -Z 0 -z 1  -v circle -c black
-n -t * -s 32  -x 5.0554730000000001 -y 72.705179999999999 -Z 0 -z 1  -v circle -c black
-n -t * -s 33  -x 51.299889999999998 -y 47.873370000000001 -Z 0 -z 1  -v circle -c black
-n -t * -s 34  -x 78.528329999999997 -y 59.619459999999997 -Z 0 -z 1  -v circle -c black
-n -t * -s 35  -x 12.25323 -y 71.143770000000004 -Z 0 -z 1  -v circle -c black
-n -t * -s 36  -x 54.160119999999999 -y 97.660489999999996 -Z 0 -z 1  -v circle -c black
-n -t * -s 37  -x 46.631880000000002 -y 2.0814650000000001 -Z 0 -z 1  -v circle -c black
-n -t * -s 38  -x 28.318349999999999 -y 24.24606 -Z 0 -z 1  -v circle -c black
-n -t * -s 39  -x 32.813630000000003 -y 42.392499999999998 -Z 0 -z 1  -v circle -c black
-n -t * -s 40  -x 30.93252 -y 14.421469999999999 -Z 0 -z 1  -v circle -c black
-n -t * -s 41  -x 57.690910000000002 -y 54.970700000000001 -Z 0 -z 1  -v circle -c black
-n -t * -s 42  -x 83.923029999999997 -y 70.727310000000003 -Z 0 -z 1  -v circle -c black
-n -t * -s 43  -x 7.0416740000000004 -y 78.514340000000004 -Z 0 -z 1  -v circle -c black
-n -t * -s 44  -x 48.781529999999997 -y 96.111289999999997 -Z 0 -z 1  -v circle -c black
-n -t * -s 45  -x 36.116680000000002 -y 20.989840000000001 -Z 0 -z 1  -v circle -c black
-n -t * -s 46  -x 53.974609999999998 -y 79.152199999999993 -Z 0 -z 1  -v circle -c black
-n -t * -s 47  -x 49.26464 -y 2.7869299999999999 -Z 0 -z 1  -v circle -c black
-n -t * -s 48  -x 65.784459999999996 -y 27.397400000000001 -Z 0 -z 1  -v circle -c black
-n -t * -s 49  -x 75.51146 -y 10.483650000000001 -Z 0 -z 1  -v circle -c black
-n -t * -s 50  -x 58.440480000000001 -y 89.545940000000002 -Z 0 -z 1  -v circle -c black
-n -t * -s 51  -x 40.114339999999999 -y 64.713409999999996 -Z 0 -z 1  -v circle -c black
-n -t * -s 52  -x 88.685810000000004 -y 80.038039999999995 -Z 0 -z 1  -v circle -c black
-n -t * -s 53  -x 19.85558 -y 98.742310000000003 -Z 0 -z 1  -v circle -c black
-n -t * -s 54  -x 56.224550000000001 -y 99.562970000000007 -Z 0 -z 1  -v circle -c black
-n -t * -s 55  -x 12.9503 -y 81.291780000000003 -Z 0 -z 1  -v circle -c black
-n -t * -s 56  -x 91.541650000000004 -y 24.32742 -Z 0 -z 1  -v circle -c black
-n -t * -s 57  -x 50.048279999999998 -y 17.596139999999998 -Z 0 -z 1  -v circle -c black
-n -t * -s 58  -x 61.591749999999998 -y 23.160399999999999 -Z 0 -z 1  -v circle -c black
-n -t * -s 59  -x 61.47587 -y 51.858370000000001 -Z 0 -z 1  -v circle -c black
-n -t * -s 60  -x 53.9741 -y 6.6428229999999999 -Z 0 -z 1  -v circle -c black
-n -t * -s 61  -x 40.924590000000002 -y 58.961559999999999 -Z 0 -z 1  -v circle -c black
-n -t * -s 62  -x 6.9314239999999998 -y 54.418999999999997 -Z 0 -z 1  -v circle -c black
-n -t * -s 63  -x 75.697280000000006 -y 14.976710000000001 -Z 0 -z 1  -v circle -c black
-n -t * -s 64  -x 50.88373 -y 95.551959999999994 -Z 0 -z 1  -v circle -c black
-n -t * -s 65  -x 72.090609999999998 -y 12.15724 -Z 0 -z 1  -v circle -c black
-n -t * -s 66  -x 30.314139999999998 -y 36.061199999999999 -Z 0 -z 1  -v circle -c black
-n -t * -s 67  -x 36.506749999999997 -y 17.694189999999999 -Z 0 -z 1  -v circle -c black
-n -t * -s 68  -x 85.339950000000002 -y 24.15822 -Z 0 -z 1  -v circle -c black
-n -t * -s 69  -x 47.594659999999998 -y 54.84413 -Z 0 -z 1  -v circle -c black
-n -t * -s 70  -x 58.239420000000003 -y 59.809170000000002 -Z 0 -z 1  -v circle -c black
-n -t * -s 71  -x 93.246679999999998 -y 58.141199999999998 -Z 0 -z 1  -v circle -c black
-n -t * -s 72  -x 36.02807 -y 23.090430000000001 -Z 0 -z 1  -v circle -c black
-n -t * -s 73  -x 64.701170000000005 -y 9.3621420000000004 -Z 0 -z 1  -v circle -c black
-n -t * -s 74  -x 79.970569999999995 -y 99.508439999999993 -Z 0 -z 1  -v circle -c black
-n -t * -s 75  -x 81.691299999999998 -y 28.903759999999998 -Z 0 -z 1  -v circle -c black
-n -t * -s 76  -x 91.115440000000007 -y 56.395530000000001 -Z 0 -z 1  -v circle -c black
-n -t * -s 77  -x 27.56166 -y 3.025922 -Z 0 -z 1  -v circle -c black
-n -t * -s 78  -x 97.788039999999995 -y 66.261589999999998 -Z 0 -z 1  -v circle -c black
-n -t * -s 79  -x 70.904589999999999 -y 29.915579999999999 -Z 0 -z 1  -v circle -c black
-n -t * -s 80  -x 67.641540000000006 -y 2.1772300000000002 -Z 0 -z 1  -v circle -c black
-n -t * -s 81  -x 14.28167 -y 10.60446 -Z 0 -z 1  -v circle -c black
-n -t * -s 82  -x 17.43872 -y 71.622349999999997 -Z 0 -z 1  -v circle -c black
-n -t * -s 83  -x 14.36833 -y 16.71039 -Z 0 -z 1  -v circle -c black
-n -t * -s 84  -x 71.671549999999996 -y 46.57799 -Z 0 -z 1  -v circle -c black
-n -t * -s 85  -x 87.441000000000003 -y 87.515550000000005 -Z 0 -z 1  -v circle -c black
-n -t * -s 86  -x 71.569149999999993 -y 79.350759999999994 -Z 0 -z 1  -v circle -c black
-n -t * -s 87  -x 87.671149999999997 -y 57.571489999999997 -Z 0 -z 1  -v circle -c black
-n -t * -s 88  -x 94.533850000000001 -y 7.172301 -Z 0 -z 1  -v circle -c black
-n -t * -s 89  -x 21.779129999999999 -y 77.927229999999994 -Z 0 -z 1  -v circle -c black
-n -t * -s 90  -x 20.430869999999999 -y 80.863020000000006 -Z 0 -z 1  -v circle -c black
-n -t * -s 91  -x 32.672040000000003 -y 54.938180000000003 -Z 0 -z 1  -v circle -c black
-n -t * -s 92  -x 38.495579999999997 -y 50.193809999999999 -Z 0 -z 1  -v circle -c black
-n -t * -s 93  -x 27.620259999999998 -y 69.788139999999999 -Z 0 -z 1  -v circle -c black
-n -t * -s 94  -x 33.133180000000003 -y 67.169179999999997 -Z 0 -z 1  -v circle -c black
-n -t * -s 95  -x 90.340850000000003 -y 40.11645 -Z 0 -z 1  -v circle -c black
-n -t * -s 96  -x 8.6988350000000008 -y 26.257480000000001 -Z 0 -z 1  -v circle -c black
-n -t * -s 97  -x 12.25118 -y 95.573899999999995 -Z 0 -z 1  -v circle -c black
-n -t * -s 98  -x 35.862070000000003 -y 88.544179999999997 -Z 0 -z 1  -v circle -c black
-n -t * -s 99  -x 44.898719999999997 -y 75.81514 -Z 0 -z 1  -v circle -c black
-n -t * -s 100  -x 77.905990000000003 -y 70.607240000000004 -Z 0 -z 1  -v circle -c black
-n -t * -s 101  -x 4.996759 -y 10.426130000000001 -Z 0 -z 1  -v circle -c black
-n -t * -s 102  -x 61.371189999999999 -y 70.091130000000007 -Z 0 -z 1  -v circle -c black
-n -t * -s 103  -x 19.577059999999999 -y 28.478629999999999 -Z 0 -z 1  -v circle -c black
-n -t * -s 104  -x 80.023790000000005 -y 10.84948 -Z 0 -z 1  -v circle -c black
-n -t * -s 105  -x 59.26576 -y 61.345100000000002 -Z 0 -z 1  -v circle -c black
-n -t * -s 106  -x 71.978250000000003 -y 54.113970000000002 -Z 0 -z 1  -v circle -c black
-n -t * -s 107  -x 88.926850000000002 -y 54.733249999999998 -Z 0 -z 1  -v circle -c black
-n -t * -s 108  -x 94.248919999999998 -y 85.9405 -Z 0 -z 1  -v circle -c black
-n -t * -s 109  -x 44.464149999999997 -y 37.12867 -Z 0 -z 1  -v circle -c black
-n -t * -s 110  -x 58.12762 -y 16.118179999999999 -Z 0 -z 1  -v circle -c black
-n -t * -s 111  -x 54.616379999999999 -y 89.080740000000006 -Z 0 -z 1  -v circle -c black
-n -t * -s 112  -x 54.534219999999998 -y 16.935659999999999 -Z 0 -z 1  -v circle -c black
-n -t * -s 113  -x 90.051329999999993 -y 73.840590000000006 -Z 0 -z 1  -v circle -c black
-n -t * -s 114  -x 24.453959999999999 -y 20.906359999999999 -Z 0 -z 1  -v circle -c black
-n -t * -s 115  -x 76.053529999999995 -y 58.628990000000002 -Z 0 -z 1  -v circle -c black
-n -t * -s 116  -x 44.817630000000001 -y 22.551500000000001 -Z 0 -z 1  -v circle -c black
-n -t * -s 117  -x 41.734960000000001 -y 30.89612 -Z 0 -z 1  -v circle -c black
-n -t * -s 118  -x 55.289450000000002 -y 25.74672 -Z 0 -z 1  -v circle -c black
-n -t * -s 119  -x 45.527839999999998 -y 19.067879999999999 -Z 0 -z 1  -v circle -c black
-n -t * -s 120  -x 2.3853040000000001 -y 1.4574659999999999 -Z 0 -z 2  -v circle -c black
+n -t * -s 0  -x 88.284189999999995 -y 7.5437159999999999 -Z 0 -z 1  -v circle -c black
+n -t * -s 1  -x 48.254420000000003 -y 48.966470000000001 -Z 0 -z 1  -v circle -c black
+n -t * -s 2  -x 4.2139009999999999 -y 66.778880000000001 -Z 0 -z 1  -v circle -c black
+n -t * -s 3  -x 95.99691 -y 30.294180000000001 -Z 0 -z 1  -v circle -c black
+n -t * -s 4  -x 72.024519999999995 -y 38.922910000000002 -Z 0 -z 1  -v circle -c black
+n -t * -s 5  -x 86.008319999999998 -y 87.098699999999994 -Z 0 -z 1  -v circle -c black
+n -t * -s 6  -x 85.513300000000001 -y 56.727119999999999 -Z 0 -z 1  -v circle -c black
+n -t * -s 7  -x 12.40333 -y 35.216920000000002 -Z 0 -z 1  -v circle -c black
+n -t * -s 8  -x 80.493669999999995 -y 80.066590000000005 -Z 0 -z 1  -v circle -c black
+n -t * -s 9  -x 95.318759999999997 -y 51.178379999999997 -Z 0 -z 1  -v circle -c black
+n -t * -s 10  -x 67.917029999999997 -y 67.638229999999993 -Z 0 -z 1  -v circle -c black
+n -t * -s 11  -x 32.136189999999999 -y 98.190439999999995 -Z 0 -z 1  -v circle -c black
+n -t * -s 12  -x 70.594170000000005 -y 44.172319999999999 -Z 0 -z 1  -v circle -c black
+n -t * -s 13  -x 59.573239999999998 -y 38.08934 -Z 0 -z 1  -v circle -c black
+n -t * -s 14  -x 48.604909999999997 -y 50.86036 -Z 0 -z 1  -v circle -c black
+n -t * -s 15  -x 67.219880000000003 -y 62.928710000000002 -Z 0 -z 1  -v circle -c black
+n -t * -s 16  -x 23.079989999999999 -y 86.984909999999999 -Z 0 -z 1  -v circle -c black
+n -t * -s 17  -x 38.937130000000003 -y 3.8104789999999999 -Z 0 -z 1  -v circle -c black
+n -t * -s 18  -x 2.3983479999999999 -y 58.643680000000003 -Z 0 -z 1  -v circle -c black
+n -t * -s 19  -x 48.614629999999998 -y 28.007249999999999 -Z 0 -z 1  -v circle -c black
+n -t * -s 20  -x 47.240969999999997 -y 63.337040000000002 -Z 0 -z 1  -v circle -c black
+n -t * -s 21  -x 69.838440000000006 -y 82.905519999999996 -Z 0 -z 1  -v circle -c black
+n -t * -s 22  -x 21.929020000000001 -y 58.70261 -Z 0 -z 1  -v circle -c black
+n -t * -s 23  -x 95.7089 -y 15.89353 -Z 0 -z 1  -v circle -c black
+n -t * -s 24  -x 41.028700000000001 -y 67.061530000000005 -Z 0 -z 1  -v circle -c black
+n -t * -s 25  -x 56.576160000000002 -y 60.793460000000003 -Z 0 -z 1  -v circle -c black
+n -t * -s 26  -x 68.006020000000007 -y 29.29645 -Z 0 -z 1  -v circle -c black
+n -t * -s 27  -x 19.766629999999999 -y 15.081390000000001 -Z 0 -z 1  -v circle -c black
+n -t * -s 28  -x 1.376217 -y 82.639679999999998 -Z 0 -z 1  -v circle -c black
+n -t * -s 29  -x 8.3523409999999991 -y 2.0745909999999999 -Z 0 -z 1  -v circle -c black
+n -t * -s 30  -x 78.00958 -y 8.3519120000000004 -Z 0 -z 1  -v circle -c black
+n -t * -s 31  -x 75.788709999999995 -y 24.734539999999999 -Z 0 -z 1  -v circle -c black
+n -t * -s 32  -x 9.4272349999999996 -y 9.426634 -Z 0 -z 1  -v circle -c black
+n -t * -s 33  -x 20.558710000000001 -y 16.842390000000002 -Z 0 -z 1  -v circle -c black
+n -t * -s 34  -x 0.53239860000000006 -y 35.200749999999999 -Z 0 -z 1  -v circle -c black
+n -t * -s 35  -x 55.947270000000003 -y 6.2510669999999999 -Z 0 -z 1  -v circle -c black
+n -t * -s 36  -x 51.037550000000003 -y 51.171010000000003 -Z 0 -z 1  -v circle -c black
+n -t * -s 37  -x 88.983450000000005 -y 76.338170000000005 -Z 0 -z 1  -v circle -c black
+n -t * -s 38  -x 61.296810000000001 -y 41.15943 -Z 0 -z 1  -v circle -c black
+n -t * -s 39  -x 51.681080000000001 -y 80.180139999999994 -Z 0 -z 1  -v circle -c black
+n -t * -s 40  -x 26.974730000000001 -y 32.461260000000003 -Z 0 -z 1  -v circle -c black
+n -t * -s 41  -x 74.111429999999999 -y 27.566780000000001 -Z 0 -z 1  -v circle -c black
+n -t * -s 42  -x 70.054339999999996 -y 35.9694 -Z 0 -z 1  -v circle -c black
+n -t * -s 43  -x 77.922489999999996 -y 33.7821 -Z 0 -z 1  -v circle -c black
+n -t * -s 44  -x 58.426070000000003 -y 99.768990000000002 -Z 0 -z 1  -v circle -c black
+n -t * -s 45  -x 59.035739999999997 -y 22.184519999999999 -Z 0 -z 1  -v circle -c black
+n -t * -s 46  -x 24.372610000000002 -y 30.384779999999999 -Z 0 -z 1  -v circle -c black
+n -t * -s 47  -x 8.9744019999999995 -y 92.288020000000003 -Z 0 -z 1  -v circle -c black
+n -t * -s 48  -x 16.99587 -y 38.048270000000002 -Z 0 -z 1  -v circle -c black
+n -t * -s 49  -x 32.659529999999997 -y 61.391860000000001 -Z 0 -z 1  -v circle -c black
+n -t * -s 50  -x 81.348219999999998 -y 69.516720000000007 -Z 0 -z 1  -v circle -c black
+n -t * -s 51  -x 89.669359999999998 -y 32.74971 -Z 0 -z 1  -v circle -c black
+n -t * -s 52  -x 71.309510000000003 -y 66.812430000000006 -Z 0 -z 1  -v circle -c black
+n -t * -s 53  -x 56.82891 -y 65.222790000000003 -Z 0 -z 1  -v circle -c black
+n -t * -s 54  -x 46.87903 -y 10.10539 -Z 0 -z 1  -v circle -c black
+n -t * -s 55  -x 7.8969870000000002 -y 30.039760000000001 -Z 0 -z 1  -v circle -c black
+n -t * -s 56  -x 30.508469999999999 -y 66.083420000000004 -Z 0 -z 1  -v circle -c black
+n -t * -s 57  -x 0.81749249999999996 -y 48.609670000000001 -Z 0 -z 1  -v circle -c black
+n -t * -s 58  -x 89.700659999999999 -y 31.144459999999999 -Z 0 -z 1  -v circle -c black
+n -t * -s 59  -x 85.141919999999999 -y 57.925690000000003 -Z 0 -z 1  -v circle -c black
+n -t * -s 60  -x 30.93122 -y 48.824800000000003 -Z 0 -z 1  -v circle -c black
+n -t * -s 61  -x 83.350740000000002 -y 94.731539999999995 -Z 0 -z 1  -v circle -c black
+n -t * -s 62  -x 75.072370000000006 -y 15.1069 -Z 0 -z 1  -v circle -c black
+n -t * -s 63  -x 40.386609999999997 -y 55.447000000000003 -Z 0 -z 1  -v circle -c black
+n -t * -s 64  -x 31.56634 -y 43.549489999999999 -Z 0 -z 1  -v circle -c black
+n -t * -s 65  -x 8.6614850000000008 -y 6.990856 -Z 0 -z 1  -v circle -c black
+n -t * -s 66  -x 25.299099999999999 -y 83.927090000000007 -Z 0 -z 1  -v circle -c black
+n -t * -s 67  -x 23.417449999999999 -y 42.141019999999997 -Z 0 -z 1  -v circle -c black
+n -t * -s 68  -x 10.835039999999999 -y 61.027320000000003 -Z 0 -z 1  -v circle -c black
+n -t * -s 69  -x 50.29374 -y 72.927890000000005 -Z 0 -z 1  -v circle -c black
+n -t * -s 70  -x 31.886140000000001 -y 72.947329999999994 -Z 0 -z 1  -v circle -c black
+n -t * -s 71  -x 15.74893 -y 32.905500000000004 -Z 0 -z 1  -v circle -c black
+n -t * -s 72  -x 30.455780000000001 -y 98.226129999999998 -Z 0 -z 1  -v circle -c black
+n -t * -s 73  -x 84.178359999999998 -y 78.328000000000003 -Z 0 -z 1  -v circle -c black
+n -t * -s 74  -x 68.364699999999999 -y 36.744929999999997 -Z 0 -z 1  -v circle -c black
+n -t * -s 75  -x 21.46611 -y 78.757829999999998 -Z 0 -z 1  -v circle -c black
+n -t * -s 76  -x 90.283860000000004 -y 37.2928 -Z 0 -z 1  -v circle -c black
+n -t * -s 77  -x 62.464060000000003 -y 89.433599999999998 -Z 0 -z 1  -v circle -c black
+n -t * -s 78  -x 2.4881540000000002 -y 48.169119999999999 -Z 0 -z 1  -v circle -c black
+n -t * -s 79  -x 39.410139999999998 -y 36.18488 -Z 0 -z 1  -v circle -c black
+n -t * -s 80  -x 81.184089999999998 -y 76.252949999999998 -Z 0 -z 1  -v circle -c black
+n -t * -s 81  -x 81.112309999999994 -y 35.412230000000001 -Z 0 -z 1  -v circle -c black
+n -t * -s 82  -x 33.177390000000003 -y 34.182450000000003 -Z 0 -z 1  -v circle -c black
+n -t * -s 83  -x 17.21837 -y 40.915050000000001 -Z 0 -z 1  -v circle -c black
+n -t * -s 84  -x 94.286349999999999 -y 29.656580000000002 -Z 0 -z 1  -v circle -c black
+n -t * -s 85  -x 87.364360000000005 -y 44.036160000000002 -Z 0 -z 1  -v circle -c black
+n -t * -s 86  -x 84.122249999999994 -y 55.048670000000001 -Z 0 -z 1  -v circle -c black
+n -t * -s 87  -x 47.953409999999998 -y 65.299989999999994 -Z 0 -z 1  -v circle -c black
+n -t * -s 88  -x 36.124380000000002 -y 20.648340000000001 -Z 0 -z 1  -v circle -c black
+n -t * -s 89  -x 57.07432 -y 87.590100000000007 -Z 0 -z 1  -v circle -c black
+n -t * -s 90  -x 22.10004 -y 61.87921 -Z 0 -z 1  -v circle -c black
+n -t * -s 91  -x 87.235529999999997 -y 95.152439999999999 -Z 0 -z 1  -v circle -c black
+n -t * -s 92  -x 12.152950000000001 -y 36.371630000000003 -Z 0 -z 1  -v circle -c black
+n -t * -s 93  -x 16.467500000000001 -y 37.271990000000002 -Z 0 -z 1  -v circle -c black
+n -t * -s 94  -x 20.523810000000001 -y 22.069929999999999 -Z 0 -z 1  -v circle -c black
+n -t * -s 95  -x 74.812960000000004 -y 83.778729999999996 -Z 0 -z 1  -v circle -c black
+n -t * -s 96  -x 13.89236 -y 26.01342 -Z 0 -z 1  -v circle -c black
+n -t * -s 97  -x 11.108700000000001 -y 58.669080000000001 -Z 0 -z 1  -v circle -c black
+n -t * -s 98  -x 32.95487 -y 76.322869999999995 -Z 0 -z 1  -v circle -c black
+n -t * -s 99  -x 17.383800000000001 -y 5.5928329999999997 -Z 0 -z 1  -v circle -c black
+n -t * -s 100  -x 86.335560000000001 -y 42.056350000000002 -Z 0 -z 1  -v circle -c black
+n -t * -s 101  -x 1.2047049999999999 -y 39.519559999999998 -Z 0 -z 1  -v circle -c black
+n -t * -s 102  -x 74.275660000000002 -y 98.502089999999995 -Z 0 -z 1  -v circle -c black
+n -t * -s 103  -x 17.616440000000001 -y 93.395489999999995 -Z 0 -z 1  -v circle -c black
+n -t * -s 104  -x 35.827089999999998 -y 6.8583119999999997 -Z 0 -z 1  -v circle -c black
+n -t * -s 105  -x 66.771850000000001 -y 8.3596909999999998 -Z 0 -z 1  -v circle -c black
+n -t * -s 106  -x 53.438670000000002 -y 8.2626639999999991 -Z 0 -z 1  -v circle -c black
+n -t * -s 107  -x 75.472759999999994 -y 23.642250000000001 -Z 0 -z 1  -v circle -c black
+n -t * -s 108  -x 1.660501 -y 62.058590000000002 -Z 0 -z 1  -v circle -c black
+n -t * -s 109  -x 96.468850000000003 -y 80.222669999999994 -Z 0 -z 1  -v circle -c black
+n -t * -s 110  -x 97.408690000000007 -y 65.741619999999998 -Z 0 -z 1  -v circle -c black
+n -t * -s 111  -x 20.795750000000002 -y 89.128699999999995 -Z 0 -z 1  -v circle -c black
+n -t * -s 112  -x 4.6638539999999997 -y 14.71678 -Z 0 -z 1  -v circle -c black
+n -t * -s 113  -x 27.212700000000002 -y 1.4240489999999999 -Z 0 -z 1  -v circle -c black
+n -t * -s 114  -x 2.1554440000000001 -y 43.051029999999997 -Z 0 -z 1  -v circle -c black
+n -t * -s 115  -x 99.506720000000001 -y 12.834160000000001 -Z 0 -z 1  -v circle -c black
+n -t * -s 116  -x 55.595059999999997 -y 76.977580000000003 -Z 0 -z 1  -v circle -c black
+n -t * -s 117  -x 86.993340000000003 -y 50.487340000000003 -Z 0 -z 1  -v circle -c black
+n -t * -s 118  -x 77.674610000000001 -y 42.670999999999999 -Z 0 -z 1  -v circle -c black
+n -t * -s 119  -x 29.463010000000001 -y 37.740850000000002 -Z 0 -z 1  -v circle -c black
+n -t * -s 120  -x 54.635019999999997 -y 11.524150000000001 -Z 0 -z 2  -v circle -c black
 V -t * -v 1.0a5 -a 0
 W -t * -x 100 -y 100
 A -t * -n 1 -p 0 -o 0x7fffffff -c 30 -a 1
@@ -144,8 +144,9 @@ n -t 0 -s 117 -S COLOR -c blue -o black -i blue -I black
 n -t 0 -s 118 -S COLOR -c blue -o black -i blue -I black
 n -t 0 -s 119 -S COLOR -c blue -o black -i blue -I black
 n -t 0 -s 120 -S COLOR -c red -o black -i red -I black
-n -t 0.000000 -s 120 -x 2.385304 -y 1.457466 -U 1.163710 -V 1.242504 -T 53.603248
-n -t 0.000000 -s 101 -x 4.996759 -y 10.426130 -U -0.279565 -V -0.960127 -T 9.341126
+n -t 0.000000 -s 120 -x 54.635020 -y 11.524150 -U -0.570277 -V 0.420713 -T 53.709052
+n -t 0.000000 -s 105 -x 66.771850 -y 8.359691 -U -0.967650 -V 0.252297 -T 12.542585
+n -t 0.000000 -s 106 -x 53.438670 -y 8.262664 -U 0.344374 -V 0.938832 -T 3.473981
 n -t 0 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 0 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 0 -s 2 -S COLOR -c black -o black -i black -I black
@@ -246,7 +247,8 @@ n -t 0 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 0 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 0 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 0 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 1.000000 -s 101 -x 4.717194 -y 9.466003 -U -0.170136 -V -0.985421 -T 6.866138
+n -t 1.000000 -s 105 -x 65.804200 -y 8.611988 -U -0.961983 -V 0.273110 -T 12.203398
+n -t 1.000000 -s 106 -x 53.783044 -y 9.201496 -U 0.102146 -V 0.994769 -T 2.757791
 n -t 1 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 1 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 1 -s 2 -S COLOR -c black -o black -i black -I black
@@ -347,7 +349,8 @@ n -t 1 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 1 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 1 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 1 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 2.000000 -s 101 -x 4.547057 -y 8.480583 -U 0.036481 -V -0.999334 -T 4.541133
+n -t 2.000000 -s 105 -x 64.842217 -y 8.885099 -U -0.956042 -V 0.293228 -T 11.869507
+n -t 2.000000 -s 106 -x 53.885191 -y 10.196266 -U -0.177263 -V 0.984164 -T 2.204216
 n -t 2 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 2 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 2 -s 2 -S COLOR -c black -o black -i black -I black
@@ -448,7 +451,8 @@ n -t 2 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 2 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 2 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 2 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 3.000000 -s 101 -x 4.583539 -y 7.481248 -U 0.490619 -V -0.871374 -T 2.635231
+n -t 3.000000 -s 105 -x 63.886175 -y 9.178327 -U -0.949873 -V 0.312635 -T 11.540474
+n -t 3.000000 -s 106 -x 53.707928 -y 11.180429 -U -0.438602 -V 0.898682 -T 1.786905
 n -t 3 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 3 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 3 -s 2 -S COLOR -c black -o black -i black -I black
@@ -549,7 +553,8 @@ n -t 3 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 3 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 3 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 3 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 4.000000 -s 101 -x 5.074158 -y 6.609875 -U 0.995724 -V -0.092378 -T 1.974429
+n -t 4.000000 -s 105 -x 62.936302 -y 9.490962 -U -0.943519 -V 0.331319 -T 11.215879
+n -t 4.000000 -s 106 -x 53.269326 -y 12.079111 -U -0.630180 -V 0.776449 -T 1.452625
 n -t 4 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 4 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 4 -s 2 -S COLOR -c black -o black -i black -I black
@@ -650,7 +655,8 @@ n -t 4 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 4 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 4 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 4 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 5.000000 -s 101 -x 6.069882 -y 6.517496 -U 0.879881 -V 0.475194 -T 2.425297
+n -t 5.000000 -s 105 -x 61.992783 -y 9.822282 -U -0.937021 -V 0.349272 -T 10.895322
+n -t 5.000000 -s 106 -x 52.639146 -y 12.855560 -U -0.742348 -V 0.670015 -T 1.152442
 n -t 5 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 5 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 5 -s 2 -S COLOR -c black -o black -i black -I black
@@ -751,7 +757,8 @@ n -t 5 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 5 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 5 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 5 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 6.000000 -s 101 -x 6.949763 -y 6.992690 -U 0.783146 -V 0.621838 -T 3.087294
+n -t 6.000000 -s 105 -x 61.055762 -y 10.171554 -U -0.930423 -V 0.366489 -T 10.578425
+n -t 6.000000 -s 106 -x 51.896799 -y 13.525575 -U -0.794235 -V 0.607611 -T 0.860504
 n -t 6 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 6 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 6 -s 2 -S COLOR -c black -o black -i black -I black
@@ -852,7 +859,8 @@ n -t 6 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 6 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 6 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 6 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 7.000000 -s 101 -x 7.732909 -y 7.614528 -U 0.740402 -V 0.672165 -T 3.779524
+n -t 7.000000 -s 105 -x 60.125339 -y 10.538043 -U -0.923762 -V 0.382967 -T 10.264832
+n -t 7.000000 -s 106 -x 51.213357 -y 14.048426 -U -0.804713 -V 0.593664 -T 0.708672
 n -t 7 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 7 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 7 -s 2 -S COLOR -c black -o black -i black -I black
@@ -953,7 +961,8 @@ n -t 7 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 7 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 7 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 7 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 8.000000 -s 101 -x 8.473311 -y 8.286693 -U 0.719377 -V 0.694620 -T 4.478423
+n -t 8.000000 -s 105 -x 59.201577 -y 10.921010 -U -0.917077 -V 0.398710 -T 9.954207
+n -t 8.000000 -s 106 -x 50.643079 -y 14.469139 -U -0.804713 -V 0.593664 -T 0.708672
 n -t 8 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 8 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 8 -s 2 -S COLOR -c black -o black -i black -I black
@@ -1054,8 +1063,8 @@ n -t 8 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 8 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 8 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 8 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 9.000000 -s 101 -x 9.192688 -y 8.981313 -U 0.707813 -V 0.706399 -T 5.179342
-n -t 9.000000 -s 114 -x 24.453960 -y 20.906360 -U -0.814264 -V -0.580495 -T 14.240186
+n -t 9.000000 -s 105 -x 58.284500 -y 11.319720 -U -0.910404 -V 0.413720 -T 9.646239
+n -t 9.000000 -s 106 -x 50.072802 -y 14.889852 -U -0.804713 -V 0.593664 -T 0.708672
 n -t 9 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 9 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 9 -s 2 -S COLOR -c black -o black -i black -I black
@@ -1156,8 +1165,8 @@ n -t 9 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 9 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 9 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 9 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 10.000000 -s 101 -x 9.900501 -y 9.687712 -U 0.700883 -V 0.713276 -T 5.881016
-n -t 10.000000 -s 114 -x 23.639696 -y 20.325865 -U -0.830779 -V -0.556603 -T 11.576235
+n -t 10.000000 -s 105 -x 57.374096 -y 11.733440 -U -0.903777 -V 0.428005 -T 9.340637
+n -t 10.000000 -s 106 -x 49.502525 -y 15.310564 -U -0.804713 -V 0.593664 -T 0.708672
 n -t 10 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 10 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 10 -s 2 -S COLOR -c black -o black -i black -I black
@@ -1258,9 +1267,8 @@ n -t 10 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 10 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 10 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 10 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 11.000000 -s 101 -x 10.601384 -y 10.400988 -U 0.696449 -V 0.717607 -T 6.583016
-n -t 11.000000 -s 103 -x 19.577060 -y 28.478630 -U -0.312367 -V -0.949962 -T 14.057016
-n -t 11.000000 -s 114 -x 22.808918 -y 19.769262 -U -0.853985 -V -0.520298 -T 8.926154
+n -t 11.000000 -s 105 -x 56.470320 -y 12.161445 -U -0.897226 -V 0.441572 -T 9.037133
+n -t 11.000000 -s 106 -x 48.932248 -y 15.731277 -U -0.804713 -V 0.593664 -T 0.708672
 n -t 11 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 11 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 11 -s 2 -S COLOR -c black -o black -i black -I black
@@ -1361,9 +1369,8 @@ n -t 11 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 11 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 11 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 11 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 12.000000 -s 101 -x 11.297833 -y 11.118595 -U 0.693463 -V 0.720493 -T 7.285172
-n -t 12.000000 -s 103 -x 19.264693 -y 27.528668 -U -0.252686 -V -0.967548 -T 11.535508
-n -t 12.000000 -s 114 -x 21.954933 -y 19.248964 -U -0.889363 -V -0.457201 -T 6.302381
+n -t 12.000000 -s 105 -x 55.573094 -y 12.603017 -U -0.890781 -V 0.454432 -T 8.735479
+n -t 12.000000 -s 106 -x 48.361970 -y 16.151990 -U -0.804713 -V 0.593664 -T 0.708672
 n -t 12 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 12 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 12 -s 2 -S COLOR -c black -o black -i black -I black
@@ -1464,9 +1471,8 @@ n -t 12 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 12 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 12 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 12 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 13.000000 -s 101 -x 11.991295 -y 11.839088 -U 0.691368 -V 0.722503 -T 7.987409
-n -t 13.000000 -s 103 -x 19.012007 -y 26.561120 -U -0.165109 -V -0.986275 -T 9.075668
-n -t 13.000000 -s 114 -x 21.065569 -y 18.791763 -U -0.948864 -V -0.315684 -T 3.743458
+n -t 13.000000 -s 105 -x 54.682313 -y 13.057449 -U -0.884469 -V 0.466598 -T 8.435450
+n -t 13.000000 -s 106 -x 47.791693 -y 16.572702 -U -0.804713 -V 0.593664 -T 0.708672
 n -t 13 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 13 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 13 -s 2 -S COLOR -c black -o black -i black -I black
@@ -1567,9 +1573,8 @@ n -t 13 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 13 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 13 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 13 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 14.000000 -s 101 -x 12.682664 -y 12.561590 -U 0.689850 -V 0.723952 -T 8.689693
-n -t 14.000000 -s 103 -x 18.846898 -y 25.574845 -U -0.025229 -V -0.999682 -T 6.724470
-n -t 14.000000 -s 114 -x 20.116705 -y 18.476079 -U -0.967465 -V 0.253004 -T 1.487866
+n -t 14.000000 -s 105 -x 53.797843 -y 13.524047 -U -0.878315 -V 0.478083 -T 8.136837
+n -t 14.000000 -s 106 -x 47.221416 -y 16.993415 -U -0.804713 -V 0.593664 -T 0.708671
 n -t 14 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 14 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 14 -s 2 -S COLOR -c black -o black -i black -I black
@@ -1670,9 +1675,8 @@ n -t 14 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 14 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 14 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 14 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 15.000000 -s 101 -x 13.372513 -y 13.285543 -U 0.688718 -V 0.725029 -T 9.392003
-n -t 15.000000 -s 103 -x 18.821669 -y 24.575163 -U 0.221843 -V -0.975082 -T 4.594632
-n -t 15.000000 -s 114 -x 19.149240 -y 18.729083 -U 0.451779 -V 0.892130 -T 1.531095
+n -t 15.000000 -s 105 -x 52.919529 -y 14.002130 -U -0.872340 -V 0.488900 -T 7.839454
+n -t 15.000000 -s 106 -x 46.651139 -y 17.414128 -U -0.804713 -V 0.593664 -T 0.708671
 n -t 15 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 15 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 15 -s 2 -S COLOR -c black -o black -i black -I black
@@ -1773,9 +1777,9 @@ n -t 15 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 15 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 15 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 15 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 16.000000 -s 101 -x 14.061232 -y 14.010572 -U 0.687855 -V 0.725848 -T 10.094330
-n -t 16.000000 -s 103 -x 19.043512 -y 23.600081 -U 0.654982 -V -0.755644 -T 2.994211
-n -t 16.000000 -s 114 -x 19.601019 -y 19.621213 -U 0.633074 -V 0.774091 -T 2.217193
+n -t 16.000000 -s 104 -x 35.827090 -y 6.858312 -U 0.647487 -V 0.762077 -T 14.955506
+n -t 16.000000 -s 105 -x 52.047189 -y 14.491030 -U -0.866564 -V 0.499066 -T 7.543131
+n -t 16.000000 -s 106 -x 46.080861 -y 17.834840 -U -0.804713 -V 0.593664 -T 0.708672
 n -t 16 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 16 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 16 -s 2 -S COLOR -c black -o black -i black -I black
@@ -1876,9 +1880,9 @@ n -t 16 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 16 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 16 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 16 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 17.000000 -s 101 -x 14.749087 -y 14.736420 -U 0.687183 -V 0.726484 -T 10.796667
-n -t 17.000000 -s 103 -x 19.698495 -y 22.844436 -U 0.994319 -V -0.106446 -T 2.483995
-n -t 17.000000 -s 114 -x 20.234093 -y 20.395304 -U 0.662890 -V 0.748717 -T 2.917955
+n -t 17.000000 -s 104 -x 36.474577 -y 7.620389 -U 0.607959 -V 0.793968 -T 13.924834
+n -t 17.000000 -s 105 -x 51.180625 -y 14.990097 -U -0.861005 -V 0.508597 -T 7.247718
+n -t 17.000000 -s 106 -x 45.510584 -y 18.255553 -U -0.804713 -V 0.593664 -T 0.708672
 n -t 17 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 17 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 17 -s 2 -S COLOR -c black -o black -i black -I black
@@ -1979,9 +1983,9 @@ n -t 17 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 17 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 17 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 17 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 18.000000 -s 101 -x 15.436270 -y 15.462904 -U 0.686652 -V 0.726986 -T 11.499011
-n -t 18.000000 -s 103 -x 20.692813 -y 22.737991 -U 0.924952 -V 0.380084 -T 2.853418
-n -t 18.000000 -s 114 -x 20.896984 -y 21.144021 -U 0.672687 -V 0.739927 -T 3.619964
+n -t 18.000000 -s 104 -x 37.082536 -y 8.414357 -U 0.563542 -V 0.826087 -T 12.931588
+n -t 18.000000 -s 105 -x 50.319620 -y 15.498694 -U -0.855677 -V 0.517510 -T 6.953077
+n -t 18.000000 -s 106 -x 44.940307 -y 18.676266 -U -0.804713 -V 0.593664 -T 0.708672
 n -t 18 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 18 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 18 -s 2 -S COLOR -c black -o black -i black -I black
@@ -2082,9 +2086,9 @@ n -t 18 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 18 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 18 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 18 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 19.000000 -s 101 -x 16.122922 -y 16.189891 -U 0.686225 -V 0.727390 -T 12.201360
-n -t 19.000000 -s 103 -x 21.617765 -y 23.118075 -U 0.828276 -V 0.560320 -T 3.474725
-n -t 19.000000 -s 114 -x 21.569671 -y 21.883947 -U 0.676997 -V 0.735985 -T 4.322213
+n -t 19.000000 -s 104 -x 37.646078 -y 9.240444 -U 0.513718 -V 0.857959 -T 11.978711
+n -t 19.000000 -s 105 -x 49.463943 -y 16.016203 -U -0.850595 -V 0.525821 -T 6.659089
+n -t 19.000000 -s 106 -x 44.370030 -y 19.096978 -U -0.804713 -V 0.593664 -T 0.708672
 n -t 19 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 19 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 19 -s 2 -S COLOR -c black -o black -i black -I black
@@ -2185,9 +2189,9 @@ n -t 19 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 19 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 19 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 19 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 20.000000 -s 101 -x 16.809147 -y 16.917280 -U 0.685877 -V 0.727717 -T 12.903713
-n -t 20.000000 -s 103 -x 22.446041 -y 23.678395 -U 0.773964 -V 0.633229 -T 4.151958
-n -t 20.000000 -s 114 -x 22.246668 -y 22.619933 -U 0.679236 -V 0.733920 -T 5.024529
+n -t 20.000000 -s 104 -x 38.159796 -y 10.098404 -U 0.457999 -V 0.888953 -T 11.069203
+n -t 20.000000 -s 105 -x 48.613348 -y 16.542024 -U -0.845770 -V 0.533548 -T 6.365648
+n -t 20.000000 -s 106 -x 43.799753 -y 19.517691 -U -0.804713 -V 0.593664 -T 0.708672
 n -t 20 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 20 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 20 -s 2 -S COLOR -c black -o black -i black -I black
@@ -2288,9 +2292,9 @@ n -t 20 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 20 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 20 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 20 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 21.000000 -s 101 -x 17.495024 -y 17.644998 -U 0.685591 -V 0.727987 -T 13.606067
-n -t 21.000000 -s 103 -x 23.220005 -y 24.311624 -U 0.743753 -V 0.668454 -T 4.844634
-n -t 21.000000 -s 114 -x 22.925904 -y 23.353853 -U 0.680531 -V 0.732719 -T 5.726870
+n -t 21.000000 -s 104 -x 38.617794 -y 10.987357 -U 0.395982 -V 0.918258 -T 10.206019
+n -t 21.000000 -s 105 -x 47.767578 -y 17.075572 -U -0.841210 -V 0.540709 -T 6.072661
+n -t 21.000000 -s 106 -x 43.229475 -y 19.938404 -U -0.804713 -V 0.593664 -T 0.708672
 n -t 21 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 21 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 21 -s 2 -S COLOR -c black -o black -i black -I black
@@ -2391,10 +2395,9 @@ n -t 21 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 21 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 21 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 21 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 22.000000 -s 101 -x 18.180615 -y 18.372985 -U 0.685352 -V 0.728211 -T 14.308424
-n -t 22.000000 -s 103 -x 23.963759 -y 24.980078 -U 0.725859 -V 0.687844 -T 5.542633
-n -t 22.000000 -s 114 -x 23.606435 -y 24.086572 -U 0.681341 -V 0.731966 -T 6.429221
-n -t 22.000000 -s 117 -x 41.734960 -y 30.896120 -U -0.988496 -V -0.151249 -T 13.908034
+n -t 22.000000 -s 104 -x 39.013777 -y 11.905615 -U 0.327424 -V 0.944877 -T 9.391922
+n -t 22.000000 -s 105 -x 46.926368 -y 17.616282 -U -0.836922 -V 0.547322 -T 5.780046
+n -t 22.000000 -s 106 -x 42.659198 -y 20.359117 -U -0.804713 -V 0.593664 -T 0.708672
 n -t 22 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 22 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 22 -s 2 -S COLOR -c black -o black -i black -I black
@@ -2495,9 +2498,9 @@ n -t 22 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 22 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 22 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 22 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 23.000000 -s 103 -x 24.689618 -y 25.667922 -U 0.714587 -V 0.699546 -T 6.242795
-n -t 23.000000 -s 114 -x 24.287776 -y 24.818538 -U 0.681878 -V 0.731466 -T 7.131577
-n -t 23.000000 -s 117 -x 40.746464 -y 30.744871 -U -0.998132 -V -0.061099 -T 11.617531
+n -t 23.000000 -s 104 -x 39.341201 -y 12.850492 -U 0.252332 -V 0.967641 -T 8.629287
+n -t 23.000000 -s 105 -x 46.089446 -y 18.163604 -U -0.832913 -V 0.553405 -T 5.487735
+n -t 23.000000 -s 106 -x 42.088921 -y 20.779829 -U -0.804713 -V 0.593664 -T 0.708672
 n -t 23 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 23 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 23 -s 2 -S COLOR -c black -o black -i black -I black
@@ -2598,9 +2601,9 @@ n -t 23 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 23 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 23 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 23 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 24.000000 -s 103 -x 25.404205 -y 26.367468 -U 0.707111 -V 0.707102 -T 6.943948
-n -t 24.000000 -s 114 -x 24.969654 -y 25.550004 -U 0.682249 -V 0.731120 -T 7.833935
-n -t 24.000000 -s 117 -x 39.748333 -y 30.683772 -U -0.998025 -V 0.062816 -T 9.452652
+n -t 24.000000 -s 104 -x 39.593533 -y 13.818133 -U 0.171068 -V 0.985259 -T 7.919866
+n -t 24.000000 -s 105 -x 45.256534 -y 18.717009 -U -0.829185 -V 0.558975 -T 5.195667
+n -t 24.000000 -s 106 -x 41.518644 -y 21.200542 -U -0.804713 -V 0.593664 -T 0.708672
 n -t 24 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 24 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 24 -s 2 -S COLOR -c black -o black -i black -I black
@@ -2701,10 +2704,9 @@ n -t 24 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 24 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 24 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 24 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 25.000000 -s 103 -x 26.111316 -y 27.074571 -U 0.701939 -V 0.712237 -T 7.645601
-n -t 25.000000 -s 109 -x 44.464150 -y 37.128670 -U -0.942413 -V -0.334452 -T 13.779619
-n -t 25.000000 -s 114 -x 25.651903 -y 26.281124 -U 0.682516 -V 0.730871 -T 8.536295
-n -t 25.000000 -s 117 -x 38.750308 -y 30.746588 -U -0.971528 -V 0.236924 -T 7.485371
+n -t 25.000000 -s 104 -x 39.764600 -y 14.803392 -U 0.084450 -V 0.996428 -T 7.264526
+n -t 25.000000 -s 105 -x 44.427349 -y 19.275983 -U -0.825741 -V 0.564050 -T 4.903792
+n -t 25.000000 -s 106 -x 40.948366 -y 21.621255 -U -0.804713 -V 0.593664 -T 0.708672
 n -t 25 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 25 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 25 -s 2 -S COLOR -c black -o black -i black -I black
@@ -2805,10 +2807,9 @@ n -t 25 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 25 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 25 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 25 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 26.000000 -s 103 -x 26.813255 -y 27.786808 -U 0.698233 -V 0.715871 -T 8.347524
-n -t 26.000000 -s 109 -x 43.521737 -y 36.794218 -U -0.963302 -V -0.268420 -T 11.294453
-n -t 26.000000 -s 114 -x 26.334419 -y 27.011995 -U 0.682713 -V 0.730687 -T 9.238656
-n -t 26.000000 -s 117 -x 37.778779 -y 30.983512 -U -0.879543 -V 0.475820 -T 5.840545
+n -t 26.000000 -s 104 -x 39.849050 -y 15.799820 -U -0.006189 -V 0.999981 -T 6.662988
+n -t 26.000000 -s 105 -x 43.601609 -y 19.840033 -U -0.822580 -V 0.568649 -T 4.612068
+n -t 26.000000 -s 106 -x 40.378089 -y 22.041967 -U -0.804713 -V 0.593664 -T 0.708672
 n -t 26 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 26 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 26 -s 2 -S COLOR -c black -o black -i black -I black
@@ -2909,10 +2910,9 @@ n -t 26 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 26 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 26 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 26 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 27.000000 -s 103 -x 27.511487 -y 28.502679 -U 0.695499 -V 0.718527 -T 9.049602
-n -t 27.000000 -s 109 -x 42.558435 -y 36.525798 -U -0.985241 -V -0.171176 -T 8.884080
-n -t 27.000000 -s 114 -x 27.017132 -y 27.742682 -U 0.682863 -V 0.730547 -T 9.941017
-n -t 27.000000 -s 117 -x 36.899236 -y 31.459331 -U -0.657450 -V 0.753498 -T 4.705691
+n -t 27.000000 -s 104 -x 39.842861 -y 16.799801 -U -0.099013 -V 0.995086 -T 6.113633
+n -t 27.000000 -s 105 -x 42.779028 -y 20.408682 -U -0.819703 -V 0.572789 -T 4.320459
+n -t 27.000000 -s 106 -x 39.807812 -y 22.462680 -U -0.804713 -V 0.593664 -T 0.708672
 n -t 27 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 27 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 27 -s 2 -S COLOR -c black -o black -i black -I black
@@ -3013,10 +3013,9 @@ n -t 27 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 27 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 27 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 27 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 28.000000 -s 103 -x 28.206987 -y 29.221206 -U 0.693433 -V 0.720521 -T 9.751774
-n -t 28.000000 -s 109 -x 41.573195 -y 36.354622 -U -0.999869 -V -0.016209 -T 6.604873
-n -t 28.000000 -s 114 -x 27.699994 -y 28.473229 -U 0.682978 -V 0.730439 -T 10.643378
-n -t 28.000000 -s 117 -x 36.241786 -y 32.212830 -U -0.300803 -V 0.953686 -T 4.230672
+n -t 28.000000 -s 104 -x 39.743849 -y 17.794887 -U -0.191789 -V 0.981436 -T 5.613425
+n -t 28.000000 -s 105 -x 41.959325 -y 20.981471 -U -0.817106 -V 0.576488 -T 4.028938
+n -t 28.000000 -s 106 -x 39.237535 -y 22.883393 -U -0.804713 -V 0.593664 -T 0.708672
 n -t 28 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 28 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 28 -s 2 -S COLOR -c black -o black -i black -I black
@@ -3117,10 +3116,9 @@ n -t 28 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 28 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 28 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 28 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 29.000000 -s 103 -x 28.900420 -y 29.941727 -U 0.691838 -V 0.722053 -T 10.454005
-n -t 29.000000 -s 109 -x 40.573326 -y 36.338414 -U -0.967974 -V 0.251051 -T 4.587341
-n -t 29.000000 -s 114 -x 28.382972 -y 29.203667 -U 0.683069 -V 0.730353 -T 11.345739
-n -t 29.000000 -s 117 -x 35.940984 -y 33.166516 -U 0.044345 -V 0.999016 -T 4.327809
+n -t 29.000000 -s 104 -x 39.552060 -y 18.776323 -U -0.282102 -V 0.959384 -T 5.157990
+n -t 29.000000 -s 105 -x 41.142220 -y 21.557959 -U -0.814784 -V 0.579765 -T 3.737481
+n -t 29.000000 -s 106 -x 38.667257 -y 23.304105 -U -0.804713 -V 0.593664 -T 0.708672
 n -t 29 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 29 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 29 -s 2 -S COLOR -c black -o black -i black -I black
@@ -3221,10 +3219,9 @@ n -t 29 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 29 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 29 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 29 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 30.000000 -s 103 -x 29.592258 -y 30.663779 -U 0.690585 -V 0.723252 -T 11.156274
-n -t 30.000000 -s 109 -x 39.605352 -y 36.589464 -U -0.732908 -V 0.680328 -T 3.150111
-n -t 30.000000 -s 114 -x 29.066042 -y 29.934021 -U 0.683142 -V 0.730285 -T 12.048101
-n -t 30.000000 -s 117 -x 35.985329 -y 34.165532 -U 0.275969 -V 0.961167 -T 4.751558
+n -t 30.000000 -s 104 -x 39.269958 -y 19.735707 -U -0.367629 -V 0.929973 -T 4.741886
+n -t 30.000000 -s 105 -x 40.327436 -y 22.137723 -U -0.812733 -V 0.582637 -T 3.446069
+n -t 30.000000 -s 106 -x 38.096980 -y 23.724818 -U -0.804713 -V 0.593664 -T 0.708672
 n -t 30 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 30 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 30 -s 2 -S COLOR -c black -o black -i black -I black
@@ -3325,10 +3322,9 @@ n -t 30 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 30 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 30 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 30 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 31.000000 -s 103 -x 30.282843 -y 31.387031 -U 0.689584 -V 0.724206 -T 11.858568
-n -t 31.000000 -s 109 -x 38.872444 -y 37.269792 -U -0.150603 -V 0.988594 -T 2.736495
-n -t 31.000000 -s 114 -x 29.749184 -y 30.664306 -U 0.683202 -V 0.730230 -T 12.750463
-n -t 31.000000 -s 117 -x 36.261297 -y 35.126699 -U 0.413058 -V 0.910705 -T 5.323763
+n -t 31.000000 -s 104 -x 38.902329 -y 20.665680 -U -0.446410 -V 0.894829 -T 4.359006
+n -t 31.000000 -s 105 -x 39.514703 -y 22.720360 -U -0.810944 -V 0.585123 -T 3.154690
+n -t 31.000000 -s 106 -x 37.526703 -y 24.145531 -U -0.804713 -V 0.593664 -T 0.708672
 n -t 31 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 31 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 31 -s 2 -S COLOR -c black -o black -i black -I black
@@ -3429,10 +3425,10 @@ n -t 31 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 31 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 31 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 31 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 32.000000 -s 103 -x 30.972426 -y 32.111237 -U 0.688774 -V 0.724976 -T 12.560880
-n -t 32.000000 -s 109 -x 38.721841 -y 38.258386 -U 0.291625 -V 0.956533 -T 3.093665
-n -t 32.000000 -s 114 -x 30.432386 -y 31.394536 -U 0.683250 -V 0.730184 -T 13.452824
-n -t 32.000000 -s 117 -x 36.674355 -y 36.037404 -U 0.494820 -V 0.868995 -T 5.961107
+n -t 32.000000 -s 104 -x 38.455919 -y 21.560509 -U -0.517047 -V 0.855957 -T 4.003060
+n -t 32.000000 -s 105 -x 38.703759 -y 23.305484 -U -0.809410 -V 0.587243 -T 2.863331
+n -t 32.000000 -s 106 -x 36.956426 -y 24.566243 -U -0.804713 -V 0.593664 -T 0.708672
+n -t 32.000000 -s 119 -x 29.463010 -y 37.740850 -U 0.477070 -V -0.878865 -T 14.511776
 n -t 32 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 32 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 32 -s 2 -S COLOR -c black -o black -i black -I black
@@ -3533,10 +3529,10 @@ n -t 32 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 32 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 32 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 32 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 33.000000 -s 103 -x 31.661200 -y 32.836213 -U 0.688110 -V 0.725607 -T 13.263204
-n -t 33.000000 -s 109 -x 39.013466 -y 39.214919 -U 0.479724 -V 0.877419 -T 3.698531
-n -t 33.000000 -s 114 -x 31.115636 -y 32.124720 -U 0.683291 -V 0.730147 -T 14.155186
-n -t 33.000000 -s 117 -x 37.169175 -y 36.906399 -U 0.545908 -V 0.837845 -T 6.628530
+n -t 33.000000 -s 104 -x 37.938872 -y 22.416466 -U -0.578785 -V 0.815480 -T 3.668028
+n -t 33.000000 -s 105 -x 37.894348 -y 23.892727 -U -0.808121 -V 0.589016 -T 2.571987
+n -t 33.000000 -s 106 -x 36.386148 -y 24.986956 -U -0.804713 -V 0.593664 -T 0.708672
+n -t 33.000000 -s 119 -x 29.940080 -y 36.861985 -U 0.456426 -V -0.889761 -T 12.873472
 n -t 33 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 33 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 33 -s 2 -S COLOR -c black -o black -i black -I black
@@ -3637,10 +3633,10 @@ n -t 33 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 33 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 33 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 33 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 34.000000 -s 103 -x 32.349310 -y 33.561820 -U 0.687560 -V 0.726128 -T 13.965537
-n -t 34.000000 -s 109 -x 39.493190 -y 40.092338 -U 0.562825 -V 0.826576 -T 4.367715
-n -t 34.000000 -s 114 -x 31.798926 -y 32.854867 -U 0.683324 -V 0.730115 -T 14.857548
-n -t 34.000000 -s 117 -x 37.715083 -y 37.744244 -U 0.579462 -V 0.814999 -T 7.310857
+n -t 34.000000 -s 104 -x 37.360087 -y 23.231946 -U -0.631472 -V 0.775399 -T 3.348516
+n -t 34.000000 -s 105 -x 37.086227 -y 24.481743 -U -0.807065 -V 0.590462 -T 2.280650
+n -t 34.000000 -s 106 -x 35.815871 -y 25.407669 -U -0.804713 -V 0.593664 -T 0.708672
+n -t 34.000000 -s 119 -x 30.396507 -y 35.972224 -U 0.431288 -V -0.902214 -T 11.243273
 n -t 34 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 34 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 34 -s 2 -S COLOR -c black -o black -i black -I black
@@ -3741,9 +3737,10 @@ n -t 34 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 34 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 34 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 34 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 35.000000 -s 103 -x 33.036870 -y 34.287948 -U 0.687100 -V 0.726563 -T 14.667877
-n -t 35.000000 -s 109 -x 40.056015 -y 40.918914 -U 0.604990 -V 0.796233 -T 5.056526
-n -t 35.000000 -s 117 -x 38.294545 -y 38.559243 -U 0.602495 -V 0.798122 -T 8.001085
+n -t 35.000000 -s 104 -x 36.728615 -y 24.007345 -U -0.675432 -V 0.737423 -T 3.039979
+n -t 35.000000 -s 105 -x 36.279162 -y 25.072206 -U -0.806229 -V 0.591604 -T 1.989318
+n -t 35.000000 -s 106 -x 35.245594 -y 25.828382 -U -0.804713 -V 0.593664 -T 0.708672
+n -t 35.000000 -s 119 -x 30.827795 -y 35.070009 -U 0.399804 -V -0.916600 -T 9.623511
 n -t 35 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 35 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 35 -s 2 -S COLOR -c black -o black -i black -I black
@@ -3844,8 +3841,10 @@ n -t 35 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 35 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 35 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 35 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 36.000000 -s 109 -x 40.661005 -y 41.715147 -U 0.628916 -V 0.777473 -T 5.752540
-n -t 36.000000 -s 117 -x 38.897041 -y 39.357366 -U 0.618903 -V 0.785467 -T 8.695751
+n -t 36.000000 -s 104 -x 36.053183 -y 24.744767 -U -0.711312 -V 0.702876 -T 2.738803
+n -t 36.000000 -s 105 -x 35.472933 -y 25.663810 -U -0.805597 -V 0.592464 -T 1.697988
+n -t 36.000000 -s 106 -x 34.675317 -y 26.249094 -U -0.804713 -V 0.593664 -T 0.708672
+n -t 36.000000 -s 119 -x 31.227599 -y 34.153409 -U 0.358885 -V -0.933382 -T 8.017728
 n -t 36 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 36 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 36 -s 2 -S COLOR -c black -o black -i black -I black
@@ -3946,8 +3945,10 @@ n -t 36 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 36 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 36 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 36 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 37.000000 -s 109 -x 41.289921 -y 42.492620 -U 0.643663 -V 0.765309 -T 6.451608
-n -t 37.000000 -s 117 -x 39.515944 -y 40.142833 -U 0.630960 -V 0.775815 -T 9.393041
+n -t 37.000000 -s 104 -x 35.341871 -y 25.447643 -U -0.739930 -V 0.672684 -T 2.442270
+n -t 37.000000 -s 105 -x 34.667336 -y 26.256274 -U -0.805152 -V 0.593069 -T 1.406659
+n -t 37.000000 -s 106 -x 34.105039 -y 26.669807 -U -0.804713 -V 0.593664 -T 0.708672
+n -t 37.000000 -s 119 -x 31.586484 -y 33.220027 -U 0.302919 -V -0.953016 -T 6.431691
 n -t 37 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 37 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 37 -s 2 -S COLOR -c black -o black -i black -I black
@@ -4048,8 +4049,10 @@ n -t 37 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 37 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 37 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 37 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 38.000000 -s 109 -x 41.933584 -y 43.257930 -U 0.653332 -V 0.757072 -T 7.152122
-n -t 38.000000 -s 117 -x 40.146904 -y 40.918648 -U 0.640053 -V 0.768330 -T 10.091949
+n -t 38.000000 -s 104 -x 34.601941 -y 26.120327 -U -0.762154 -V 0.647396 -T 2.148460
+n -t 38.000000 -s 105 -x 33.862185 -y 26.849343 -U -0.804873 -V 0.593447 -T 1.115331
+n -t 38.000000 -s 106 -x 33.534762 -y 27.090520 -U -0.804713 -V 0.593664 -T 0.708672
+n -t 38.000000 -s 119 -x 31.889402 -y 32.267011 -U 0.220495 -V -0.975388 -T 4.875780
 n -t 38 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 38 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 38 -s 2 -S COLOR -c black -o black -i black -I black
@@ -4150,8 +4153,10 @@ n -t 38 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 38 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 38 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 38 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 39.000000 -s 109 -x 42.586915 -y 44.015001 -U 0.659982 -V 0.751282 -T 7.853380
-n -t 39.000000 -s 117 -x 40.786958 -y 41.686978 -U 0.647064 -V 0.762436 -T 10.791892
+n -t 39.000000 -s 104 -x 33.839788 -y 26.767724 -U -0.778826 -V 0.627240 -T 1.856101
+n -t 39.000000 -s 105 -x 33.057312 -y 27.442790 -U -0.804735 -V 0.593634 -T 0.824002
+n -t 39.000000 -s 106 -x 32.964485 -y 27.511232 -U -0.804713 -V 0.593664 -T 0.708672
+n -t 39.000000 -s 119 -x 32.109897 -y 31.291622 -U 0.084323 -V -0.996438 -T 3.371686
 n -t 39 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 39 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 39 -s 2 -S COLOR -c black -o black -i black -I black
@@ -4252,9 +4257,10 @@ n -t 39 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 39 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 39 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 39 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 40.000000 -s 105 -x 59.265760 -y 61.345100 -U -0.712070 -V -0.702108 -T 14.509867
-n -t 40.000000 -s 109 -x 43.246897 -y 44.766283 -U 0.664732 -V 0.747082 -T 8.555050
-n -t 40.000000 -s 117 -x 41.434022 -y 42.449414 -U 0.652572 -V 0.757727 -T 11.492518
+n -t 40.000000 -s 104 -x 33.060962 -y 27.394964 -U -0.790726 -V 0.612170 -T 1.564424
+n -t 40.000000 -s 105 -x 32.394208 -y 27.931945 -U -0.804713 -V 0.593664 -T 0.708671
+n -t 40.000000 -s 106 -x 32.394208 -y 27.931945 -U -0.804713 -V 0.593664 -T 0.708671
+n -t 40.000000 -s 119 -x 32.194220 -y 30.295184 -U -0.187251 -V -0.982312 -T 1.977504
 n -t 40 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 40 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 40 -s 2 -S COLOR -c black -o black -i black -I black
@@ -4355,9 +4361,10 @@ n -t 40 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 40 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 40 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 40 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 41.000000 -s 105 -x 58.553690 -y 60.642992 -U -0.716084 -V -0.698014 -T 11.809046
-n -t 41.000000 -s 109 -x 43.911629 -y 45.513365 -U 0.668232 -V 0.743953 -T 9.256959
-n -t 41.000000 -s 117 -x 42.086593 -y 43.207141 -U 0.656970 -V 0.753917 -T 12.193607
+n -t 41.000000 -s 104 -x 32.270236 -y 28.007134 -U -0.798565 -V 0.601909 -T 1.273011
+n -t 41.000000 -s 105 -x 31.823931 -y 28.352658 -U -0.804713 -V 0.593664 -T 0.708672
+n -t 41.000000 -s 106 -x 31.823931 -y 28.352658 -U -0.804713 -V 0.593664 -T 0.708672
+n -t 41.000000 -s 119 -x 32.006969 -y 29.312872 -U -0.813009 -V -0.582252 -T 0.926578
 n -t 41 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 41 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 41 -s 2 -S COLOR -c black -o black -i black -I black
@@ -4458,9 +4465,10 @@ n -t 41 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 41 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 41 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 41 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 42.000000 -s 105 -x 57.837606 -y 59.944978 -U -0.721993 -V -0.691900 -T 9.108776
-n -t 42.000000 -s 109 -x 44.579860 -y 46.257318 -U 0.670877 -V 0.741569 -T 9.959015
-n -t 42.000000 -s 117 -x 42.743563 -y 43.961058 -U 0.660532 -V 0.750798 -T 12.895018
+n -t 42.000000 -s 104 -x 31.471671 -y 28.609042 -U -0.803012 -V 0.595963 -T 0.981672
+n -t 42.000000 -s 105 -x 31.253653 -y 28.773370 -U -0.804713 -V 0.593664 -T 0.708672
+n -t 42.000000 -s 106 -x 31.253653 -y 28.773370 -U -0.804713 -V 0.593664 -T 0.708672
+n -t 42.000000 -s 119 -x 31.253653 -y 28.773370 -U -0.804713 -V 0.593664 -T 0.708672
 n -t 42 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 42 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 42 -s 2 -S COLOR -c black -o black -i black -I black
@@ -4561,9 +4569,10 @@ n -t 42 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 42 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 42 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 42 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 43.000000 -s 105 -x 57.115612 -y 59.253078 -U -0.731840 -V -0.681476 -T 6.409556
-n -t 43.000000 -s 109 -x 45.250737 -y 46.998887 -U 0.672920 -V 0.739716 -T 10.661163
-n -t 43.000000 -s 117 -x 43.404095 -y 44.711856 -U 0.663453 -V 0.748218 -T 13.596658
+n -t 43.000000 -s 104 -x 30.683376 -y 29.194083 -U -0.804713 -V 0.593664 -T 0.708671
+n -t 43.000000 -s 105 -x 30.683376 -y 29.194083 -U -0.804713 -V 0.593664 -T 0.708671
+n -t 43.000000 -s 106 -x 30.683376 -y 29.194083 -U -0.804713 -V 0.593664 -T 0.708671
+n -t 43.000000 -s 119 -x 30.683376 -y 29.194083 -U -0.804713 -V 0.593664 -T 0.708671
 n -t 43 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 43 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 43 -s 2 -S COLOR -c black -o black -i black -I black
@@ -4664,9 +4673,10 @@ n -t 43 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 43 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 43 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 43 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 44.000000 -s 105 -x 56.383772 -y 58.571601 -U -0.752822 -V -0.658224 -T 3.712990
-n -t 44.000000 -s 109 -x 45.923657 -y 47.738603 -U 0.674526 -V 0.738251 -T 11.363373
-n -t 44.000000 -s 117 -x 44.067548 -y 45.460074 -U 0.665876 -V 0.746062 -T 14.298464
+n -t 44.000000 -s 104 -x 30.113099 -y 29.614796 -U -0.804713 -V 0.593664 -T 0.708672
+n -t 44.000000 -s 105 -x 30.113099 -y 29.614796 -U -0.804713 -V 0.593664 -T 0.708672
+n -t 44.000000 -s 106 -x 30.113099 -y 29.614796 -U -0.804713 -V 0.593664 -T 0.708672
+n -t 44.000000 -s 119 -x 30.113099 -y 29.614796 -U -0.804713 -V 0.593664 -T 0.708672
 n -t 44 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 44 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 44 -s 2 -S COLOR -c black -o black -i black -I black
@@ -4767,9 +4777,10 @@ n -t 44 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 44 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 44 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 44 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 45.000000 -s 102 -x 61.371190 -y 70.091130 -U -0.461573 -V -0.887102 -T 14.339951
-n -t 45.000000 -s 105 -x 55.630951 -y 57.913377 -U -0.850567 -V -0.525867 -T 1.033062
-n -t 45.000000 -s 109 -x 46.598183 -y 48.476854 -U 0.675811 -V 0.737075 -T 12.065623
+n -t 45.000000 -s 104 -x 29.542822 -y 30.035508 -U -0.804713 -V 0.593664 -T 0.708672
+n -t 45.000000 -s 105 -x 29.542822 -y 30.035508 -U -0.804713 -V 0.593664 -T 0.708672
+n -t 45.000000 -s 106 -x 29.542822 -y 30.035508 -U -0.804713 -V 0.593664 -T 0.708672
+n -t 45.000000 -s 119 -x 29.542822 -y 30.035508 -U -0.804713 -V 0.593664 -T 0.708672
 n -t 45 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 45 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 45 -s 2 -S COLOR -c black -o black -i black -I black
@@ -4870,9 +4881,10 @@ n -t 45 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 45 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 45 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 45 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 46.000000 -s 102 -x 60.909617 -y 69.204028 -U -0.426458 -V -0.904507 -T 11.709579
-n -t 46.000000 -s 105 -x 54.780384 -y 57.387510 -U 0.679801 -V 0.733396 -T 1.670472
-n -t 46.000000 -s 109 -x 47.273994 -y 49.213929 -U 0.676852 -V 0.736119 -T 12.767902
+n -t 46.000000 -s 104 -x 28.972544 -y 30.456221 -U -0.804713 -V 0.593664 -T 0.708672
+n -t 46.000000 -s 105 -x 28.972544 -y 30.456221 -U -0.804713 -V 0.593664 -T 0.708672
+n -t 46.000000 -s 106 -x 28.972544 -y 30.456221 -U -0.804713 -V 0.593664 -T 0.708672
+n -t 46.000000 -s 119 -x 28.972544 -y 30.456221 -U -0.804713 -V 0.593664 -T 0.708672
 n -t 46 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 46 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 46 -s 2 -S COLOR -c black -o black -i black -I black
@@ -4973,9 +4985,10 @@ n -t 46 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 46 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 46 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 46 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 47.000000 -s 102 -x 60.483159 -y 68.299520 -U -0.373825 -V -0.927499 -T 9.104469
-n -t 47.000000 -s 105 -x 55.460185 -y 58.120906 -U 0.682518 -V 0.730869 -T 2.372827
-n -t 47.000000 -s 109 -x 47.950846 -y 49.950048 -U 0.677706 -V 0.735333 -T 13.470202
+n -t 47.000000 -s 104 -x 28.402267 -y 30.876934 -U -0.804713 -V 0.593664 -T 0.708672
+n -t 47.000000 -s 105 -x 28.402267 -y 30.876934 -U -0.804713 -V 0.593664 -T 0.708672
+n -t 47.000000 -s 106 -x 28.402267 -y 30.876934 -U -0.804713 -V 0.593664 -T 0.708672
+n -t 47.000000 -s 119 -x 28.402267 -y 30.876934 -U -0.804713 -V 0.593664 -T 0.708672
 n -t 47 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 47 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 47 -s 2 -S COLOR -c black -o black -i black -I black
@@ -5076,9 +5089,10 @@ n -t 47 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 47 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 47 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 47 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 48.000000 -s 102 -x 60.109335 -y 67.372021 -U -0.285052 -V -0.958512 -T 6.545965
-n -t 48.000000 -s 105 -x 56.142703 -y 58.851775 -U 0.683109 -V 0.730316 -T 3.075188
-n -t 48.000000 -s 109 -x 48.628552 -y 50.685381 -U 0.678415 -V 0.734679 -T 14.172515
+n -t 48.000000 -s 104 -x 27.831990 -y 31.297646 -U -0.804713 -V 0.593664 -T 0.708672
+n -t 48.000000 -s 105 -x 27.831990 -y 31.297646 -U -0.804713 -V 0.593664 -T 0.708672
+n -t 48.000000 -s 106 -x 27.831990 -y 31.297646 -U -0.804713 -V 0.593664 -T 0.708672
+n -t 48.000000 -s 119 -x 27.831990 -y 31.297646 -U -0.804713 -V 0.593664 -T 0.708672
 n -t 48 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 48 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 48 -s 2 -S COLOR -c black -o black -i black -I black
@@ -5179,9 +5193,10 @@ n -t 48 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 48 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 48 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 48 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 49.000000 -s 102 -x 59.824282 -y 66.413509 -U -0.101883 -V -0.994796 -T 4.094678
-n -t 49.000000 -s 105 -x 56.825813 -y 59.582091 -U 0.683324 -V 0.730115 -T 3.777550
-n -t 49.000000 -s 109 -x 49.306967 -y 51.420060 -U 0.679008 -V 0.734131 -T 14.874840
+n -t 49.000000 -s 104 -x 27.261713 -y 31.718359 -U -0.804713 -V 0.593664 -T 0.708671
+n -t 49.000000 -s 105 -x 27.261713 -y 31.718359 -U -0.804713 -V 0.593664 -T 0.708671
+n -t 49.000000 -s 106 -x 27.261713 -y 31.718359 -U -0.804713 -V 0.593664 -T 0.708671
+n -t 49.000000 -s 119 -x 27.261713 -y 31.718359 -U -0.804713 -V 0.593664 -T 0.708671
 n -t 49 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 49 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 49 -s 2 -S COLOR -c black -o black -i black -I black
@@ -5282,9 +5297,10 @@ n -t 49 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 49 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 49 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 49 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 50.000000 -s 102 -x 59.722399 -y 65.418713 -U 0.419464 -V -0.907772 -T 2.022613
-n -t 50.000000 -s 105 -x 57.509137 -y 60.312206 -U 0.683423 -V 0.730022 -T 4.479912
-n -t 50.000000 -s 106 -x 71.978250 -y 54.113970 -U -0.769465 -V 0.638689 -T 14.825159
+n -t 50.000000 -s 104 -x 26.691435 -y 32.139072 -U -0.804713 -V 0.593664 -T 0.708672
+n -t 50.000000 -s 105 -x 26.691435 -y 32.139072 -U -0.804713 -V 0.593664 -T 0.708672
+n -t 50.000000 -s 106 -x 26.691435 -y 32.139072 -U -0.804713 -V 0.593664 -T 0.708672
+n -t 50.000000 -s 119 -x 26.691435 -y 32.139072 -U -0.804713 -V 0.593664 -T 0.708672
 n -t 50 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 50 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 50 -s 2 -S COLOR -c black -o black -i black -I black
@@ -5385,9 +5401,10 @@ n -t 50 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 50 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 50 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 50 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 51.000000 -s 102 -x 60.141864 -y 64.510941 -U 0.981090 -V 0.193552 -T 1.623358
-n -t 51.000000 -s 105 -x 58.192560 -y 61.042228 -U 0.683477 -V 0.729972 -T 5.182274
-n -t 51.000000 -s 106 -x 71.208785 -y 54.752659 -U -0.685145 -V 0.728407 -T 13.828109
+n -t 51.000000 -s 104 -x 26.121158 -y 32.559785 -U -0.804713 -V 0.593664 -T 0.708672
+n -t 51.000000 -s 105 -x 26.121158 -y 32.559785 -U -0.804713 -V 0.593664 -T 0.708672
+n -t 51.000000 -s 106 -x 26.121158 -y 32.559785 -U -0.804713 -V 0.593664 -T 0.708672
+n -t 51.000000 -s 119 -x 26.121158 -y 32.559785 -U -0.804713 -V 0.593664 -T 0.708672
 n -t 51 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 51 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 51 -s 2 -S COLOR -c black -o black -i black -I black
@@ -5488,9 +5505,10 @@ n -t 51 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 51 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 51 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 51 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 52.000000 -s 102 -x 61.122954 -y 64.704493 -U 0.793151 -V 0.609024 -T 2.238261
-n -t 52.000000 -s 105 -x 58.876037 -y 61.772201 -U 0.683508 -V 0.729943 -T 5.884636
-n -t 52.000000 -s 106 -x 70.523640 -y 55.481066 -U -0.584460 -V 0.811423 -T 13.046937
+n -t 52.000000 -s 104 -x 25.550881 -y 32.980497 -U -0.804713 -V 0.593664 -T 0.708671
+n -t 52.000000 -s 105 -x 25.550881 -y 32.980497 -U -0.804713 -V 0.593664 -T 0.708671
+n -t 52.000000 -s 106 -x 25.550881 -y 32.980497 -U -0.804713 -V 0.593664 -T 0.708671
+n -t 52.000000 -s 119 -x 25.550881 -y 32.980497 -U -0.804713 -V 0.593664 -T 0.708671
 n -t 52 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 52 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 52 -s 2 -S COLOR -c black -o black -i black -I black
@@ -5591,11 +5609,10 @@ n -t 52 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 52 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 52 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 52 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 53.000000 -s 100 -x 77.905990 -y 70.607240 -U -0.972792 -V -0.231679 -T 14.231247
-n -t 53.000000 -s 102 -x 61.916105 -y 65.313517 -U 0.732101 -V 0.681196 -T 2.931071
-n -t 53.000000 -s 105 -x 59.559545 -y 62.502144 -U 0.683528 -V 0.729924 -T 6.586998
-n -t 53.000000 -s 106 -x 69.939181 -y 56.292489 -U -0.470660 -V 0.882315 -T 12.487226
-n -t 53.000000 -s 115 -x 76.053530 -y 58.628990 -U -0.810019 -V 0.586403 -T 14.804077
+n -t 53.000000 -s 104 -x 24.980604 -y 33.401210 -U -0.804713 -V 0.593664 -T 0.708672
+n -t 53.000000 -s 105 -x 24.980604 -y 33.401210 -U -0.804713 -V 0.593664 -T 0.708672
+n -t 53.000000 -s 106 -x 24.980604 -y 33.401210 -U -0.804713 -V 0.593664 -T 0.708672
+n -t 53.000000 -s 119 -x 24.980604 -y 33.401210 -U -0.804713 -V 0.593664 -T 0.708672
 n -t 53 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 53 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 53 -s 2 -S COLOR -c black -o black -i black -I black
@@ -5696,11 +5713,10 @@ n -t 53 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 53 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 53 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 53 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 54.000000 -s 100 -x 76.933198 -y 70.375561 -U -0.982369 -V -0.186950 -T 12.387649
-n -t 54.000000 -s 102 -x 62.648206 -y 65.994714 -U 0.715641 -V 0.698469 -T 2.956434
-n -t 54.000000 -s 105 -x 60.243073 -y 63.232068 -U 0.683537 -V 0.729916 -T 6.613945
-n -t 54.000000 -s 106 -x 69.468521 -y 57.174804 -U -0.396740 -V 0.917931 -T 11.858066
-n -t 54.000000 -s 115 -x 75.243511 -y 59.215393 -U -0.764214 -V 0.644963 -T 13.712869
+n -t 54.000000 -s 104 -x 24.410326 -y 33.821923 -U -0.804713 -V 0.593664 -T 0.502485
+n -t 54.000000 -s 105 -x 24.410326 -y 33.821923 -U -0.804713 -V 0.593664 -T 0.502485
+n -t 54.000000 -s 106 -x 24.410326 -y 33.821923 -U -0.804713 -V 0.593664 -T 0.502485
+n -t 54.000000 -s 119 -x 24.410326 -y 33.821923 -U -0.804713 -V 0.593664 -T 0.502485
 n -t 54 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 54 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 54 -s 2 -S COLOR -c black -o black -i black -I black
@@ -5801,11 +5817,10 @@ n -t 54 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 54 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 54 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 54 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 55.000000 -s 100 -x 75.950828 -y 70.188611 -U -0.982369 -V -0.186950 -T 11.387649
-n -t 55.000000 -s 102 -x 63.363846 -y 66.693182 -U 0.715641 -V 0.698469 -T 1.956434
-n -t 55.000000 -s 105 -x 60.926610 -y 63.961983 -U 0.683537 -V 0.729916 -T 5.613945
-n -t 55.000000 -s 106 -x 69.071781 -y 58.092734 -U -0.396740 -V 0.917931 -T 10.858066
-n -t 55.000000 -s 115 -x 74.479297 -y 59.860357 -U -0.764214 -V 0.644963 -T 12.712869
+n -t 55.000000 -s 104 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 55.000000 -s 105 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 55.000000 -s 106 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 55.000000 -s 119 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
 n -t 55 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 55 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 55 -s 2 -S COLOR -c black -o black -i black -I black
@@ -5906,11 +5921,10 @@ n -t 55 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 55 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 55 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 55 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 56.000000 -s 100 -x 74.968459 -y 70.001661 -U -0.982369 -V -0.186950 -T 10.387649
-n -t 56.000000 -s 102 -x 64.079487 -y 67.391651 -U 0.715641 -V 0.698469 -T 0.956434
-n -t 56.000000 -s 105 -x 61.610147 -y 64.691899 -U 0.683537 -V 0.729916 -T 4.613945
-n -t 56.000000 -s 106 -x 68.675041 -y 59.010665 -U -0.396740 -V 0.917931 -T 9.858066
-n -t 56.000000 -s 115 -x 73.715084 -y 60.505320 -U -0.764214 -V 0.644963 -T 11.712869
+n -t 56.000000 -s 104 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 56.000000 -s 105 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 56.000000 -s 106 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 56.000000 -s 119 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
 n -t 56 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 56 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 56 -s 2 -S COLOR -c black -o black -i black -I black
@@ -6011,12 +6025,10 @@ n -t 56 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 56 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 56 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 56 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 57.000000 -s 100 -x 73.986090 -y 69.814711 -U -0.982369 -V -0.186950 -T 9.387649
-n -t 57.000000 -s 102 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 57.000000 -s 105 -x 62.293685 -y 65.421815 -U 0.683537 -V 0.729916 -T 3.613945
-n -t 57.000000 -s 106 -x 68.278300 -y 59.928596 -U -0.396740 -V 0.917931 -T 8.858066
-n -t 57.000000 -s 109 -x 54.739031 -y 57.293107 -U 0.681450 -V 0.731865 -T 14.711163
-n -t 57.000000 -s 115 -x 72.950870 -y 61.150283 -U -0.764214 -V 0.644963 -T 10.712869
+n -t 57.000000 -s 104 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 57.000000 -s 105 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 57.000000 -s 106 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 57.000000 -s 119 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
 n -t 57 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 57 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 57 -s 2 -S COLOR -c black -o black -i black -I black
@@ -6117,12 +6129,10 @@ n -t 57 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 57 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 57 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 57 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 58.000000 -s 100 -x 73.003720 -y 69.627761 -U -0.982369 -V -0.186950 -T 8.387649
-n -t 58.000000 -s 102 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 58.000000 -s 105 -x 62.977222 -y 66.151731 -U 0.683537 -V 0.729916 -T 2.613945
-n -t 58.000000 -s 106 -x 67.881560 -y 60.846527 -U -0.396740 -V 0.917931 -T 7.858066
-n -t 58.000000 -s 109 -x 55.420481 -y 58.024971 -U 0.681450 -V 0.731865 -T 13.711163
-n -t 58.000000 -s 115 -x 72.186657 -y 61.795246 -U -0.764214 -V 0.644963 -T 9.712869
+n -t 58.000000 -s 104 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 58.000000 -s 105 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 58.000000 -s 106 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 58.000000 -s 119 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
 n -t 58 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 58 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 58 -s 2 -S COLOR -c black -o black -i black -I black
@@ -6223,12 +6233,10 @@ n -t 58 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 58 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 58 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 58 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 59.000000 -s 100 -x 72.021351 -y 69.440811 -U -0.982369 -V -0.186950 -T 7.387649
-n -t 59.000000 -s 102 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 59.000000 -s 105 -x 63.660759 -y 66.881646 -U 0.683537 -V 0.729916 -T 1.613945
-n -t 59.000000 -s 106 -x 67.484820 -y 61.764458 -U -0.396740 -V 0.917931 -T 6.858066
-n -t 59.000000 -s 109 -x 56.101931 -y 58.756836 -U 0.681450 -V 0.731865 -T 12.711163
-n -t 59.000000 -s 115 -x 71.422443 -y 62.440210 -U -0.764214 -V 0.644963 -T 8.712869
+n -t 59.000000 -s 104 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 59.000000 -s 105 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 59.000000 -s 106 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 59.000000 -s 119 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
 n -t 59 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 59 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 59 -s 2 -S COLOR -c black -o black -i black -I black
@@ -6329,12 +6337,10 @@ n -t 59 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 59 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 59 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 59 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 60.000000 -s 100 -x 71.038981 -y 69.253861 -U -0.982369 -V -0.186950 -T 6.387649
-n -t 60.000000 -s 102 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 60.000000 -s 105 -x 64.344296 -y 67.611562 -U 0.683537 -V 0.729916 -T 0.613945
-n -t 60.000000 -s 106 -x 67.088080 -y 62.682389 -U -0.396740 -V 0.917931 -T 5.858066
-n -t 60.000000 -s 109 -x 56.783381 -y 59.488701 -U 0.681450 -V 0.731865 -T 11.711163
-n -t 60.000000 -s 115 -x 70.658229 -y 63.085173 -U -0.764214 -V 0.644963 -T 7.712869
+n -t 60.000000 -s 104 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 60.000000 -s 105 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 60.000000 -s 106 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 60.000000 -s 119 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
 n -t 60 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 60 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 60 -s 2 -S COLOR -c black -o black -i black -I black
@@ -6435,12 +6441,10 @@ n -t 60 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 60 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 60 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 60 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 61.000000 -s 100 -x 70.056612 -y 69.066911 -U -0.982369 -V -0.186950 -T 5.387649
-n -t 61.000000 -s 102 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 61.000000 -s 105 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 61.000000 -s 106 -x 66.691340 -y 63.600320 -U -0.396740 -V 0.917931 -T 4.858066
-n -t 61.000000 -s 109 -x 57.464830 -y 60.220566 -U 0.681450 -V 0.731865 -T 10.711163
-n -t 61.000000 -s 115 -x 69.894016 -y 63.730136 -U -0.764214 -V 0.644963 -T 6.712869
+n -t 61.000000 -s 104 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 61.000000 -s 105 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 61.000000 -s 106 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 61.000000 -s 119 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
 n -t 61 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 61 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 61 -s 2 -S COLOR -c black -o black -i black -I black
@@ -6541,12 +6545,10 @@ n -t 61 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 61 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 61 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 61 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 62.000000 -s 100 -x 69.074242 -y 68.879961 -U -0.982369 -V -0.186950 -T 4.387649
-n -t 62.000000 -s 102 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 62.000000 -s 105 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 62.000000 -s 106 -x 66.294600 -y 64.518251 -U -0.396740 -V 0.917931 -T 3.858066
-n -t 62.000000 -s 109 -x 58.146280 -y 60.952431 -U 0.681450 -V 0.731865 -T 9.711163
-n -t 62.000000 -s 115 -x 69.129802 -y 64.375099 -U -0.764214 -V 0.644963 -T 5.712869
+n -t 62.000000 -s 104 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 62.000000 -s 105 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 62.000000 -s 106 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 62.000000 -s 119 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
 n -t 62 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 62 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 62 -s 2 -S COLOR -c black -o black -i black -I black
@@ -6647,12 +6649,10 @@ n -t 62 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 62 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 62 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 62 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 63.000000 -s 100 -x 68.091873 -y 68.693011 -U -0.982369 -V -0.186950 -T 3.387649
-n -t 63.000000 -s 102 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 63.000000 -s 105 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 63.000000 -s 106 -x 65.897860 -y 65.436182 -U -0.396740 -V 0.917931 -T 2.858066
-n -t 63.000000 -s 109 -x 58.827730 -y 61.684296 -U 0.681450 -V 0.731865 -T 8.711163
-n -t 63.000000 -s 115 -x 68.365589 -y 65.020063 -U -0.764214 -V 0.644963 -T 4.712869
+n -t 63.000000 -s 104 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 63.000000 -s 105 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 63.000000 -s 106 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 63.000000 -s 119 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
 n -t 63 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 63 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 63 -s 2 -S COLOR -c black -o black -i black -I black
@@ -6753,12 +6753,10 @@ n -t 63 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 63 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 63 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 63 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 64.000000 -s 100 -x 67.109503 -y 68.506061 -U -0.982369 -V -0.186950 -T 2.387649
-n -t 64.000000 -s 102 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 64.000000 -s 105 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 64.000000 -s 106 -x 65.501120 -y 66.354113 -U -0.396740 -V 0.917931 -T 1.858066
-n -t 64.000000 -s 109 -x 59.509180 -y 62.416161 -U 0.681450 -V 0.731865 -T 7.711163
-n -t 64.000000 -s 115 -x 67.601375 -y 65.665026 -U -0.764214 -V 0.644963 -T 3.712869
+n -t 64.000000 -s 104 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 64.000000 -s 105 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 64.000000 -s 106 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 64.000000 -s 119 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
 n -t 64 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 64 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 64 -s 2 -S COLOR -c black -o black -i black -I black
@@ -6859,12 +6857,10 @@ n -t 64 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 64 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 64 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 64 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 65.000000 -s 100 -x 66.127134 -y 68.319111 -U -0.982369 -V -0.186950 -T 1.387649
-n -t 65.000000 -s 102 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 65.000000 -s 105 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 65.000000 -s 106 -x 65.104379 -y 67.272044 -U -0.396740 -V 0.917931 -T 0.858066
-n -t 65.000000 -s 109 -x 60.190630 -y 63.148026 -U 0.681450 -V 0.731865 -T 6.711163
-n -t 65.000000 -s 115 -x 66.837161 -y 66.309989 -U -0.764214 -V 0.644963 -T 2.712869
+n -t 65.000000 -s 104 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 65.000000 -s 105 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 65.000000 -s 106 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 65.000000 -s 119 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
 n -t 65 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 65 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 65 -s 2 -S COLOR -c black -o black -i black -I black
@@ -6965,12 +6961,10 @@ n -t 65 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 65 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 65 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 65 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 66.000000 -s 100 -x 65.144765 -y 68.132161 -U -0.982369 -V -0.186950 -T 0.387649
-n -t 66.000000 -s 102 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 66.000000 -s 105 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 66.000000 -s 106 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 66.000000 -s 109 -x 60.872079 -y 63.879890 -U 0.681450 -V 0.731865 -T 5.711163
-n -t 66.000000 -s 115 -x 66.072948 -y 66.954952 -U -0.764214 -V 0.644963 -T 1.712869
+n -t 66.000000 -s 104 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 66.000000 -s 105 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 66.000000 -s 106 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 66.000000 -s 119 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
 n -t 66 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 66 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 66 -s 2 -S COLOR -c black -o black -i black -I black
@@ -7071,12 +7065,10 @@ n -t 66 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 66 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 66 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 66 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 67.000000 -s 100 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 67.000000 -s 102 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 67.000000 -s 105 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 67.000000 -s 106 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 67.000000 -s 109 -x 61.553529 -y 64.611755 -U 0.681450 -V 0.731865 -T 4.711163
-n -t 67.000000 -s 115 -x 65.308734 -y 67.599916 -U -0.764214 -V 0.644963 -T 0.712869
+n -t 67.000000 -s 104 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 67.000000 -s 105 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 67.000000 -s 106 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 67.000000 -s 119 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
 n -t 67 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 67 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 67 -s 2 -S COLOR -c black -o black -i black -I black
@@ -7177,12 +7169,10 @@ n -t 67 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 67 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 67 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 67 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 68.000000 -s 100 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 68.000000 -s 102 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 68.000000 -s 105 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 68.000000 -s 106 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 68.000000 -s 109 -x 62.234979 -y 65.343620 -U 0.681450 -V 0.731865 -T 3.711163
-n -t 68.000000 -s 115 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 68.000000 -s 104 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 68.000000 -s 105 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 68.000000 -s 106 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 68.000000 -s 119 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
 n -t 68 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 68 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 68 -s 2 -S COLOR -c black -o black -i black -I black
@@ -7283,12 +7273,10 @@ n -t 68 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 68 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 68 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 68 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 69.000000 -s 100 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 69.000000 -s 102 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 69.000000 -s 105 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 69.000000 -s 106 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 69.000000 -s 109 -x 62.916429 -y 66.075485 -U 0.681450 -V 0.731865 -T 2.711163
-n -t 69.000000 -s 115 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 69.000000 -s 104 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 69.000000 -s 105 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 69.000000 -s 106 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 69.000000 -s 119 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
 n -t 69 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 69 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 69 -s 2 -S COLOR -c black -o black -i black -I black
@@ -7389,12 +7377,10 @@ n -t 69 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 69 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 69 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 69 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 70.000000 -s 100 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 70.000000 -s 102 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 70.000000 -s 105 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 70.000000 -s 106 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 70.000000 -s 109 -x 63.597878 -y 66.807350 -U 0.681450 -V 0.731865 -T 1.711163
-n -t 70.000000 -s 115 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 70.000000 -s 104 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 70.000000 -s 105 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 70.000000 -s 106 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 70.000000 -s 119 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
 n -t 70 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 70 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 70 -s 2 -S COLOR -c black -o black -i black -I black
@@ -7495,12 +7481,10 @@ n -t 70 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 70 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 70 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 70 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 71.000000 -s 100 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 71.000000 -s 102 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 71.000000 -s 105 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 71.000000 -s 106 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 71.000000 -s 109 -x 64.279328 -y 67.539215 -U 0.681450 -V 0.731865 -T 0.711163
-n -t 71.000000 -s 115 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 71.000000 -s 104 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 71.000000 -s 105 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 71.000000 -s 106 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 71.000000 -s 119 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
 n -t 71 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 71 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 71 -s 2 -S COLOR -c black -o black -i black -I black
@@ -7601,13 +7585,11 @@ n -t 71 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 71 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 71 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 71 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 72.000000 -s 120 -x 64.763950 -y 68.059690 -U -0.202116 -V -0.236616 -T 263.732080
-n -t 72.000000 -s 100 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 72.000000 -s 102 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 72.000000 -s 105 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 72.000000 -s 106 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 72.000000 -s 109 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
-n -t 72.000000 -s 115 -x 64.763950 -y 68.059690 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 72.000000 -s 120 -x 24.005970 -y 34.120230 -U -0.320259 -V 1.984040 -T 15.504968
+n -t 72.000000 -s 104 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 72.000000 -s 105 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 72.000000 -s 106 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
+n -t 72.000000 -s 119 -x 24.005970 -y 34.120230 -U 0.000000 -V 0.000000 -T 0.000000
 n -t 72 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 72 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 72 -s 2 -S COLOR -c black -o black -i black -I black
@@ -7708,12 +7690,10 @@ n -t 72 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 72 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 72 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 72 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 73.000000 -s 100 -x 64.763950 -y 68.059690 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 73.000000 -s 102 -x 64.763950 -y 68.059690 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 73.000000 -s 105 -x 64.763950 -y 68.059690 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 73.000000 -s 106 -x 64.763950 -y 68.059690 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 73.000000 -s 109 -x 64.763950 -y 68.059690 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 73.000000 -s 115 -x 64.763950 -y 68.059690 -U -0.649498 -V -0.760363 -T 0.311188
+n -t 73.000000 -s 104 -x 24.005970 -y 34.120230 -U -0.159355 -V 0.987221 -T 2.009721
+n -t 73.000000 -s 105 -x 24.005970 -y 34.120230 -U -0.159355 -V 0.987221 -T 2.009721
+n -t 73.000000 -s 106 -x 24.005970 -y 34.120230 -U -0.159355 -V 0.987221 -T 2.009721
+n -t 73.000000 -s 119 -x 24.005970 -y 34.120230 -U -0.159355 -V 0.987221 -T 2.009721
 n -t 73 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 73 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 73 -s 2 -S COLOR -c black -o black -i black -I black
@@ -7814,12 +7794,10 @@ n -t 73 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 73 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 73 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 73 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 74.000000 -s 100 -x 64.561834 -y 67.823074 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 74.000000 -s 102 -x 64.561834 -y 67.823074 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 74.000000 -s 105 -x 64.561834 -y 67.823074 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 74.000000 -s 106 -x 64.561834 -y 67.823074 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 74.000000 -s 109 -x 64.561834 -y 67.823074 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 74.000000 -s 115 -x 64.561834 -y 67.823074 -U -0.649498 -V -0.760363 -T 0.311188
+n -t 74.000000 -s 104 -x 23.846615 -y 35.107451 -U -0.159355 -V 0.987221 -T 3.019442
+n -t 74.000000 -s 105 -x 23.846615 -y 35.107451 -U -0.159355 -V 0.987221 -T 3.019442
+n -t 74.000000 -s 106 -x 23.846615 -y 35.107451 -U -0.159355 -V 0.987221 -T 3.019442
+n -t 74.000000 -s 119 -x 23.846615 -y 35.107451 -U -0.159355 -V 0.987221 -T 3.019442
 n -t 74 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 74 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 74 -s 2 -S COLOR -c black -o black -i black -I black
@@ -7920,12 +7898,10 @@ n -t 74 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 74 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 74 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 74 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 75.000000 -s 100 -x 64.359718 -y 67.586459 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 75.000000 -s 102 -x 64.359718 -y 67.586459 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 75.000000 -s 105 -x 64.359718 -y 67.586459 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 75.000000 -s 106 -x 64.359718 -y 67.586459 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 75.000000 -s 109 -x 64.359718 -y 67.586459 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 75.000000 -s 115 -x 64.359718 -y 67.586459 -U -0.649498 -V -0.760363 -T 0.311188
+n -t 75.000000 -s 104 -x 23.687260 -y 36.094673 -U -0.159355 -V 0.987221 -T 4.029163
+n -t 75.000000 -s 105 -x 23.687260 -y 36.094673 -U -0.159355 -V 0.987221 -T 4.029163
+n -t 75.000000 -s 106 -x 23.687260 -y 36.094673 -U -0.159355 -V 0.987221 -T 4.029163
+n -t 75.000000 -s 119 -x 23.687260 -y 36.094673 -U -0.159355 -V 0.987221 -T 4.029163
 n -t 75 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 75 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 75 -s 2 -S COLOR -c black -o black -i black -I black
@@ -8026,12 +8002,10 @@ n -t 75 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 75 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 75 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 75 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 76.000000 -s 100 -x 64.157603 -y 67.349843 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 76.000000 -s 102 -x 64.157603 -y 67.349843 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 76.000000 -s 105 -x 64.157603 -y 67.349843 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 76.000000 -s 106 -x 64.157603 -y 67.349843 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 76.000000 -s 109 -x 64.157603 -y 67.349843 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 76.000000 -s 115 -x 64.157603 -y 67.349843 -U -0.649498 -V -0.760363 -T 0.311188
+n -t 76.000000 -s 104 -x 23.527906 -y 37.081894 -U -0.159355 -V 0.987221 -T 5.038884
+n -t 76.000000 -s 105 -x 23.527906 -y 37.081894 -U -0.159355 -V 0.987221 -T 5.038884
+n -t 76.000000 -s 106 -x 23.527906 -y 37.081894 -U -0.159355 -V 0.987221 -T 5.038884
+n -t 76.000000 -s 119 -x 23.527906 -y 37.081894 -U -0.159355 -V 0.987221 -T 5.038884
 n -t 76 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 76 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 76 -s 2 -S COLOR -c black -o black -i black -I black
@@ -8132,13 +8106,10 @@ n -t 76 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 76 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 76 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 76 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 77.000000 -s 100 -x 63.955487 -y 67.113227 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 77.000000 -s 102 -x 63.955487 -y 67.113227 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 77.000000 -s 105 -x 63.955487 -y 67.113227 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 77.000000 -s 106 -x 63.955487 -y 67.113227 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 77.000000 -s 109 -x 63.955487 -y 67.113227 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 77.000000 -s 115 -x 63.955487 -y 67.113227 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 77.000000 -s 117 -x 53.588552 -y 56.127620 -U 0.687088 -V 0.726575 -T 14.794065
+n -t 77.000000 -s 104 -x 23.368551 -y 38.069116 -U -0.159355 -V 0.987221 -T 6.048605
+n -t 77.000000 -s 105 -x 23.368551 -y 38.069116 -U -0.159355 -V 0.987221 -T 6.048605
+n -t 77.000000 -s 106 -x 23.368551 -y 38.069116 -U -0.159355 -V 0.987221 -T 6.048605
+n -t 77.000000 -s 119 -x 23.368551 -y 38.069116 -U -0.159355 -V 0.987221 -T 6.048605
 n -t 77 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 77 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 77 -s 2 -S COLOR -c black -o black -i black -I black
@@ -8239,13 +8210,10 @@ n -t 77 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 77 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 77 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 77 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 78.000000 -s 100 -x 63.753371 -y 66.876612 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 78.000000 -s 102 -x 63.753371 -y 66.876612 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 78.000000 -s 105 -x 63.753371 -y 66.876612 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 78.000000 -s 106 -x 63.753371 -y 66.876612 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 78.000000 -s 109 -x 63.753371 -y 66.876612 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 78.000000 -s 115 -x 63.753371 -y 66.876612 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 78.000000 -s 117 -x 54.275640 -y 56.854195 -U 0.687934 -V 0.725773 -T 13.483284
+n -t 78.000000 -s 104 -x 23.209196 -y 39.056337 -U -0.159355 -V 0.987221 -T 7.058326
+n -t 78.000000 -s 105 -x 23.209196 -y 39.056337 -U -0.159355 -V 0.987221 -T 7.058326
+n -t 78.000000 -s 106 -x 23.209196 -y 39.056337 -U -0.159355 -V 0.987221 -T 7.058326
+n -t 78.000000 -s 119 -x 23.209196 -y 39.056337 -U -0.159355 -V 0.987221 -T 7.058326
 n -t 78 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 78 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 78 -s 2 -S COLOR -c black -o black -i black -I black
@@ -8346,13 +8314,10 @@ n -t 78 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 78 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 78 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 78 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 79.000000 -s 100 -x 63.551255 -y 66.639996 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 79.000000 -s 102 -x 63.551255 -y 66.639996 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 79.000000 -s 105 -x 63.551255 -y 66.639996 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 79.000000 -s 106 -x 63.551255 -y 66.639996 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 79.000000 -s 109 -x 63.551255 -y 66.639996 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 79.000000 -s 115 -x 63.551255 -y 66.639996 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 79.000000 -s 117 -x 54.963574 -y 57.579968 -U 0.688893 -V 0.724863 -T 12.172523
+n -t 79.000000 -s 104 -x 23.049841 -y 40.043558 -U -0.159355 -V 0.987221 -T 8.068047
+n -t 79.000000 -s 105 -x 23.049841 -y 40.043558 -U -0.159355 -V 0.987221 -T 8.068047
+n -t 79.000000 -s 106 -x 23.049841 -y 40.043558 -U -0.159355 -V 0.987221 -T 8.068047
+n -t 79.000000 -s 119 -x 23.049841 -y 40.043558 -U -0.159355 -V 0.987221 -T 8.068047
 n -t 79 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 79 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 79 -s 2 -S COLOR -c black -o black -i black -I black
@@ -8453,13 +8418,10 @@ n -t 79 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 79 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 79 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 79 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 80.000000 -s 100 -x 63.349139 -y 66.403380 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 80.000000 -s 102 -x 63.349139 -y 66.403380 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 80.000000 -s 105 -x 63.349139 -y 66.403380 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 80.000000 -s 106 -x 63.349139 -y 66.403380 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 80.000000 -s 109 -x 63.349139 -y 66.403380 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 80.000000 -s 115 -x 63.349139 -y 66.403380 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 80.000000 -s 117 -x 55.652467 -y 58.304831 -U 0.689993 -V 0.723816 -T 10.861785
+n -t 80.000000 -s 104 -x 22.890487 -y 41.030780 -U -0.159355 -V 0.987221 -T 9.077768
+n -t 80.000000 -s 105 -x 22.890487 -y 41.030780 -U -0.159355 -V 0.987221 -T 9.077768
+n -t 80.000000 -s 106 -x 22.890487 -y 41.030780 -U -0.159355 -V 0.987221 -T 9.077768
+n -t 80.000000 -s 119 -x 22.890487 -y 41.030780 -U -0.159355 -V 0.987221 -T 9.077768
 n -t 80 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 80 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 80 -s 2 -S COLOR -c black -o black -i black -I black
@@ -8560,13 +8522,10 @@ n -t 80 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 80 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 80 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 80 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 81.000000 -s 100 -x 63.147024 -y 66.166764 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 81.000000 -s 102 -x 63.147024 -y 66.166764 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 81.000000 -s 105 -x 63.147024 -y 66.166764 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 81.000000 -s 106 -x 63.147024 -y 66.166764 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 81.000000 -s 109 -x 63.147024 -y 66.166764 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 81.000000 -s 115 -x 63.147024 -y 66.166764 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 81.000000 -s 117 -x 56.342460 -y 59.028647 -U 0.691278 -V 0.722589 -T 9.551075
+n -t 81.000000 -s 104 -x 22.731132 -y 42.018001 -U -0.159355 -V 0.987221 -T 10.087489
+n -t 81.000000 -s 105 -x 22.731132 -y 42.018001 -U -0.159355 -V 0.987221 -T 10.087489
+n -t 81.000000 -s 106 -x 22.731132 -y 42.018001 -U -0.159355 -V 0.987221 -T 10.087489
+n -t 81.000000 -s 119 -x 22.731132 -y 42.018001 -U -0.159355 -V 0.987221 -T 10.087489
 n -t 81 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 81 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 81 -s 2 -S COLOR -c black -o black -i black -I black
@@ -8667,13 +8626,10 @@ n -t 81 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 81 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 81 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 81 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 82.000000 -s 100 -x 62.944908 -y 65.930149 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 82.000000 -s 102 -x 62.944908 -y 65.930149 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 82.000000 -s 105 -x 62.944908 -y 65.930149 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 82.000000 -s 106 -x 62.944908 -y 65.930149 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 82.000000 -s 109 -x 62.944908 -y 65.930149 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 82.000000 -s 115 -x 62.944908 -y 65.930149 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 82.000000 -s 117 -x 57.033738 -y 59.751236 -U 0.692813 -V 0.721118 -T 8.240400
+n -t 82.000000 -s 104 -x 22.571777 -y 43.005222 -U -0.159355 -V 0.987221 -T 11.097210
+n -t 82.000000 -s 105 -x 22.571777 -y 43.005222 -U -0.159355 -V 0.987221 -T 11.097210
+n -t 82.000000 -s 106 -x 22.571777 -y 43.005222 -U -0.159355 -V 0.987221 -T 11.097210
+n -t 82.000000 -s 119 -x 22.571777 -y 43.005222 -U -0.159355 -V 0.987221 -T 11.097210
 n -t 82 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 82 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 82 -s 2 -S COLOR -c black -o black -i black -I black
@@ -8774,13 +8730,10 @@ n -t 82 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 82 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 82 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 82 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 83.000000 -s 100 -x 62.742792 -y 65.693533 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 83.000000 -s 102 -x 62.742792 -y 65.693533 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 83.000000 -s 105 -x 62.742792 -y 65.693533 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 83.000000 -s 106 -x 62.742792 -y 65.693533 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 83.000000 -s 109 -x 62.742792 -y 65.693533 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 83.000000 -s 115 -x 62.742792 -y 65.693533 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 83.000000 -s 117 -x 57.726551 -y 60.472353 -U 0.694702 -V 0.719297 -T 6.929768
+n -t 83.000000 -s 104 -x 22.412422 -y 43.992444 -U -0.159355 -V 0.987221 -T 12.106931
+n -t 83.000000 -s 105 -x 22.412422 -y 43.992444 -U -0.159355 -V 0.987221 -T 12.106931
+n -t 83.000000 -s 106 -x 22.412422 -y 43.992444 -U -0.159355 -V 0.987221 -T 12.106931
+n -t 83.000000 -s 119 -x 22.412422 -y 43.992444 -U -0.159355 -V 0.987221 -T 12.106931
 n -t 83 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 83 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 83 -s 2 -S COLOR -c black -o black -i black -I black
@@ -8881,13 +8834,10 @@ n -t 83 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 83 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 83 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 83 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 84.000000 -s 100 -x 62.540676 -y 65.456917 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 84.000000 -s 102 -x 62.540676 -y 65.456917 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 84.000000 -s 105 -x 62.540676 -y 65.456917 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 84.000000 -s 106 -x 62.540676 -y 65.456917 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 84.000000 -s 109 -x 62.540676 -y 65.456917 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 84.000000 -s 115 -x 62.540676 -y 65.456917 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 84.000000 -s 117 -x 58.421253 -y 61.191651 -U 0.697130 -V 0.716945 -T 5.619192
+n -t 84.000000 -s 104 -x 22.253067 -y 44.979665 -U -0.159355 -V 0.987221 -T 13.116652
+n -t 84.000000 -s 105 -x 22.253067 -y 44.979665 -U -0.159355 -V 0.987221 -T 13.116652
+n -t 84.000000 -s 106 -x 22.253067 -y 44.979665 -U -0.159355 -V 0.987221 -T 13.116652
+n -t 84.000000 -s 119 -x 22.253067 -y 44.979665 -U -0.159355 -V 0.987221 -T 13.116652
 n -t 84 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 84 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 84 -s 2 -S COLOR -c black -o black -i black -I black
@@ -8988,13 +8938,10 @@ n -t 84 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 84 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 84 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 84 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 85.000000 -s 100 -x 62.338560 -y 65.220302 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 85.000000 -s 102 -x 62.338560 -y 65.220302 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 85.000000 -s 105 -x 62.338560 -y 65.220302 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 85.000000 -s 106 -x 62.338560 -y 65.220302 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 85.000000 -s 109 -x 62.338560 -y 65.220302 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 85.000000 -s 115 -x 62.338560 -y 65.220302 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 85.000000 -s 117 -x 59.118383 -y 61.908596 -U 0.700458 -V 0.713694 -T 4.308698
+n -t 85.000000 -s 104 -x 22.093713 -y 45.966887 -U -0.159355 -V 0.987221 -T 14.126373
+n -t 85.000000 -s 105 -x 22.093713 -y 45.966887 -U -0.159355 -V 0.987221 -T 14.126373
+n -t 85.000000 -s 106 -x 22.093713 -y 45.966887 -U -0.159355 -V 0.987221 -T 14.126373
+n -t 85.000000 -s 119 -x 22.093713 -y 45.966887 -U -0.159355 -V 0.987221 -T 14.126373
 n -t 85 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 85 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 85 -s 2 -S COLOR -c black -o black -i black -I black
@@ -9095,13 +9042,6 @@ n -t 85 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 85 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 85 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 85 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 86.000000 -s 100 -x 62.136445 -y 64.983686 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 86.000000 -s 102 -x 62.136445 -y 64.983686 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 86.000000 -s 105 -x 62.136445 -y 64.983686 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 86.000000 -s 106 -x 62.136445 -y 64.983686 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 86.000000 -s 109 -x 62.136445 -y 64.983686 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 86.000000 -s 115 -x 62.136445 -y 64.983686 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 86.000000 -s 117 -x 59.818841 -y 62.622289 -U 0.705555 -V 0.708655 -T 2.998330
 n -t 86 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 86 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 86 -s 2 -S COLOR -c black -o black -i black -I black
@@ -9202,13 +9142,6 @@ n -t 86 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 86 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 86 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 86 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 87.000000 -s 100 -x 61.934329 -y 64.747070 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 87.000000 -s 102 -x 61.934329 -y 64.747070 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 87.000000 -s 105 -x 61.934329 -y 64.747070 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 87.000000 -s 106 -x 61.934329 -y 64.747070 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 87.000000 -s 109 -x 61.934329 -y 64.747070 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 87.000000 -s 115 -x 61.934329 -y 64.747070 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 87.000000 -s 117 -x 60.524397 -y 63.330944 -U 0.715441 -V 0.698674 -T 1.688214
 n -t 87 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 87 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 87 -s 2 -S COLOR -c black -o black -i black -I black
@@ -9309,13 +9242,6 @@ n -t 87 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 87 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 87 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 87 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 88.000000 -s 100 -x 61.732213 -y 64.510455 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 88.000000 -s 102 -x 61.732213 -y 64.510455 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 88.000000 -s 105 -x 61.732213 -y 64.510455 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 88.000000 -s 106 -x 61.732213 -y 64.510455 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 88.000000 -s 109 -x 61.732213 -y 64.510455 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 88.000000 -s 115 -x 61.732213 -y 64.510455 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 88.000000 -s 117 -x 61.239837 -y 64.029618 -U 0.765182 -V 0.643814 -T 0.379335
 n -t 88 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 88 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 88 -s 2 -S COLOR -c black -o black -i black -I black
@@ -9416,13 +9342,6 @@ n -t 88 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 88 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 88 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 88 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 89.000000 -s 100 -x 61.530097 -y 64.273839 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 89.000000 -s 102 -x 61.530097 -y 64.273839 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 89.000000 -s 105 -x 61.530097 -y 64.273839 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 89.000000 -s 106 -x 61.530097 -y 64.273839 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 89.000000 -s 109 -x 61.530097 -y 64.273839 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 89.000000 -s 115 -x 61.530097 -y 64.273839 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 89.000000 -s 117 -x 61.530097 -y 64.273839 -U -0.649498 -V -0.760363 -T 0.311188
 n -t 89 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 89 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 89 -s 2 -S COLOR -c black -o black -i black -I black
@@ -9523,13 +9442,10 @@ n -t 89 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 89 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 89 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 89 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 90.000000 -s 100 -x 61.327981 -y 64.037223 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 90.000000 -s 102 -x 61.327981 -y 64.037223 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 90.000000 -s 105 -x 61.327981 -y 64.037223 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 90.000000 -s 106 -x 61.327981 -y 64.037223 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 90.000000 -s 109 -x 61.327981 -y 64.037223 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 90.000000 -s 115 -x 61.327981 -y 64.037223 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 90.000000 -s 117 -x 61.327981 -y 64.037223 -U -0.649498 -V -0.760363 -T 0.311188
+n -t 90.000000 -s 104 -x 21.296939 -y 50.902993 -U -0.159355 -V 0.987221 -T 14.160660
+n -t 90.000000 -s 105 -x 21.296939 -y 50.902993 -U -0.159355 -V 0.987221 -T 14.160660
+n -t 90.000000 -s 106 -x 21.296939 -y 50.902993 -U -0.159355 -V 0.987221 -T 14.160660
+n -t 90.000000 -s 119 -x 21.296939 -y 50.902993 -U -0.159355 -V 0.987221 -T 14.160660
 n -t 90 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 90 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 90 -s 2 -S COLOR -c black -o black -i black -I black
@@ -9630,13 +9546,10 @@ n -t 90 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 90 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 90 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 90 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 91.000000 -s 100 -x 61.125866 -y 63.800607 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 91.000000 -s 102 -x 61.125866 -y 63.800607 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 91.000000 -s 105 -x 61.125866 -y 63.800607 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 91.000000 -s 106 -x 61.125866 -y 63.800607 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 91.000000 -s 109 -x 61.125866 -y 63.800607 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 91.000000 -s 115 -x 61.125866 -y 63.800607 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 91.000000 -s 117 -x 61.125866 -y 63.800607 -U -0.649498 -V -0.760363 -T 0.311188
+n -t 91.000000 -s 104 -x 21.137584 -y 51.890215 -U -0.159355 -V 0.987221 -T 13.160660
+n -t 91.000000 -s 105 -x 21.137584 -y 51.890215 -U -0.159355 -V 0.987221 -T 13.160660
+n -t 91.000000 -s 106 -x 21.137584 -y 51.890215 -U -0.159355 -V 0.987221 -T 13.160660
+n -t 91.000000 -s 119 -x 21.137584 -y 51.890215 -U -0.159355 -V 0.987221 -T 13.160660
 n -t 91 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 91 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 91 -s 2 -S COLOR -c black -o black -i black -I black
@@ -9737,13 +9650,10 @@ n -t 91 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 91 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 91 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 91 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 92.000000 -s 100 -x 60.923750 -y 63.563992 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 92.000000 -s 102 -x 60.923750 -y 63.563992 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 92.000000 -s 105 -x 60.923750 -y 63.563992 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 92.000000 -s 106 -x 60.923750 -y 63.563992 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 92.000000 -s 109 -x 60.923750 -y 63.563992 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 92.000000 -s 115 -x 60.923750 -y 63.563992 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 92.000000 -s 117 -x 60.923750 -y 63.563992 -U -0.649498 -V -0.760363 -T 0.311188
+n -t 92.000000 -s 104 -x 20.978229 -y 52.877436 -U -0.159355 -V 0.987221 -T 12.160660
+n -t 92.000000 -s 105 -x 20.978229 -y 52.877436 -U -0.159355 -V 0.987221 -T 12.160660
+n -t 92.000000 -s 106 -x 20.978229 -y 52.877436 -U -0.159355 -V 0.987221 -T 12.160660
+n -t 92.000000 -s 119 -x 20.978229 -y 52.877436 -U -0.159355 -V 0.987221 -T 12.160660
 n -t 92 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 92 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 92 -s 2 -S COLOR -c black -o black -i black -I black
@@ -9844,13 +9754,11 @@ n -t 92 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 92 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 92 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 92 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 93.000000 -s 100 -x 60.721634 -y 63.327376 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 93.000000 -s 102 -x 60.721634 -y 63.327376 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 93.000000 -s 105 -x 60.721634 -y 63.327376 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 93.000000 -s 106 -x 60.721634 -y 63.327376 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 93.000000 -s 109 -x 60.721634 -y 63.327376 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 93.000000 -s 115 -x 60.721634 -y 63.327376 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 93.000000 -s 117 -x 60.721634 -y 63.327376 -U -0.649498 -V -0.760363 -T 0.311188
+n -t 93.000000 -s 120 -x 19.040370 -y 64.882700 -U 0.890020 -V 0.568069 -T 60.870363
+n -t 93.000000 -s 104 -x 20.818874 -y 53.864658 -U -0.159355 -V 0.987221 -T 11.160660
+n -t 93.000000 -s 105 -x 20.818874 -y 53.864658 -U -0.159355 -V 0.987221 -T 11.160660
+n -t 93.000000 -s 106 -x 20.818874 -y 53.864658 -U -0.159355 -V 0.987221 -T 11.160660
+n -t 93.000000 -s 119 -x 20.818874 -y 53.864658 -U -0.159355 -V 0.987221 -T 11.160660
 n -t 93 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 93 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 93 -s 2 -S COLOR -c black -o black -i black -I black
@@ -9951,13 +9859,10 @@ n -t 93 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 93 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 93 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 93 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 94.000000 -s 100 -x 60.519518 -y 63.090760 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 94.000000 -s 102 -x 60.519518 -y 63.090760 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 94.000000 -s 105 -x 60.519518 -y 63.090760 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 94.000000 -s 106 -x 60.519518 -y 63.090760 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 94.000000 -s 109 -x 60.519518 -y 63.090760 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 94.000000 -s 115 -x 60.519518 -y 63.090760 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 94.000000 -s 117 -x 60.519518 -y 63.090760 -U -0.649498 -V -0.760363 -T 0.311188
+n -t 94.000000 -s 104 -x 20.659520 -y 54.851879 -U -0.068631 -V 0.997642 -T 10.623940
+n -t 94.000000 -s 105 -x 20.659520 -y 54.851879 -U -0.068631 -V 0.997642 -T 10.623940
+n -t 94.000000 -s 106 -x 20.659520 -y 54.851879 -U -0.068631 -V 0.997642 -T 10.623940
+n -t 94.000000 -s 119 -x 20.659520 -y 54.851879 -U -0.068631 -V 0.997642 -T 10.623940
 n -t 94 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 94 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 94 -s 2 -S COLOR -c black -o black -i black -I black
@@ -10058,13 +9963,10 @@ n -t 94 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 94 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 94 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 94 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 95.000000 -s 100 -x 60.317402 -y 62.854145 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 95.000000 -s 102 -x 60.317402 -y 62.854145 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 95.000000 -s 105 -x 60.317402 -y 62.854145 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 95.000000 -s 106 -x 60.317402 -y 62.854145 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 95.000000 -s 109 -x 60.317402 -y 62.854145 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 95.000000 -s 115 -x 60.317402 -y 62.854145 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 95.000000 -s 117 -x 60.317402 -y 62.854145 -U -0.649498 -V -0.760363 -T 0.311188
+n -t 95.000000 -s 104 -x 20.590889 -y 55.849521 -U 0.022564 -V 0.999745 -T 10.171907
+n -t 95.000000 -s 105 -x 20.590889 -y 55.849521 -U 0.022564 -V 0.999745 -T 10.171907
+n -t 95.000000 -s 106 -x 20.590889 -y 55.849521 -U 0.022564 -V 0.999745 -T 10.171907
+n -t 95.000000 -s 119 -x 20.590889 -y 55.849521 -U 0.022564 -V 0.999745 -T 10.171907
 n -t 95 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 95 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 95 -s 2 -S COLOR -c black -o black -i black -I black
@@ -10165,13 +10067,10 @@ n -t 95 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 95 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 95 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 95 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 96.000000 -s 100 -x 60.115287 -y 62.617529 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 96.000000 -s 102 -x 60.115287 -y 62.617529 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 96.000000 -s 105 -x 60.115287 -y 62.617529 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 96.000000 -s 106 -x 60.115287 -y 62.617529 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 96.000000 -s 109 -x 60.115287 -y 62.617529 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 96.000000 -s 115 -x 60.115287 -y 62.617529 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 96.000000 -s 117 -x 60.115287 -y 62.617529 -U -0.649498 -V -0.760363 -T 0.311188
+n -t 96.000000 -s 104 -x 20.613453 -y 56.849267 -U 0.111945 -V 0.993714 -T 9.799235
+n -t 96.000000 -s 105 -x 20.613453 -y 56.849267 -U 0.111945 -V 0.993714 -T 9.799235
+n -t 96.000000 -s 106 -x 20.613453 -y 56.849267 -U 0.111945 -V 0.993714 -T 9.799235
+n -t 96.000000 -s 119 -x 20.613453 -y 56.849267 -U 0.111945 -V 0.993714 -T 9.799235
 n -t 96 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 96 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 96 -s 2 -S COLOR -c black -o black -i black -I black
@@ -10272,13 +10171,10 @@ n -t 96 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 96 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 96 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 96 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 97.000000 -s 100 -x 59.913171 -y 62.380913 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 97.000000 -s 102 -x 59.913171 -y 62.380913 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 97.000000 -s 105 -x 59.913171 -y 62.380913 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 97.000000 -s 106 -x 59.913171 -y 62.380913 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 97.000000 -s 109 -x 59.913171 -y 62.380913 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 97.000000 -s 115 -x 59.913171 -y 62.380913 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 97.000000 -s 117 -x 59.913171 -y 62.380913 -U -0.649498 -V -0.760363 -T 0.311188
+n -t 97.000000 -s 104 -x 20.725398 -y 57.842981 -U 0.197397 -V 0.980324 -T 9.498899
+n -t 97.000000 -s 105 -x 20.725398 -y 57.842981 -U 0.197397 -V 0.980324 -T 9.498899
+n -t 97.000000 -s 106 -x 20.725398 -y 57.842981 -U 0.197397 -V 0.980324 -T 9.498899
+n -t 97.000000 -s 119 -x 20.725398 -y 57.842981 -U 0.197397 -V 0.980324 -T 9.498899
 n -t 97 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 97 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 97 -s 2 -S COLOR -c black -o black -i black -I black
@@ -10379,13 +10275,10 @@ n -t 97 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 97 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 97 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 97 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 98.000000 -s 100 -x 59.711055 -y 62.144298 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 98.000000 -s 102 -x 59.711055 -y 62.144298 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 98.000000 -s 105 -x 59.711055 -y 62.144298 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 98.000000 -s 106 -x 59.711055 -y 62.144298 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 98.000000 -s 109 -x 59.711055 -y 62.144298 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 98.000000 -s 115 -x 59.711055 -y 62.144298 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 98.000000 -s 117 -x 59.711055 -y 62.144298 -U -0.649498 -V -0.760363 -T 0.311188
+n -t 98.000000 -s 104 -x 20.922795 -y 58.823305 -U 0.277205 -V 0.960811 -T 9.262740
+n -t 98.000000 -s 105 -x 20.922795 -y 58.823305 -U 0.277205 -V 0.960811 -T 9.262740
+n -t 98.000000 -s 106 -x 20.922795 -y 58.823305 -U 0.277205 -V 0.960811 -T 9.262740
+n -t 98.000000 -s 119 -x 20.922795 -y 58.823305 -U 0.277205 -V 0.960811 -T 9.262740
 n -t 98 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 98 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 98 -s 2 -S COLOR -c black -o black -i black -I black
@@ -10486,13 +10379,10 @@ n -t 98 -s 96 -S COLOR -c black -o black -i black -I black
 n -t 98 -s 97 -S COLOR -c black -o black -i black -I black
 n -t 98 -s 98 -S COLOR -c black -o black -i black -I black
 n -t 98 -s 99 -S COLOR -c black -o black -i black -I black
-n -t 99.000000 -s 100 -x 59.508939 -y 61.907682 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 99.000000 -s 102 -x 59.508939 -y 61.907682 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 99.000000 -s 105 -x 59.508939 -y 61.907682 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 99.000000 -s 106 -x 59.508939 -y 61.907682 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 99.000000 -s 109 -x 59.508939 -y 61.907682 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 99.000000 -s 115 -x 59.508939 -y 61.907682 -U -0.649498 -V -0.760363 -T 0.311188
-n -t 99.000000 -s 117 -x 59.508939 -y 61.907682 -U -0.649498 -V -0.760363 -T 0.311188
+n -t 99.000000 -s 104 -x 21.200000 -y 59.784115 -U 0.350193 -V 0.936677 -T 9.082101
+n -t 99.000000 -s 105 -x 21.200000 -y 59.784115 -U 0.350193 -V 0.936677 -T 9.082101
+n -t 99.000000 -s 106 -x 21.200000 -y 59.784115 -U 0.350193 -V 0.936677 -T 9.082101
+n -t 99.000000 -s 119 -x 21.200000 -y 59.784115 -U 0.350193 -V 0.936677 -T 9.082101
 n -t 99 -s 0 -S COLOR -c black -o black -i black -I black
 n -t 99 -s 1 -S COLOR -c black -o black -i black -I black
 n -t 99 -s 2 -S COLOR -c black -o black -i black -I black
