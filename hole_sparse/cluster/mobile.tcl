@@ -18,7 +18,7 @@ set opt(ifqlen) 50                         ;# max packet in ifq
 set opt(rp)     DSDV                       ;# routing protocol
 set opt(x)      100                        ;# X dimension of topography
 set opt(y)      100                        ;# Y dimension of topography
-set opt(stop)   1000                        ;# time of simulation end
+set opt(stop)   100                        ;# time of simulation end
 set opt(nfnode) 100                        ;# number of fixed nodes
 set opt(nmnode) 0                         ;# number of mobile nodes
 set opt(node_size) 1                       ;# Size of nodes

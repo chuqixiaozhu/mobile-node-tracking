@@ -45,7 +45,7 @@ set opt(trace_file) "out.tr"
 set opt(nam_file) "out.nam"
 set opt(hole_number) 5;                     # number of holes
 set opt(hole_length) 30;                    # Length of a hole edge
-set opt(dist_limit) 30;                  # Maximum distance from target to active nodes
+set opt(dist_limit) 15;                  # Maximum distance from target to active nodes
 
 source $opt(normal)
 if {0 < $argc} {

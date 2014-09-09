@@ -18,7 +18,7 @@ set opt(ifqlen) 50                         ;# max packet in ifq
 set opt(rp)     DSDV                       ;# routing protocol
 set opt(x)      100                        ;# X dimension of topography
 set opt(y)      100                        ;# Y dimension of topography
-set opt(stop)   1000                        ;# time of simulation end
+set opt(stop)   100                        ;# time of simulation end
 set opt(nfnode) 100                        ;# number of fixed nodes
 set opt(nmnode) 20                         ;# number of mobile nodes
 set opt(node_size) 1                       ;# Size of nodes
@@ -45,7 +45,7 @@ set opt(trace_file) "out.tr"
 set opt(nam_file) "out.nam"
 set opt(hole_number) 5;                     # number of holes
 set opt(hole_length) 30;                    # Length of a hole edge
-set opt(dist_limit) 30;                  # Maximum distance from target to active nodes
+set opt(dist_limit) 15;                  # Maximum distance from target to active nodes
 
 source $opt(normal)
 if {0 < $argc} {
