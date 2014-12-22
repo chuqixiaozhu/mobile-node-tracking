@@ -49,11 +49,11 @@ set opt(dist_limit) 15;                  # Maximum distance from target to activ
 
 source $opt(normal)
 if {0 < $argc} {
-    set opt(nfnode) [lindex $argv 0]
-    set opt(nmnode) [lindex $argv 1]
-    set opt(hole_number) [lindex $argv 2]
-    set opt(target_speed_max) [lindex $argv 3]
-    set opt(result_file) [lindex $argv 4]
+    #set opt(nfnode) [lindex $argv 0]
+    #set opt(nmnode) [lindex $argv 1]
+    set opt(hole_number) [lindex $argv 0]
+    #set opt(target_speed_max) [lindex $argv 3]
+    set opt(result_file) [lindex $argv 1]
     #set opt(x) [lindex $argv 0]
     #set opt(y) [lindex $argv 1]
     #set opt(nfnode) [lindex $argv 2]
@@ -61,6 +61,7 @@ if {0 < $argc} {
     #set opt(target_speed_max) [lindex $argv 4]
     #set opt(result_file) [lindex $argv 5]
 }
+set opt(nfnode) [expr $opt(nfnode) - 9 * $opt(hole_number)]
 set opt(nn) [expr 1 + $opt(nfnode) + $opt(nmnode)] ;# sum of nodes and a target
 #puts "@59 hole_number = $opt(hole_number)"; # test
 #===================================
@@ -133,7 +134,7 @@ set rng_target_speed [new RNG]
 $rng_target_speed seed 0
 set rd_target_speed [new RandomVariable/Uniform]
 $rd_target_speed use-rng $rng_target_speed
-$rd_target_speed set min_ 0
+$rd_target_speed set min_ 0.7
 $rd_target_speed set max_ $opt(target_speed_max)
 
 #===================================
@@ -402,19 +403,19 @@ proc fixed_node_computing {m_m_index num_m_m time_stamp} {
 # Sorting the fixed node distances
     set fnode_list ""
     for {set i 0} {$i < $opt(nfnode)} {incr i} {
-        #lappend fnode_list [list [distance $fnode($i) $target $time_stamp] $i]
-        lappend fnode_list [distance $fnode($i) $target $time_stamp]
+        lappend fnode_list [list [distance $fnode($i) $target $time_stamp] $i]
+        #lappend fnode_list [distance $fnode($i) $target $time_stamp]
     }
-    #set fnode_list [lsort -real -index 0 $fnode_list]
-    set fnode_list [lsort -real $fnode_list]
+    set fnode_list [lsort -real -index 0 $fnode_list]
+    #set fnode_list [lsort -real $fnode_list]
 
 # Compute the system probability and energy comsumption
     set f_node_act_num 0
     foreach f_node $fnode_list {
-        #set index [lindex $f_node 1]
-        #$fnode($index) color "green"
-        #set dist [lindex $f_node 0]
-        set dist $f_node
+        set index [lindex $f_node 1]
+        $fnode($index) color "green"
+        set dist [lindex $f_node 0]
+        #set dist $f_node
         if {$dist > $opt(dist_limit)} {
             break
         }
@@ -519,6 +520,7 @@ proc finish {} {
     if {0 < $argc} {
         output_file
     }
+    $ns at $opt(stop) "$ns nam-end-wireless $opt(stop)"
     close $tracefile
     close $namfile
     #exec nam out.nam &
@@ -535,7 +537,7 @@ for {set i 0} {$i < $opt(nfnode)} {incr i} {
 }
 
 # Finish
-$ns at $opt(stop) "$ns nam-end-wireless $opt(stop)"
+#$ns at $opt(stop) "$ns nam-end-wireless $opt(stop)"
 $ns at $opt(stop) "finish"
 $ns at $opt(stop) "puts \"Done.\"; $ns halt"
 $ns run

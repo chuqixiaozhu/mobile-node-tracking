@@ -49,17 +49,19 @@ set opt(target_radius_time) 5;                    # Target moving radius = vt
 set opt(radius_cluster) \
     [expr $opt(target_speed_max) * $opt(target_radius_time)] ;# Cluster' radius
 
+
 source $opt(normal)
 if {0 < $argc} {
-    set opt(nfnode) [lindex $argv 0]
-    set opt(nmnode) [lindex $argv 1]
-    set opt(hole_number) [lindex $argv 2]
-    set opt(target_speed_max) [lindex $argv 3]
-    set opt(result_file) [lindex $argv 4]
-    set opt(target_radius_time) [lindex $argv 5]
-    set opt(radius_cluster) \
-        [expr $opt(target_speed_max) * $opt(target_radius_time)] ;# Cluster' radius
+    #set opt(nfnode) [lindex $argv 0]
+    #set opt(nmnode) [lindex $argv 1]
+    set opt(hole_number) [lindex $argv 0]
+    #set opt(target_speed_max) [lindex $argv 3]
+    set opt(result_file) [lindex $argv 1]
+    #set opt(target_radius_time) [lindex $argv 5]
+    #set opt(radius_cluster) \
+    #    [expr $opt(target_speed_max) * $opt(target_radius_time)] ;# Cluster' radius
 }
+set opt(nfnode) [expr $opt(nfnode) - 9 * $opt(hole_number)]
 set opt(nn) [expr 1 + $opt(nfnode) + $opt(nmnode)] ;# sum of nodes and a target
 #===================================
 #        Initialization
@@ -131,7 +133,7 @@ set rng_target_speed [new RNG]
 $rng_target_speed seed 0
 set rd_target_speed [new RandomVariable/Uniform]
 $rd_target_speed use-rng $rng_target_speed
-$rd_target_speed set min_ 0
+$rd_target_speed set min_ 0.7
 $rd_target_speed set max_ $opt(target_speed_max)
 
 #===================================
@@ -527,6 +529,7 @@ proc finish {} {
     if {0 < $argc} {
         output_file
     }
+    $ns at $opt(stop) "$ns nam-end-wireless $opt(stop)"
     close $tracefile
     close $namfile
     #exec nam out.nam &
@@ -543,7 +546,7 @@ for {set i 0} {$i < $opt(nfnode)} {incr i} {
 }
 
 # Finish
-$ns at $opt(stop) "$ns nam-end-wireless $opt(stop)"
+#$ns at $opt(stop) "$ns nam-end-wireless $opt(stop)"
 $ns at $opt(stop) "finish"
 $ns at $opt(stop) "puts \"Done.\"; $ns halt"
 $ns run
