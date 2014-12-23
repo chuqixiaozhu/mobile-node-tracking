@@ -19,7 +19,7 @@ set opt(rp)     DSDV                       ;# routing protocol
 set opt(x)      100                        ;# X dimension of topography
 set opt(y)      100                        ;# Y dimension of topography
 set opt(stop)   100                        ;# time of simulation end
-set opt(nfnode) 100                        ;# number of fixed nodes
+set opt(nfnode) 100                       ;# number of fixed nodes
 set opt(nmnode) 0                         ;# number of mobile nodes
 set opt(node_size) 1                       ;# Size of nodes
 set opt(target_size) 2                     ;# Size of the target
@@ -48,7 +48,7 @@ set opt(hole_length) 30;                    # Length of the hole edge
 set opt(target_radius_time) 5;                    # Target moving radius = vt
 set opt(radius_cluster) \
     [expr $opt(target_speed_max) * $opt(target_radius_time)] ;# Cluster' radius
-
+set opt(cluster_node_max) 5;               # Maxium of node number in a cluster
 
 source $opt(normal)
 if {0 < $argc} {
@@ -395,11 +395,11 @@ proc fixed_node_computing {m_m_index num_m_m time_stamp} {
 #    }
 
 # Sorting the fixed node distances
-#    set fnode_list ""
-#    for {set i 0} {$i < $opt(nfnode)} {incr i} {
-#        lappend fnode_list [list [distance $fnode($i) $target $time_stamp] $i]
-#    }
-#    set fnode_list [lsort -real -index 0 $fnode_list]
+    set fnode_list ""
+    for {set i 0} {$i < $opt(nfnode)} {incr i} {
+        lappend fnode_list [list [distance $fnode($i) $target $time_stamp] $i]
+    }
+    set fnode_list [lsort -real -index 0 $fnode_list]
 
 # Compute the system probability and energy comsumption
 #    set f_node_act_num 0
@@ -424,17 +424,32 @@ proc fixed_node_computing {m_m_index num_m_m time_stamp} {
 # Choose fixed nodes into the cluster
     set f_node_act_num 0
     set radius_cluster $opt(radius_cluster)
-
-    for {set i 0} {$i < $opt(nfnode)} {incr i} {
-        if {[be_in_cluster $fnode($i) $target $radius_cluster $time_stamp]} {
-            $fnode($i) color "green"
-            set cluster_nodes($f_node_act_num) $i
-            incr f_node_act_num
-            set dist [distance $fnode($i) $target $time_stamp]
-            set local_proba [local_probability $dist $opt(dist_threshold_f)]
-            set sys_proba_tmp [expr $sys_proba_tmp * (1.0 - $local_proba)]
+    foreach f_node $fnode_list {
+        if {$f_node_act_num >= $opt(cluster_node_max)} {
+            break
         }
+        set index [lindex $f_node 1]
+        set dist [lindex $f_node 0]
+        if {$dist > $opt(radius_cluster)} {
+            break
+        }
+        $fnode($index) color "green"
+        set cluster_nodes($f_node_act_num) $index
+        incr f_node_act_num
+        #set dist [distance $fnode($i) $target $time_stamp]
+        set local_proba [local_probability $dist $opt(dist_threshold_f)]
+        set sys_proba_tmp [expr $sys_proba_tmp * (1.0 - $local_proba)]
     }
+    #for {set i 0} {$i < $opt(nfnode)} {incr i} {
+    #    if {[be_in_cluster $fnode($i) $target $radius_cluster $time_stamp]} {
+    #        $fnode($i) color "green"
+    #        set cluster_nodes($f_node_act_num) $i
+    #        incr f_node_act_num
+    #        set dist [distance $fnode($i) $target $time_stamp]
+    #        set local_proba [local_probability $dist $opt(dist_threshold_f)]
+    #        set sys_proba_tmp [expr $sys_proba_tmp * (1.0 - $local_proba)]
+    #    }
+    #}
     set sys_proba [expr 1.0 - $sys_proba_tmp]
     if {$opt(sys_proba_threshold) <= $sys_proba} {
         $ns set valid_sur_time [expr [$ns set valid_sur_time] + $opt(time_click)]
