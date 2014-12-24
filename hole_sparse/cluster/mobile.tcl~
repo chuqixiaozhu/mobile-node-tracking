@@ -61,6 +61,7 @@ if {0 < $argc} {
     #set opt(radius_cluster) \
     #    [expr $opt(target_speed_max) * $opt(target_radius_time)] ;# Cluster' radius
 }
+set opt(nfnode) [expr $opt(nfnode) - 9 * $opt(hole_number)]
 set opt(nn) [expr 1 + $opt(nfnode) + $opt(nmnode)] ;# sum of nodes and a target
 #===================================
 #        Initialization

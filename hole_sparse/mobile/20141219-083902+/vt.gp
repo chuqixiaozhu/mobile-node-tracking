@@ -12,8 +12,8 @@ set xtics 1
 set mxtics 1
 #set ylabel "{/SimSun=20 有效监测时间率 (%)}"
 set ylabel "Effective Monitoring Ratio (%)"
-set yrange [0:80]
-set ytics 20
+set yrange [20:70]
+set ytics 10
 set mytics 1
 set format y "%.1f"
 set grid

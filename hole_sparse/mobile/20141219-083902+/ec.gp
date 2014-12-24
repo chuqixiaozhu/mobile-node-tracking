@@ -12,8 +12,8 @@ set xtics 1
 set mxtics 1
 #set ylabel "{/SimSun=20 有效监测时间率 (%)}"
 set ylabel "Energy Consumption (J)"
-set yrange [0.0:0.8]
-set ytics 0.2
+set yrange [0.1:0.5]
+set ytics 0.1
 set mytics 1
 set format y "%.1f"
 set grid

@@ -15,8 +15,8 @@ if len(argvs) <= 1:
     count = 2
 else:
     count = int(argvs[1])
-for fnode_num in range(50, 201, 10):
-    for i in range(count):
+for i in range(count):
+    for fnode_num in range(50, 201, 10):
         subprocess.call(['ns', 'mobile.tcl', str(fnode_num), result_file])
 
 # Process the results
