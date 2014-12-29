@@ -43,17 +43,31 @@ set opt(normal) "normal.tcl";               # file for normal distribution
 set tcl_precision 17;                       # Tcl variaty
 set opt(trace_file) "out.tr"
 set opt(nam_file) "out.nam"
+set opt(hole_number) 2;                     # number of holes
+set opt(hole_length) 30;                    # Length of a hole edge
+set opt(dist_limit) 15;                     # Maximum distance from target to active nodes
+set opt(lag_time) [expr 2 * $opt(time_click)]
+#set opt(test) 0
 
 source $opt(normal)
 if {0 < $argc} {
-    set opt(x) [lindex $argv 0]
-    set opt(y) [lindex $argv 1]
-    set opt(nfnode) [lindex $argv 2]
-    set opt(nmnode) [lindex $argv 3]
-    set opt(target_speed_max) [lindex $argv 4]
-    set opt(result_file) [lindex $argv 5]
+    #set opt(nfnode) [lindex $argv 0]
+    #set opt(nmnode) [lindex $argv 0]
+    #set opt(hole_number) [lindex $argv 0]
+    set opt(target_speed_max) [lindex $argv 0]
+    set opt(result_file) [lindex $argv 1]
+    #set opt(x) [lindex $argv 0]
+    #set opt(y) [lindex $argv 1]
+    #set opt(nfnode) [lindex $argv 2]
+    #set opt(nmnode) [lindex $argv 3]
+    #set opt(target_speed_max) [lindex $argv 4]
+    #set opt(result_file) [lindex $argv 5]
+    #set opt(dist_limit) \
+    #    [expr 5 * $opt(target_speed_max)];     # Maximum distance from target to active nodes
+    #set opt(dist_limit) 15
 }
 set opt(nn) [expr 1 + $opt(nfnode) + $opt(nmnode)] ;# sum of nodes and a target
+#puts "@59 hole_number = $opt(hole_number)"; # test
 #===================================
 #        Initialization
 #===================================
@@ -124,34 +138,127 @@ set rng_target_speed [new RNG]
 $rng_target_speed seed 0
 set rd_target_speed [new RandomVariable/Uniform]
 $rd_target_speed use-rng $rng_target_speed
-$rd_target_speed set min_ 0
+$rd_target_speed set min_ 0.7
 $rd_target_speed set max_ $opt(target_speed_max)
 
 #===================================
 #        Nodes Definition
 #===================================
+# Create holes
+proc create_holes {x_ y_} {
+    global opt rd_x rd_y
+    upvar 1 $x_ x
+    upvar 1 $y_ y
+    set h $opt(hole_length)
+    set g [expr ($opt(x) - 3 * $h) / 4.0]
+    set p1 $g
+    set p2 [expr $g + $h]
+    set p3 [expr 2.0 * $g + $h]
+    #set x [$rd_x value]
+    #set y [$rd_y value]
+    #puts "@144 ($x, $y)";       # test
+    switch -exact -- $opt(hole_number) {
+        1 {
+            while {$p1 <= $x && $x <= $p2 && \
+                   $p1 <= $y && $y <= $p2} {
+                set x [$rd_x value]
+                set y [$rd_y value]
+            }
+        }
+        2 {
+            while {$p1 <= $x && $x <= $p2 && \
+                   $p1 <= $y && $y <= $p2 \
+                || [expr 100 - $p2] <= $x && $x <= [expr 100 - $p1] && \
+                   $p1 <= $y && $y <= $p2} {
+                set x [$rd_x value]
+                set y [$rd_y value]
+            }
+        }
+        3 {
+            while {$p1 <= $x && $x <= $p2 && \
+                   $p1 <= $y && $y <= $p2 \
+                || [expr 100 - $p2] <= $x && $x <= [expr 100 - $p1] && \
+                   $p1 <= $y && $y <= $p2 \
+                || $p3 <= $x && $x <= [expr 100 - $p3] && \
+                   $p3 <= $y && $y <= [expr 100 - $p3]}  {
+                set x [$rd_x value]
+                set y [$rd_y value]
+            }
+        }
+        4 {
+            while {$p1 <= $x && $x <= $p2 && \
+                   $p1 <= $y && $y <= $p2 \
+                || [expr 100 - $p2] <= $x && $x <= [expr 100 - $p1] && \
+                   $p1 <= $y && $y <= $p2 \
+                || $p3 <= $x && $x <= [expr 100 - $p3] && \
+                   $p3 <= $y && $y <= [expr 100 - $p3]  \
+                || $p1 <= $x && $x <= $p2 && \
+                   [expr 100 - $p2] <= $y && $y <= [expr 100 - $p1]} {
+                set x [$rd_x value]
+                set y [$rd_y value]
+            }
+        }
+        5 {
+            while {$p1 <= $x && $x <= $p2 && \
+                   $p1 <= $y && $y <= $p2 \
+                || [expr 100 - $p2] <= $x && $x <= [expr 100 - $p1] && \
+                   $p1 <= $y && $y <= $p2 \
+                || $p3 <= $x && $x <= [expr 100 - $p3] && \
+                   $p3 <= $y && $y <= [expr 100 - $p3]  \
+                || $p1 <= $x && $x <= $p2 && \
+                   [expr 100 - $p2] <= $y && $y <= [expr 100 - $p1] \
+                || [expr 100 - $p2] <= $x && $x <= [expr 100 - $p1] && \
+                   [expr 100 - $p2] <= $y && $y <= [expr 100 - $p1]} {
+                set x [$rd_x value]
+                set y [$rd_y value]
+                #puts "($x, $y)"; # test
+            }
+        }
+        default {
+            set x 0
+            set y 0
+            puts "something wrong."; # test
+        }
+    }
+}
+
 # Create Fixed nodes
 for {set i 0} {$i < $opt(nfnode)} {incr i} {
     set fnode($i) [$ns node]
-    $fnode($i) set X_ [$rd_x value]
-    $fnode($i) set Y_ [$rd_y value]
+    #$fnode($i) set X_ [$rd_x value]
+    #$fnode($i) set Y_ [$rd_y value]
+    set xf [$rd_x value]
+    set yf [$rd_y value]
+    create_holes xf yf
+    $fnode($i) set X_ $xf
+    $fnode($i) set Y_ $yf
     $fnode($i) set Z_ 0
     $fnode($i) random-motion 0
     $ns initial_node_pos $fnode($i) $opt(node_size)
     $fnode($i) color "black"
+    $fnode($i) shape "circle"
+    set lag([$fnode($i) id]) 0
 }
 
 # Create Mobile nodes
 for {set i 0} {$i < $opt(nmnode)} {incr i} {
     set mnode($i) [$ns node]
-    $mnode($i) set X_ [$rd_x value]
-    $mnode($i) set Y_ [$rd_y value]
+    #$mnode($i) set X_ [$rd_x value]
+    #$mnode($i) set Y_ [$rd_y value]
+    set xm [$rd_x value]
+    set ym [$rd_y value]
+    create_holes xm ym
+    #puts "@219 mobile ($xm, $ym)"
+    $mnode($i) set X_ $xm
+    $mnode($i) set Y_ $ym
     $mnode($i) set Z_ 0
     $mnode($i) random-motion 0
     $ns initial_node_pos $mnode($i) $opt(node_size)
     $mnode($i) color "black"
+    $mnode($i) shape "square"
     $ns at 0 "$mnode($i) color \"blue\""
     #$ns color $mnode($i) "red"
+    set lag([$mnode($i) id]) 0
 }
 
 # Create the Target
@@ -162,11 +269,13 @@ $target set Z_ 0
 $target random-motion 0
 $ns initial_node_pos $target $opt(target_size)
 $target color "black"
+$target shape "hexagon"
 $ns at 0 "$target color \"red\""
 
 #===================================
 #        Utilities
 #===================================
+
 # If node can sense the target
 proc be_sensed {node target radius itime} {
     global ns
@@ -200,12 +309,15 @@ proc set_destination {node target itime} {
 # Scheduling mobile node actions
 proc mobile_node_action {time_stamp} {
 # Choosing Mobile nodes, set them in the array moving_mnode_index
-    global opt mnode target
+    global opt mnode target lag
     set num_mobile 0
     for {set i 0} {$i < $opt(nmnode)} {incr i} {
         if {[be_sensed $mnode($i) $target $opt(radius_m) $time_stamp]} {
             set moving_mnode_index($num_mobile) $i
             incr num_mobile
+            set lag([$mnode($i) id]) [expr $lag([$mnode($i) id]) + $opt(time_click)]
+        } else {
+            set lag([$mnode($i) id]) 0
         }
     }
 
@@ -234,58 +346,6 @@ proc distance {node target time_stamp} {
     set dy [expr $node_y - $target_y]
     set dist [expr sqrt($dx * $dx + $dy * $dy)]
     return $dist
-}
-
-# Computing the valid surveillance time and energy comsumption
-proc fixed_node_computing {m_m_index num_m_m time_stamp} {
-# Preparation for mobile nodes
-    global opt mnode fnode target ns
-    set m_proba_tmp 1.0
-    set sys_proba_tmp 1.0
-    for {set i 0} {$i < $opt(nfnode)} {incr i} {
-        $fnode($i) color "black"
-    }
-    if {0 < $num_m_m} {
-        upvar 1 $m_m_index moving_mnode_index
-        for {set i 0} {$i < $num_m_m} {incr i} {
-            set dist [distance $mnode($moving_mnode_index($i)) $target $time_stamp]
-            set m_local_proba [local_probability $dist $opt(dist_threshold_f)]
-            set m_proba_tmp [expr $m_proba_tmp * (1.0 - $m_local_proba)]
-        }
-        set sys_proba_tmp [expr $sys_proba_tmp * $m_proba_tmp]
-        set sys_proba [expr 1.0 - $sys_proba_tmp]
-        if {$opt(sys_proba_threshold) <= $sys_proba} {
-            $ns set valid_sur_time [expr [$ns set valid_sur_time] + $opt(time_click)]
-            return
-        }
-    }
-
-# Sorting the fixed node distances
-    set fnode_list ""
-    for {set i 0} {$i < $opt(nfnode)} {incr i} {
-        lappend fnode_list [list [distance $fnode($i) $target $time_stamp] $i]
-    }
-    set fnode_list [lsort -real -index 0 $fnode_list]
-
-# Compute the system probability and energy comsumption
-    set f_node_act_num 0
-    foreach f_node $fnode_list {
-        set index [lindex $f_node 1]
-        $fnode($index) color "green"
-        incr f_node_act_num
-        set dist [lindex $f_node 0]
-        set f_local_proba [local_probability $dist $opt(dist_threshold_f)]
-        set sys_proba_tmp [expr $sys_proba_tmp * (1.0 - $f_local_proba)]
-        set sys_proba [expr 1.0 - $sys_proba_tmp]
-        if {$opt(sys_proba_threshold) <= $sys_proba} {
-            $ns set valid_sur_time [expr [$ns set valid_sur_time] + $opt(time_click)]
-            $ns set energy_consumption \
-                [expr [$ns set energy_consumption] + $f_node_act_num * $opt(time_click)]
-            return
-        }
-    }
-    $ns set energy_consumption \
-        [expr [$ns set energy_consumption] + $f_node_act_num * $opt(time_click)]
 }
 
 # Compute local probability
@@ -327,6 +387,77 @@ proc local_probability {dist dist_threshold} {
     set local_proba [expr 1.0 - $np]
     return $local_proba
 }
+
+# Computing the valid surveillance time and energy comsumption
+proc fixed_node_computing {m_m_index num_m_m time_stamp} {
+# Preparation for mobile nodes
+    global opt mnode fnode target ns lag
+    set m_proba_tmp 1.0
+    set sys_proba_tmp 1.0
+    for {set i 0} {$i < $opt(nfnode)} {incr i} {
+        $fnode($i) color "black"
+    }
+    if {0 < $num_m_m} {
+        upvar 1 $m_m_index moving_mnode_index
+        for {set i 0} {$i < $num_m_m} {incr i} {
+            if {$lag([$mnode($moving_mnode_index($i)) id]) > \
+                    $opt(lag_time)} {
+                set dist [distance $mnode($moving_mnode_index($i)) $target $time_stamp]
+                set m_local_proba [local_probability $dist $opt(dist_threshold_f)]
+                set m_proba_tmp [expr $m_proba_tmp * (1.0 - $m_local_proba)]
+            }
+        }
+        set sys_proba_tmp [expr $sys_proba_tmp * $m_proba_tmp]
+        set sys_proba [expr 1.0 - $sys_proba_tmp]
+        if {$opt(sys_proba_threshold) <= $sys_proba} {
+            $ns set valid_sur_time [expr [$ns set valid_sur_time] + $opt(time_click)]
+            return
+        }
+    }
+
+# Sorting the fixed node distances
+    set fnode_list ""
+    for {set i 0} {$i < $opt(nfnode)} {incr i} {
+        lappend fnode_list [list [distance $fnode($i) $target $time_stamp] $i]
+        #lappend fnode_list [distance $fnode($i) $target $time_stamp]
+    }
+    set fnode_list [lsort -real -index 0 $fnode_list]
+    #set fnode_list [lsort -real $fnode_list]
+
+# Compute the system probability and energy comsumption
+    set f_node_act_num 0
+    set met_proba_threshold 0
+    foreach f_node $fnode_list {
+        set index [lindex $f_node 1]
+        set dist [lindex $f_node 0]
+        #set dist $f_node
+        if {$dist > $opt(dist_limit) \
+         || $met_proba_threshold} {
+            set lag([$fnode($index) id]) 0
+            continue
+        }
+        incr f_node_act_num
+        set lag([$fnode($index) id]) [expr $lag([$fnode($index) id]) + $opt(time_click)]
+        if {$lag([$fnode($index) id]) > $opt(lag_time)} {
+            $fnode($index) color "green"
+            set f_local_proba [local_probability $dist $opt(dist_threshold_f)]
+            set sys_proba_tmp [expr $sys_proba_tmp * (1.0 - $f_local_proba)]
+            set sys_proba [expr 1.0 - $sys_proba_tmp]
+            if {$opt(sys_proba_threshold) <= $sys_proba} {
+                $ns set valid_sur_time [expr [$ns set valid_sur_time] + $opt(time_click)]
+                #$ns set energy_consumption \
+                    #    [expr [$ns set energy_consumption] + $f_node_act_num * $opt(time_click)]
+                #return
+                #break
+                set met_proba_threshold 1
+            }
+        }
+    }
+    $ns set energy_consumption \
+        [expr [$ns set energy_consumption] + $f_node_act_num * $opt(time_click)]
+    #set opt(test) [expr $opt(test) + $f_node_act_num * $opt(time_click)]
+}
+
 
 #===================================
 #        Generate movement
@@ -412,6 +543,8 @@ proc finish {} {
     if {0 < $argc} {
         output_file
     }
+    #puts "opt(test) = $opt(test)";# test
+    $ns at $opt(stop) "$ns nam-end-wireless $opt(stop)"
     close $tracefile
     close $namfile
     #exec nam out.nam &
@@ -428,7 +561,7 @@ for {set i 0} {$i < $opt(nfnode)} {incr i} {
 }
 
 # Finish
-$ns at $opt(stop) "$ns nam-end-wireless $opt(stop)"
+#$ns at $opt(stop) "$ns nam-end-wireless $opt(stop)"
 $ns at $opt(stop) "finish"
 $ns at $opt(stop) "puts \"Done.\"; $ns halt"
 $ns run

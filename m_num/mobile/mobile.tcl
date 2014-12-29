@@ -522,6 +522,7 @@ proc finish {} {
     if {0 < $argc} {
         output_file
     }
+    $ns at $opt(stop) "$ns nam-end-wireless $opt(stop)"
     close $tracefile
     close $namfile
     #exec nam out.nam &
@@ -538,7 +539,7 @@ for {set i 0} {$i < $opt(nfnode)} {incr i} {
 }
 
 # Finish
-$ns at $opt(stop) "$ns nam-end-wireless $opt(stop)"
+#$ns at $opt(stop) "$ns nam-end-wireless $opt(stop)"
 $ns at $opt(stop) "finish"
 $ns at $opt(stop) "puts \"Done.\"; $ns halt"
 $ns run
