@@ -29,7 +29,7 @@ set opt(target_speed_max) 3;                    # Mean velocity of the Target
 #set opt(target_move_time_max) 20;           # Maxium time of the Target one movement
 set opt(time_click) 1;                      # Duration of a time slice
 #set MOVE_TIME 0;                            # global variable
-#set opt(energy_comsumption) 0;              # Energy comsumption of fixed noded
+set opt(energy_comsumption) 0;              # Energy comsumption of fixed noded
 #set opt(valid_time) 0;                      # Valid surveillance time
 set opt(noise_avg) 0.1;                       # Noise average
 set opt(noise_std) 0.2;                       # Noise standard deviation
@@ -262,6 +262,7 @@ for {set i 0} {$i < $opt(nmnode)} {incr i} {
     $mnode($i) shape "square"
     $ns at 0 "$mnode($i) color \"blue\""
     set lag([$mnode($i) id]) 0
+    set to_target($i) -1
 }
 
 # Create the Target
@@ -312,16 +313,26 @@ proc set_destination {node target itime} {
     $target update_position
     set target_x [$target set X_]
     set target_y [$target set Y_]
-    $node setdest $target_x $target_y $opt(mnode_speed)
+    set node_x [$node set X_]
+    set node_y [$node set Y_]
+    set delta [expr ($opt(node_size) + $opt(target_size)) / 2.0]
+    set dist [distance $node $target $itime]
+    set sin_theta [expr ($target_x - $node_x) / $dist]
+    set cos_theta [expr ($target_y - $node_y) / $dist]
+    set dest_x [expr $target_x - $delta * $sin_theta]
+    set dest_y [expr $target_y - $delta * $cos_theta]
+    $node setdest $dest_x $dest_y $opt(mnode_speed)
 }
 
 # Get the Attracting Force from target to mobile node
 proc attracting_force {node target time_stamp} {
     global opt
     set dist [distance $node $target $time_stamp]
-    puts "dist = $dist";        # test
+    if {!$dist} {
+        #puts "@323 dist = $dist"; # test
+        set dist 0.001
+    }
     set force [expr $opt(weight_GT) / pow($dist, 2)]
-    puts "@309 attracting force = $force"; # test
     return $force
 }
 
@@ -330,6 +341,10 @@ proc repulsive_force {node target index time_stamp} {
     global opt mnode
     set force 0.0
     set d_nt [distance $node $target $time_stamp]
+    if {!$d_nt} {
+        #puts "@335 d_nt = $d_nt"; # test
+        set d_nt 0.001
+    }
     for {set i 0} {$i < $opt(nmnode)} {incr i} {
         if {$i == $index} {
             continue
@@ -337,6 +352,10 @@ proc repulsive_force {node target index time_stamp} {
         set d_ni [distance $mnode($i) $node $time_stamp]
         if {$d_ni > $opt(radius_m)} {
             continue
+        }
+        if {!$d_ni} {
+            #puts "@346 d_ni = $d_ni"; # test
+            set d_ni 0.001
         }
         set d_it [distance $mnode($i) $target $time_stamp]
         set cos_theta \
@@ -346,7 +365,6 @@ proc repulsive_force {node target index time_stamp} {
         set force [expr $force + $ft]
     }
     set force [expr -1 * $opt(weight_GM) * $force]
-    puts "@334 repulsive force = $force"; # test
     return $force
 }
 
@@ -360,48 +378,77 @@ proc acting_force {node target index time_stamp} {
 
 # Scheduling mobile node actions
 proc mobile_node_action {time_stamp} {
-# Choosing Mobile nodes, set them in the array moving_mnode_index
-    global opt mnode target lag
-    set num_mobile 0
+    global opt mnode target lag to_target
+    for {set i 0} {$i < $opt(ntarget)} {incr i} {
+        set moving_mnode_index($i) ""
+        #set num_mobile($i) 0
+    }
+# For every mobile node, choose a target
     for {set i 0} {$i < $opt(nmnode)} {incr i} {
+        if {$to_target($i) != -1} {
+            set dist \
+                [distance $mnode($i) $target($to_target($i)) $time_stamp]
+            if {$dist < ($opt(radius_m) / 2)} {
+                continue
+            }
+        }
         set switch_on 0
         set force_max 0
-        set to_target($i) -1
+        #set to_target($i) -1
         for {set j 0} {$j < $opt(ntarget)} {incr j} {
-            if {[be_sensed $mnode($i) $target($j) $opt(radius_m) $time_stamp]} {
-                incr lag([$mnode($i) id]) $opt(time_click)
-                if {$lag([$mnode($i) id]) > $opt(lag_time)} {
-                    set moving_mnode_index($num_mobile) $i
-                    incr num_mobile
+            if {![be_sensed \
+                 $mnode($i) $target($j) $opt(radius_m) $time_stamp]} {
+                continue
+            }
+            incr lag([$mnode($i) id]) $opt(time_click)
+            set switch_on 1
+            if {$lag([$mnode($i) id]) <= $opt(lag_time)} {
+                continue
+            }
 
-                    compute the force to this target($j)
-                    if {force > max_force} {
-                        max_force = force
-                        to_target($i) = j
-                        lappend moving_mnode_index($j) i
-                        incr num_mobile($j)
-                    }
-                }
-                set switch_on 1
+# Computing the force from this target($j)
+            set force [acting_force $mnode($i) $target($j) $i time_stamp]
+            if {$force > $force_max} {
+                set force_max $force
+                set to_target($i) $j
             }
         }
         if {!$switch_on} {
+            set to_target($i) -1
             set lag([$mnode($i) id]) 0
+        }
+        set target_index $to_target($i)
+        if {$target_index != -1} {
+            lappend moving_mnode_index($target_index) $i
+            #incr num_mobile($target_index)
         }
     }
 
 # Movement for those chosen Mobile nodes
-    for {set i 0} {$i < $num_mobile} {incr i} {
-        #set_destination $mnode($moving_mnode_index($i)) $target $time_stamp
-        set_destination $mnode($moving_mnode_index($i)) $target(0) $time_stamp
+    for {set i 0} {$i < $opt(nmnode)} {incr i} {
+        set target_index $to_target($i)
+        if {$target_index == -1} {
+            continue
+        }
+        set_destination $mnode($i) $target($target_index) $time_stamp
     }
 
 # Computing the consumption of Fiexed nodes, as well as valid surveillance time
-    if {0 < $num_mobile} {
-        fixed_node_computing moving_mnode_index $num_mobile $time_stamp
-    } else {
-        fixed_node_computing "" 0 $time_stamp
-    }
+    #if {0 < $num_mobile} {
+    #    fixed_node_computing moving_mnode_index $num_mobile $time_stamp
+    #} else {
+    #    fixed_node_computing "" 0 $time_stamp
+    #}
+
+    #for {set i 0} {$i < $opt(ntarget)} {incr i} {
+    #    if {$num_mobile($i) > 0} {
+    #        fixed_node_computing \
+    #            $i $moving_mnode_index($i) $num_mobile($i) $time_stamp
+    #    } else {
+    #        fixed_node_computing $i "" 0 $time_stamp
+    #    }
+    #}
+    fixed_node_computing moving_mnode_index $time_stamp
 }
 
 # Compute the distance bewteen node and target
@@ -459,74 +506,96 @@ proc local_probability {dist dist_threshold} {
 }
 
 # Computing the valid surveillance time and energy comsumption
-proc fixed_node_computing {m_m_index num_m_m time_stamp} {
+proc fixed_node_computing {moving_mnode_index_ time_stamp} {
 # Preparation for mobile nodes
-    global opt mnode fnode target ns lag
+    global opt mnode fnode target ns lag EMR
     set m_proba_tmp 1.0
     set sys_proba_tmp 1.0
     for {set i 0} {$i < $opt(nfnode)} {incr i} {
         $fnode($i) color "black"
+        set switch_on($i) 0
     }
-    if {0 < $num_m_m} {
-        upvar 1 $m_m_index moving_mnode_index
-        for {set i 0} {$i < $num_m_m} {incr i} {
-            if {$lag([$mnode($moving_mnode_index($i)) id]) > \
-                    $opt(lag_time)} {
-                #set dist [distance $mnode($moving_mnode_index($i)) $target $time_stamp]
-                set dist [distance $mnode($moving_mnode_index($i)) $target(0) $time_stamp]
-                set m_local_proba [local_probability $dist $opt(dist_threshold_f)]
+    upvar 1 $moving_mnode_index_ moving_mnode_index
+    for {set target_index 0} {$target_index < $opt(ntarget)} {incr target_index} {
+        set num_moving_mnode [llength $moving_mnode_index($target_index)]
+        if {0 < $num_moving_mnode} {
+            foreach i $moving_mnode_index($target_index) {
+                set dist \
+                    [distance $mnode($i) $target($target_index) $time_stamp]
+                set m_local_proba \
+                    [local_probability $dist $opt(dist_threshold_f)]
                 set m_proba_tmp [expr $m_proba_tmp * (1.0 - $m_local_proba)]
             }
+            set sys_proba_tmp [expr $sys_proba_tmp * $m_proba_tmp]
+            set sys_proba [expr 1.0 - $sys_proba_tmp]
+            if {$opt(sys_proba_threshold) <= $sys_proba} {
+                #$ns set valid_sur_time [expr [$ns set valid_sur_time] + $opt(time_click)]
+                incr EMR($target_index) $opt(time_click)
+                #return
+                continue
+            }
         }
-        set sys_proba_tmp [expr $sys_proba_tmp * $m_proba_tmp]
-        set sys_proba [expr 1.0 - $sys_proba_tmp]
-        if {$opt(sys_proba_threshold) <= $sys_proba} {
-            $ns set valid_sur_time [expr [$ns set valid_sur_time] + $opt(time_click)]
-            return
-        }
-    }
 
 # Sorting the fixed node distances
-    set fnode_list ""
-    for {set i 0} {$i < $opt(nfnode)} {incr i} {
-        #lappend fnode_list [list [distance $fnode($i) $target $time_stamp] $i]
-        lappend fnode_list [list [distance $fnode($i) $target(0) $time_stamp] $i]
-    }
-    set fnode_list [lsort -real -index 0 $fnode_list]
+        set fnode_list ""
+        for {set i 0} {$i < $opt(nfnode)} {incr i} {
+            #lappend fnode_list [list [distance $fnode($i) $target $time_stamp] $i]
+            lappend fnode_list [list \
+                [distance $fnode($i) $target($target_index) $time_stamp] $i]
+        }
+        set fnode_list [lsort -real -index 0 $fnode_list]
 
 # Compute the system probability and energy comsumption
-    set f_node_act_num 0
-    set met_proba_threshold 0
-    foreach f_node $fnode_list {
-        set index [lindex $f_node 1]
-        set dist [lindex $f_node 0]
-        if {$dist > $opt(dist_limit) \
-         || $met_proba_threshold} {
-            set lag([$fnode($index) id]) 0
-            continue
-        }
-        incr f_node_act_num
-        set lag([$fnode($index) id]) [expr $lag([$fnode($index) id]) + $opt(time_click)]
-        if {$lag([$fnode($index) id]) > $opt(lag_time)} {
+        #set f_node_act_num 0
+        #set met_proba_threshold 0
+        foreach f_node $fnode_list {
+            set index [lindex $f_node 1]
+            set dist [lindex $f_node 0]
+            #if {$dist > $opt(dist_limit) \
+                # || $met_proba_threshold} {
+            #    set lag([$fnode($index) id]) 0
+            #    continue
+            #}
+            if {$dist > $opt(dist_limit)} {
+                break
+            }
+            #incr f_node_act_num
+            incr lag([$fnode($index) id]) $opt(time_click)
+            set switch_on($index) 1
+            if {$lag([$fnode($index) id]) <= $opt(lag_time)} {
+                continue
+            }
             $fnode($index) color "green"
-            set f_local_proba [local_probability $dist $opt(dist_threshold_f)]
+            set f_local_proba \
+                [local_probability $dist $opt(dist_threshold_f)]
             set sys_proba_tmp [expr $sys_proba_tmp * (1.0 - $f_local_proba)]
             set sys_proba [expr 1.0 - $sys_proba_tmp]
             if {$opt(sys_proba_threshold) <= $sys_proba} {
-                $ns set valid_sur_time [expr [$ns set valid_sur_time] + $opt(time_click)]
-                set met_proba_threshold 1
+                #$ns set valid_sur_time [expr [$ns set valid_sur_time] + $opt(time_click)]
+                incr EMR($target_index) $opt(time_click)
+                #set met_proba_threshold 1
+                break
             }
         }
     }
-    $ns set energy_consumption \
-        [expr [$ns set energy_consumption] + $f_node_act_num * $opt(time_click)]
+    set acting_fnode 0
+    for {set i 0} {$i < $opt(nfnode)} {incr i} {
+        if {$switch_on($i)} {
+            incr acting_fnode
+        } else {
+            set lag([$fnode($i) id]) 0
+        }
+    }
+    incr opt(energy_consumption) [expr $acting_fnode * $opt(time_click)]
+    #$ns set energy_consumption \
+    #    [expr [$ns set energy_consumption] + $f_node_act_num * $opt(time_click)]
 }
 
 
 #===================================
 #        Generate movement
 #===================================
-# the schedule of Targets' Movement
+# The schedule of Targets' Movement
 for {set i 0}  {$i < $opt(ntarget)} {incr i} {
     set time_line 0
     set target_lx [$target($i) set X_]
@@ -535,7 +604,7 @@ for {set i 0}  {$i < $opt(ntarget)} {incr i} {
     while {$time_line < $opt(stop)} {
         set time_stamp $time_line
 
-        # a Stop after a movement
+# A Stop after a movement
         if {!$to_move} {
             set stop_time [expr int($move_time / 3)]
             if {!$stop_time} {
@@ -549,7 +618,7 @@ for {set i 0}  {$i < $opt(ntarget)} {incr i} {
             continue
         }
 
-        # a Movement of this Target
+# A Movement of this Target
         set dest_x [$rd_x value]
         set dest_y [$rd_y value]
         set target_speed [$rd_target_speed value]
@@ -568,6 +637,13 @@ for {set i 0}  {$i < $opt(ntarget)} {incr i} {
     }
 }
 #$ns at 0 "do_test 0";       # test
+
+# The schedule of Mobile Nodes' Movement
+set time_line 0
+while {$time_line < $opt(stop)} {
+    $ns at $time_line "mobile_node_action $time_line"
+    incr time_line $opt(time_click)
+}
 
 proc do_test {time_stamp} {
     global mnode target opt
@@ -607,7 +683,8 @@ proc output_file {} {
 proc finish {} {
     global ns tracefile namfile opt argc
     puts "valid_time = [$ns set valid_sur_time]"
-    puts "energy_comsumption = [$ns set energy_consumption]"
+    #puts "energy_consumption = [$ns set energy_consumption]"
+    puts "energy_consumption = $opt(energy_consumption)"
     $ns flush-trace
     if {0 < $argc} {
         output_file
