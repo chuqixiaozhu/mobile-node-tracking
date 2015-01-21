@@ -47,18 +47,19 @@ set opt(hole_number) 2;                     # number of holes
 set opt(hole_length) 30;                    # Length of a hole edge
 set opt(dist_limit) 15;                     # Maximum distance from target to active nodes
 set opt(lag_time) [expr 2 * $opt(time_click)]
-set opt(ntarget) 5;                         # number of targets
+set opt(ntarget) 3;                         # number of targets
 set opt(EC) 0;                              # Energy Consumption
 set opt(weight_GT) 1;                       # Weight of attracting force from target
 set opt(weight_GM) 1;                       # Weight of repulsive force from other mobile nodes
+set opt(AVG_EMT) 0;                         # Average Effective Monitoring Time of targets
 #set opt(test) 0
 
 source $opt(normal)
 if {0 < $argc} {
     #set opt(nfnode) [lindex $argv 0]
-    #set opt(nmnode) [lindex $argv 0]
+    set opt(nmnode) [lindex $argv 0]
     #set opt(hole_number) [lindex $argv 0]
-    set opt(target_speed_max) [lindex $argv 0]
+    #set opt(target_speed_max) [lindex $argv 0]
     set opt(result_file) [lindex $argv 1]
     #set opt(x) [lindex $argv 0]
     #set opt(y) [lindex $argv 1]
@@ -280,7 +281,7 @@ for {set i 0} {$i < $opt(ntarget)} {incr i} {
     $target($i) color "black"
     $target($i) shape "hexagon"
     $ns at 0 "$target($i) color \"red\""
-    set EMR($i) 0
+    set EMT($i) 0
 }
 
 #===================================
@@ -413,14 +414,11 @@ proc mobile_node_action {time_stamp} {
                 set to_target($i) $j
             }
         }
-        if {!$switch_on} {
+        if {$switch_on} {
+            lappend moving_mnode_index($to_target($i)) $i
+        } else {
             set to_target($i) -1
             set lag([$mnode($i) id]) 0
-        }
-        set target_index $to_target($i)
-        if {$target_index != -1} {
-            lappend moving_mnode_index($target_index) $i
-            #incr num_mobile($target_index)
         }
     }
 
@@ -508,7 +506,7 @@ proc local_probability {dist dist_threshold} {
 # Computing the valid surveillance time and energy comsumption
 proc fixed_node_computing {moving_mnode_index_ time_stamp} {
 # Preparation for mobile nodes
-    global opt mnode fnode target ns lag EMR
+    global opt mnode fnode target ns lag EMT
     set m_proba_tmp 1.0
     set sys_proba_tmp 1.0
     for {set i 0} {$i < $opt(nfnode)} {incr i} {
@@ -530,7 +528,7 @@ proc fixed_node_computing {moving_mnode_index_ time_stamp} {
             set sys_proba [expr 1.0 - $sys_proba_tmp]
             if {$opt(sys_proba_threshold) <= $sys_proba} {
                 #$ns set valid_sur_time [expr [$ns set valid_sur_time] + $opt(time_click)]
-                incr EMR($target_index) $opt(time_click)
+                incr EMT($target_index) $opt(time_click)
                 #return
                 continue
             }
@@ -565,14 +563,13 @@ proc fixed_node_computing {moving_mnode_index_ time_stamp} {
             if {$lag([$fnode($index) id]) <= $opt(lag_time)} {
                 continue
             }
-            $fnode($index) color "green"
             set f_local_proba \
                 [local_probability $dist $opt(dist_threshold_f)]
             set sys_proba_tmp [expr $sys_proba_tmp * (1.0 - $f_local_proba)]
             set sys_proba [expr 1.0 - $sys_proba_tmp]
             if {$opt(sys_proba_threshold) <= $sys_proba} {
                 #$ns set valid_sur_time [expr [$ns set valid_sur_time] + $opt(time_click)]
-                incr EMR($target_index) $opt(time_click)
+                incr EMT($target_index) $opt(time_click)
                 #set met_proba_threshold 1
                 break
             }
@@ -582,6 +579,7 @@ proc fixed_node_computing {moving_mnode_index_ time_stamp} {
     for {set i 0} {$i < $opt(nfnode)} {incr i} {
         if {$switch_on($i)} {
             incr acting_fnode
+            $fnode($i) color "green"
         } else {
             set lag([$fnode($i) id]) 0
         }
@@ -647,16 +645,6 @@ while {$time_line < $opt(stop)} {
 
 proc do_test {time_stamp} {
     global mnode target opt
-    #$mnode(0) set X_ 0
-    #$mnode(0) set Y_ 0
-    #$mnode(1) set X_ 1
-    #$mnode(1) set Y_ 1
-    #$target(0) set X_ 0
-    #$target(0) set Y_ 1
-    #for {set i 2} {$i < $opt(nmnode)} {incr i} {
-    #    $mnode($i) set X_ 50
-    #    $mnode($i) set Y_ 50
-    #}
     set force [acting_force $mnode(0) $target(0) 0 $time_stamp]
     puts "force = $force OK?"
 }
@@ -669,20 +657,38 @@ proc do_test {time_stamp} {
 #===================================
 #        Termination
 #===================================
-#Define a 'finish' procedure
+
+# Calculate Averaget Effective Monitoring Time of targets
+proc average_emt {} {
+    global EMT opt
+    set sum 0
+    for {set i 0} {$i < $opt(ntarget)} {incr i} {
+        incr sum $EMT($i)
+        puts "EMT($i) = $EMT($i)"; # test
+    }
+    set opt(AVG_EMT) [expr 1.0 * $sum / $opt(ntarget)]
+}
+
+# Calculate the results
+proc getting_results {} {
+    average_emt
+}
+
+# Define a 'finish' procedure
 proc output_file {} {
     global ns opt
     set result_file [open $opt(result_file) a]
     puts $result_file \
-         "$opt(target_speed_max) \
-          [$ns set valid_sur_time] \
-          [$ns set energy_consumption]"
+         "$opt(nmnode) \
+          $opt(AVG_EMT) \
+          $opt(energy_consumption)"
     flush $result_file
     close $result_file
 }
 proc finish {} {
     global ns tracefile namfile opt argc
-    puts "valid_time = [$ns set valid_sur_time]"
+    getting_results
+    puts "average_effective_monitoring_time = $opt(AVG_EMT)"
     #puts "energy_consumption = [$ns set energy_consumption]"
     puts "energy_consumption = $opt(energy_consumption)"
     $ns flush-trace

@@ -20,7 +20,7 @@ set opt(x)      100                        ;# X dimension of topography
 set opt(y)      100                        ;# Y dimension of topography
 set opt(stop)   100                        ;# time of simulation end
 set opt(nfnode) 100                        ;# number of fixed nodes
-set opt(nmnode) 10                         ;# number of mobile nodes
+set opt(nmnode) 20                         ;# number of mobile nodes
 set opt(node_size) 1                       ;# Size of nodes
 set opt(target_size) 2                     ;# Size of the target
 set opt(radius_m) 15                       ;# Sensing Radius of Mobile nodes
@@ -31,8 +31,8 @@ set opt(time_click) 1;                      # Duration of a time slice
 #set MOVE_TIME 0;                            # global variable
 #set opt(energy_comsumption) 0;              # Energy comsumption of fixed noded
 #set opt(valid_time) 0;                      # Valid surveillance time
-set opt(noise_avg) 0.1;                       # Noise average
-set opt(noise_std) 0.2;                       # Noise standard deviation
+set opt(noise_avg) 0.01;                       # Noise average
+set opt(noise_std) 0.1;                       # Noise standard deviation
 set opt(source_signal_max) 5;              # Maximum of source singal
 set opt(decay_factor) 2;                    # Decay factor
 set opt(dist_threshold_f) 7               ;# Distance threshold of Fixed nodes

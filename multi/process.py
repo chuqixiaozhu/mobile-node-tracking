@@ -16,13 +16,13 @@ if len(argvs) <= 1:
 else:
     count = int(argvs[1])
 for i in range(count):
-    for target_speed in range(1, 8):
-        subprocess.call(['ns', 'mobile.tcl', str(target_speed), result_file])
+    for num_mnode in range(0, 21):
+        subprocess.call(['ns', 'mobile.tcl', str(num_mnode), result_file])
 
 # Process the results
 rf = open(result_file, 'r')
-vt_file = open('t_speed-m_vs_vt', 'w')
-ec_file = open('t_speed-m_vs_ec', 'w')
+vt_file = open('m_num-m_vs_vt', 'w')
+ec_file = open('m_num-m_vs_ec', 'w')
 vt = dict()
 ec = dict()
 for line in rf:
