@@ -50,7 +50,7 @@ set opt(lag_time) [expr 2 * $opt(time_click)]
 set opt(ntarget) 3;                         # number of targets
 set opt(EC) 0;                              # Energy Consumption
 set opt(weight_GT) 1;                # Weight of attracting force from target
-set opt(weight_GM) 2;     # Weight of repulsive force from other mobile nodes
+set opt(weight_GM) 7.5;     # Weight of repulsive force from other mobile nodes
 set opt(AVG_EMT) 0;           # Average Effective Monitoring Time of targets
 #set opt(test) 0
 
