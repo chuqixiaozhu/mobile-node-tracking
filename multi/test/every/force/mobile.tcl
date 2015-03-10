@@ -25,7 +25,8 @@ set opt(node_size) 1                       ;# Size of nodes
 set opt(target_size) 2                     ;# Size of the target
 set opt(radius_m) 15                       ;# Sensing Radius of Mobile nodes
 set opt(mnode_speed) 1;                     # Velocity of Mobile nodes
-set opt(target_speed_max) 3;                    # Mean velocity of the Target
+set opt(target_speed_max) 3;                    # Maximum velocity of the Target
+set opt(target_speed_min) 0.7;                  # Minimum velocity of the Target
 #set opt(target_move_time_max) 20;   # Maxium time of the Target one movement
 set opt(time_click) 1;                      # Duration of a time slice
 #set MOVE_TIME 0;                            # global variable
@@ -143,7 +144,7 @@ set rng_target_speed [new RNG]
 $rng_target_speed seed 0
 set rd_target_speed [new RandomVariable/Uniform]
 $rd_target_speed use-rng $rng_target_speed
-$rd_target_speed set min_ 0.7
+$rd_target_speed set min_ $opt(target_speed_min)
 $rd_target_speed set max_ $opt(target_speed_max)
 
 #===================================
