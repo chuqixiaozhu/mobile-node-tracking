@@ -120,14 +120,14 @@ $rng_x seed 0
 set rd_x [new RandomVariable/Uniform]
 $rd_x use-rng $rng_x
 $rd_x set min_ 0
-$rd_x set max_ $opt(x)
+$rd_x set max_ 20
 
 # Settings for Random Y positions
 set rng_y [new RNG]
 $rng_y seed 0
 set rd_y [new RandomVariable/Uniform]
 $rd_y use-rng $rng_y
-$rd_y set min_ 0
+$rd_y set min_ 80
 $rd_y set max_ $opt(y)
 
 ## Settings of random Time for Target one movement

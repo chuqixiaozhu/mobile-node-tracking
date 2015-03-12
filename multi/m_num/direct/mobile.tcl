@@ -46,10 +46,10 @@ set opt(hole_number) 2;                     # number of holes
 set opt(hole_length) 30;                    # Length of a hole edge
 set opt(dist_limit) 15;        # Maximum distance from target to active nodes
 set opt(lag_time) [expr 2 * $opt(time_click)]
-set opt(ntarget) 3;                         # number of targets
+set opt(ntarget) 10;                         # number of targets
 set opt(EC) 0;                              # Energy Consumption
 set opt(weight_GT) 100;                # Weight of attracting force from target
-set opt(weight_GM) 180;     # Weight of repulsive force from other mobile nodes
+set opt(weight_GM) 300;     # Weight of repulsive force from other mobile nodes
 set opt(AVG_EMT) 0;           # Average Effective Monitoring Time of targets
 
 source $opt(normal)
@@ -296,10 +296,13 @@ proc set_destination {node target itime} {
     set node_y [$node set Y_]
     set delta [expr ($opt(node_size) + $opt(target_size)) / 2.0]
     set dist [distance $node $target $itime]
-    set sin_theta [expr ($target_x - $node_x) / $dist]
-    set cos_theta [expr ($target_y - $node_y) / $dist]
-    set dest_x [expr $target_x - $delta * $sin_theta]
-    set dest_y [expr $target_y - $delta * $cos_theta]
+    if {$dist < $delta} {
+        return
+    }
+    set cos_theta [expr ($target_x - $node_x) / $dist]
+    set sin_theta [expr ($target_y - $node_y) / $dist]
+    set dest_x [expr $target_x - $delta * $cos_theta]
+    set dest_y [expr $target_y - $delta * $sin_theta]
     $node setdest $dest_x $dest_y $opt(mnode_speed)
 }
 

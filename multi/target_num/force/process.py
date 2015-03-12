@@ -16,7 +16,7 @@ if len(argvs) <= 1:
 else:
     count = int(argvs[1])
 for i in range(count):
-    for num_target in range(1, 11):
+    for num_target in range(2, 22, 2):
         subprocess.call(['ns', 'mobile.tcl', str(num_target), result_file])
 
 # Process the results

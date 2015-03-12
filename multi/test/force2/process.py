@@ -16,8 +16,8 @@ if len(argvs) <= 1:
 else:
     count = int(argvs[1])
 for i in range(count):
-    for r_force in range(0, 105, 5):
-        subprocess.call(['ns', 'mobile.tcl', str(r_force / 10), result_file])
+    for r_force in range(100, 1050, 50):
+        subprocess.call(['ns', 'mobile.tcl', str(r_force), result_file])
 
 # Process the results
 rf = open(result_file, 'r')
