@@ -539,17 +539,17 @@ proc mobile_node_action {time_stamp} {
         puts "mobile id: $i"
         set switch_on 0
         set force_max -InF
-        #if {$to_target($i) != -1} {
-        #    set switch_on 1
-        #    set dist \
-        #        [distance $mnode($i) $target($to_target($i)) $time_stamp]
-        #    if {$dist < ($opt(radius_m) / 2)} {
-        #        lappend moving_mnode_index($to_target($i)) [list $i $dist]
-        #        set_destination \
-        #            $mnode($i) $target($to_target($i)) $time_stamp
-        #        continue
-        #    }
-        #}
+        if {$to_target($i) != -1} {
+            set switch_on 1
+            set dist \
+                [distance $mnode($i) $target($to_target($i)) $time_stamp]
+            if {$dist < ($opt(radius_m) / 2)} {
+                lappend moving_mnode_index($to_target($i)) [list $i $dist]
+                set_destination \
+                    $mnode($i) $target($to_target($i)) $time_stamp
+                continue
+            }
+        }
         for {set j 0} {$j < $opt(ntarget)} {incr j} {
             set dist [distance $mnode($i) $target($j) $time_stamp]
             puts "target_id: $j"

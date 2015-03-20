@@ -527,10 +527,10 @@ proc mobile_node_action {time_stamp} {
         set switch_on 0
         set force_max -InF
         if {$to_target($i) != -1} {
-            set switch_on 1
             set dist \
                 [distance $mnode($i) $target($to_target($i)) $time_stamp]
             if {$dist < ($opt(radius_m) / 2)} {
+                set switch_on 1
                 lappend moving_mnode_index($to_target($i)) [list $i $dist]
                 set_destination \
                     $mnode($i) $target($to_target($i)) $time_stamp
@@ -663,8 +663,8 @@ proc output_file {} {
 proc finish {} {
     global ns tracefile namfile opt argc
     getting_results
-    puts "average_effective_monitoring_time = $opt(AVG_EMT)"
-    puts "energy_consumption = $opt(energy_consumption)"
+    #puts "average_effective_monitoring_time = $opt(AVG_EMT)"
+    #puts "energy_consumption = $opt(energy_consumption)"
     $ns flush-trace
     if {0 < $argc} {
         output_file
