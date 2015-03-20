@@ -1,0 +1,71 @@
+======= 0 =======
+-------------------------------------------
+target id: 0
+num_moving_mnode: 0
+num_sensing_fnode: 0
+-------------------------------------------
+target id: 1
+num_moving_mnode: 0
+num_sensing_fnode: 0
+======= 1 =======
+-------------------------------------------
+target id: 0
+num_moving_mnode: 0
+num_sensing_fnode: 0
+-------------------------------------------
+target id: 1
+num_moving_mnode: 0
+num_sensing_fnode: 0
+======= 2 =======
+-------------------------------------------
+target id: 0
+num_moving_mnode: 0
+num_sensing_fnode: 4
++++ fixed id: 9
+dist: 0.90519984207011261
+@382 source_intensity: 5
+@386 member: -0.10000000000000001
+@388 y: -0.5
+@414 local_proba: 0.69146200000000002
+f_local_proba: 0.69146200000000002
+sys_proba_tmp: 0.30853799999999998
+fixed sys_proba: 0.69146200000000002
++++ fixed id: 1
+dist: 1.2393425656815205
+@382 source_intensity: 5
+@386 member: -0.10000000000000001
+@388 y: -0.5
+@414 local_proba: 0.69146200000000002
+f_local_proba: 0.69146200000000002
+sys_proba_tmp: 0.095195697443999985
+fixed sys_proba: 0.90480430255599997
+++++++++++++++++++++++++++++++++++++++
+-------------------------------------------
+target id: 1
+num_moving_mnode: 1
+*** mobile id: 1
+dist: 2.077853290063048
+@382 source_intensity: 5
+@386 member: -0.10000000000000001
+@388 y: -0.5
+@414 local_proba: 0.69146200000000002
+m_local_proba: 0.69146200000000002
+m_proba_tmp: 0.30853799999999998
+sys_proba_tmp: 0.30853799999999998
+moblie sys_proba: 0.69146200000000002
+num_sensing_fnode: 6
++++ fixed id: 5
+dist: 1.3737748154773319
+@382 source_intensity: 5
+@386 member: -0.10000000000000001
+@388 y: -0.5
+@414 local_proba: 0.69146200000000002
+f_local_proba: 0.69146200000000002
+sys_proba_tmp: 0.095195697443999985
+fixed sys_proba: 0.90480430255599997
+++++++++++++++++++++++++++++++++++++++
+average_effective_monitoring_time = 1.0
+energy_consumption = 3
+num_nodes is set 14
+channel.cc:sendUp - Calc highestAntennaZ_ and distCST_
+highestAntennaZ_ = 1.5,  distCST_ = 550.0

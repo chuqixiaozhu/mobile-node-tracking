@@ -1,0 +1,58 @@
+n -t * -s 0  -x 1.6790849999999999 -y 8.4894529999999992 -Z 0 -z 1  -v circle -c black
+n -t * -s 1  -x 4.997763 -y 7.0805660000000001 -Z 0 -z 1  -v circle -c black
+n -t * -s 2  -x 5.7891779999999997 -y 1.7572730000000001 -Z 0 -z 1  -v circle -c black
+n -t * -s 3  -x 5.9614599999999998 -y 5.007377 -Z 0 -z 1  -v circle -c black
+n -t * -s 4  -x 3.157213 -y 6.8928370000000001 -Z 0 -z 1  -v circle -c black
+n -t * -s 5  -x 3.740993 -y 2.7390949999999998 -Z 0 -z 1  -v circle -c black
+n -t * -s 6  -x 1.312414 -y 8.7047699999999999 -Z 0 -z 1  -v circle -c black
+n -t * -s 7  -x 7.3465040000000004 -y 6.3377509999999999 -Z 0 -z 1  -v circle -c black
+n -t * -s 8  -x 2.3606419999999999 -y 6.6403280000000002 -Z 0 -z 1  -v circle -c black
+n -t * -s 9  -x 5.339105 -y 6.7921810000000002 -Z 0 -z 1  -v circle -c black
+n -t * -s 10  -x 6.8555020000000004 -y 2.5496279999999998 -Z 0 -z 1  -v circle -c black
+n -t * -s 11  -x 5.0532640000000004 -y 3.226807 -Z 0 -z 1  -v circle -c black
+n -t * -s 12  -x 7.2723969999999998 -y 8.1794919999999998 -Z 0 -z 2  -v circle -c black
+n -t * -s 13  -x 0.38729639999999999 -y 5.0091340000000004 -Z 0 -z 2  -v circle -c black
+V -t * -v 1.0a5 -a 0
+W -t * -x 10 -y 10
+A -t * -n 1 -p 0 -o 0x7fffffff -c 30 -a 1
+A -t * -h 1 -m 1073741823 -s 0
+n -t 0 -s 10 -S COLOR -c blue -o black -i blue -I black
+n -t 0 -s 11 -S COLOR -c blue -o black -i blue -I black
+n -t 0 -s 12 -S COLOR -c red -o black -i red -I black
+n -t 0 -s 13 -S COLOR -c red -o black -i red -I black
+n -t 0.000000 -s 12 -x 7.272397 -y 8.179492 -U -0.521051 -V -0.614336 -T 9.439032
+n -t 0.000000 -s 13 -x 0.387296 -y 5.009134 -U 1.360628 -V -0.525250 -T 3.770908
+n -t 0 -s 0 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 1 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 2 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 3 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 4 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 5 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 6 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 7 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 8 -S COLOR -c black -o black -i black -I black
+n -t 0 -s 9 -S COLOR -c black -o black -i black -I black
+n -t 1 -s 0 -S COLOR -c black -o black -i black -I black
+n -t 1 -s 1 -S COLOR -c black -o black -i black -I black
+n -t 1 -s 2 -S COLOR -c black -o black -i black -I black
+n -t 1 -s 3 -S COLOR -c black -o black -i black -I black
+n -t 1 -s 4 -S COLOR -c black -o black -i black -I black
+n -t 1 -s 5 -S COLOR -c black -o black -i black -I black
+n -t 1 -s 6 -S COLOR -c black -o black -i black -I black
+n -t 1 -s 7 -S COLOR -c black -o black -i black -I black
+n -t 1 -s 8 -S COLOR -c black -o black -i black -I black
+n -t 1 -s 9 -S COLOR -c black -o black -i black -I black
+n -t 2.000000 -s 11 -x 5.053264 -y 3.226807 -U -0.935923 -V 0.352204 -T 0.577853
+n -t 2 -s 0 -S COLOR -c black -o black -i black -I black
+n -t 2 -s 1 -S COLOR -c black -o black -i black -I black
+n -t 2 -s 2 -S COLOR -c black -o black -i black -I black
+n -t 2 -s 3 -S COLOR -c black -o black -i black -I black
+n -t 2 -s 4 -S COLOR -c black -o black -i black -I black
+n -t 2 -s 5 -S COLOR -c black -o black -i black -I black
+n -t 2 -s 6 -S COLOR -c black -o black -i black -I black
+n -t 2 -s 7 -S COLOR -c black -o black -i black -I black
+n -t 2 -s 8 -S COLOR -c black -o black -i black -I black
+n -t 2 -s 9 -S COLOR -c black -o black -i black -I black
+n -t 2 -s 9 -S COLOR -c green -o black -i green -I black
+n -t 2 -s 1 -S COLOR -c green -o black -i green -I black
+n -t 2 -s 5 -S COLOR -c green -o black -i green -I black

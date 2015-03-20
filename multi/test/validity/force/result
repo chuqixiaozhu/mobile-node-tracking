@@ -1,0 +1,299 @@
+========== 0 ==========
+------------------------------------
+mobile id: 0
+target_id: 0
+@545 target dist: 5.3052394482365273
+target_id: 1
+@545 target dist: 6.7511286785704954
+------------------------------------
+mobile id: 1
+target_id: 0
+@545 target dist: 7.7928736391963911
+target_id: 1
+@545 target dist: 2.578600756883469
+num_moving_mnode(0): 0
+num_moving_mnode(1): 0
+========== 1 ==========
+------------------------------------
+mobile id: 0
+target_id: 0
+@545 target dist: 4.220823944876428
+------------------------------------
+mobile id: 1
+target_id: 0
+@545 target dist: 6.2181985498434651
+target_id: 1
+@545 target dist: 5.0497386865775029
+num_moving_mnode(0): 0
+num_moving_mnode(1): 0
+========== 2 ==========
+------------------------------------
+mobile id: 0
+target_id: 0
+@545 target dist: 3.7992675856485048
+------------------------------------
+mobile id: 1
+target_id: 0
+@545 target dist: 4.8530811962369604
+num_moving_mnode(0): 0
+num_moving_mnode(1): 0
+========== 3 ==========
+------------------------------------
+mobile id: 0
+target_id: 0
+@545 target dist: 4.242971110469246
+target dist: 4.242971110469246
+attracting_force: 5.5546903062986805
+dist_nt: 4.242971110469246
++++ i: 1
+dist_ni: 8.1471667796085399
+repulsive_force: -0.0
+acting force: 5.5546903062986805
+target_id: 1
+@545 target dist: 2.3463748821950858
+target dist: 2.3463748821950858
+attracting_force: 18.163736717594126
+dist_nt: 2.3463748821950858
++++ i: 1
+dist_ni: 8.1471667796085399
+repulsive_force: -0.0
+acting force: 18.163736717594126
+final target: 1
+**************************************
+------------------------------------
+mobile id: 1
+target_id: 0
+@545 target dist: 3.9227657631398483
+num_moving_mnode(0): 0
+num_moving_mnode(1): 1
+========== 4 ==========
+------------------------------------
+mobile id: 0
+target_id: 0
+@545 target dist: 5.5412188461187712
+target_id: 1
+@545 target dist: 1.5000000000000004
+target dist: 1.5000000000000004
+attracting_force: 44.444444444444422
+dist_nt: 1.5000000000000004
++++ i: 1
+dist_ni: 8.0055496443888536
+repulsive_force: -0.0
+acting force: 44.444444444444422
+final target: 1
+**************************************
+------------------------------------
+mobile id: 1
+target_id: 0
+@545 target dist: 3.764714545733256
+target dist: 3.764714545733256
+attracting_force: 7.0556315894771062
+dist_nt: 3.764714545733256
++++ i: 0
+dist_ni: 8.0055496443888536
+repulsive_force: -0.0
+acting force: 7.0556315894771062
+target_id: 1
+@545 target dist: 7.9720969817558656
+final target: 0
+**************************************
+num_moving_mnode(0): 1
+num_moving_mnode(1): 1
+========== 5 ==========
+------------------------------------
+mobile id: 0
+target_id: 0
+@545 target dist: 7.1237023896281162
+target_id: 1
+@545 target dist: 1.1736146988915741
+target dist: 1.1736146988915741
+attracting_force: 72.60205601647246
+dist_nt: 1.1736146988915741
++++ i: 1
+dist_ni: 7.2426915342755738
+repulsive_force: -0.0
+acting force: 72.60205601647246
+final target: 1
+**************************************
+------------------------------------
+mobile id: 1
+target_id: 0
+@545 target dist: 3.574592065713571
+target dist: 3.574592065713571
+attracting_force: 7.8261294267918684
+dist_nt: 3.574592065713571
++++ i: 0
+dist_ni: 7.2426915342755738
+repulsive_force: -0.0
+acting force: 7.8261294267918684
+target_id: 1
+@545 target dist: 6.5068131462116092
+final target: 0
+**************************************
+num_moving_mnode(0): 1
+num_moving_mnode(1): 1
+========== 6 ==========
+------------------------------------
+mobile id: 0
+target_id: 0
+@545 target dist: 7.9247865071124375
+target_id: 1
+@545 target dist: 1.5573535448799032
+target dist: 1.5573535448799032
+attracting_force: 41.231161428871474
+dist_nt: 1.5573535448799032
++++ i: 1
+dist_ni: 7.0287813747377461
+repulsive_force: -0.0
+acting force: 41.231161428871474
+final target: 1
+**************************************
+------------------------------------
+mobile id: 1
+target_id: 0
+@545 target dist: 3.2238792930760702
+target dist: 3.2238792930760702
+attracting_force: 9.6214926939014607
+dist_nt: 3.2238792930760702
++++ i: 0
+dist_ni: 7.0287813747377461
+repulsive_force: -0.0
+acting force: 9.6214926939014607
+target_id: 1
+@545 target dist: 5.5516839516731409
+final target: 0
+**************************************
+num_moving_mnode(0): 1
+num_moving_mnode(1): 1
+========== 7 ==========
+------------------------------------
+mobile id: 0
+target_id: 0
+@545 target dist: 7.8811270374541715
+target_id: 1
+@545 target dist: 2.2681767111876745
+target dist: 2.2681767111876745
+attracting_force: 19.437760472342152
+dist_nt: 2.2681767111876745
++++ i: 1
+dist_ni: 7.1126946842900223
+repulsive_force: -0.0
+acting force: 19.437760472342152
+final target: 1
+**************************************
+------------------------------------
+mobile id: 1
+target_id: 0
+@545 target dist: 2.2238792930760698
+target dist: 2.2238792930760698
+attracting_force: 20.219833629654325
+dist_nt: 2.2238792930760698
++++ i: 0
+dist_ni: 7.1126946842900223
+repulsive_force: -0.0
+acting force: 20.219833629654325
+target_id: 1
+@545 target dist: 4.8601190852636256
+target dist: 4.8601190852636256
+attracting_force: 4.2335644783138813
+dist_nt: 4.8601190852636256
++++ i: 0
+dist_ni: 7.1126946842900223
+repulsive_force: -0.0
+acting force: 4.2335644783138813
+final target: 0
+**************************************
+num_moving_mnode(0): 1
+num_moving_mnode(1): 1
+========== 8 ==========
+------------------------------------
+mobile id: 0
+target_id: 0
+@545 target dist: 7.1723364967969188
+target_id: 1
+@545 target dist: 2.3999294286251893
+target dist: 2.3999294286251893
+attracting_force: 17.362132154045604
+dist_nt: 2.3999294286251893
++++ i: 1
+dist_ni: 6.5455245373006781
+repulsive_force: -0.0
+acting force: 17.362132154045604
+final target: 1
+**************************************
+------------------------------------
+mobile id: 1
+target_id: 0
+@545 target dist: 1.5000000000000004
+target dist: 1.5000000000000004
+attracting_force: 44.444444444444422
+dist_nt: 1.5000000000000004
++++ i: 0
+dist_ni: 6.5455245373006781
+repulsive_force: -0.0
+acting force: 44.444444444444422
+target_id: 1
+@545 target dist: 4.1458658141920344
+target dist: 4.1458658141920344
+attracting_force: 5.8179437354720944
+dist_nt: 4.1458658141920344
++++ i: 0
+dist_ni: 6.5455245373006781
+repulsive_force: -0.0
+acting force: 5.8179437354720944
+final target: 0
+**************************************
+num_moving_mnode(0): 1
+num_moving_mnode(1): 1
+========== 9 ==========
+------------------------------------
+mobile id: 0
+target_id: 0
+@545 target dist: 4.5801740660344317
+target dist: 4.5801740660344317
+attracting_force: 4.7668999111588697
+dist_nt: 4.5801740660344317
++++ i: 1
+dist_ni: 5.6456696497341001
+repulsive_force: -0.0
+acting force: 4.7668999111588697
+target_id: 1
+@545 target dist: 2.4469387329478529
+target dist: 2.4469387329478529
+attracting_force: 16.701435819302958
+dist_nt: 2.4469387329478529
++++ i: 1
+dist_ni: 5.6456696497341001
+repulsive_force: -0.0
+acting force: 16.701435819302958
+final target: 1
+**************************************
+------------------------------------
+mobile id: 1
+target_id: 0
+@545 target dist: 1.0668671441838602
+target dist: 1.0668671441838602
+attracting_force: 87.857596634914557
+dist_nt: 1.0668671441838602
++++ i: 0
+dist_ni: 5.6456696497341001
+repulsive_force: -0.0
+acting force: 87.857596634914557
+target_id: 1
+@545 target dist: 3.2250477406950671
+target dist: 3.2250477406950671
+attracting_force: 9.6145221467440827
+dist_nt: 3.2250477406950671
++++ i: 0
+dist_ni: 5.6456696497341001
+repulsive_force: -0.0
+acting force: 9.6145221467440827
+final target: 0
+**************************************
+num_moving_mnode(0): 1
+num_moving_mnode(1): 1
+average_effective_monitoring_time = 6.5
+energy_consumption = 35
+num_nodes is set 14
+channel.cc:sendUp - Calc highestAntennaZ_ and distCST_
+highestAntennaZ_ = 1.5,  distCST_ = 550.0

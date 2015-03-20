@@ -381,7 +381,7 @@ proc local_probability {dist dist_threshold} {
     }
     set member \
         [expr $opt(sen_intensity_threshold) \
-            - ($source_intensity + $opt(noise_avg))]
+            - $source_intensity - $opt(noise_avg)]
     set y [expr double($member) / $opt(noise_std)]
     if {$y < 0} {
         if {[string length $y] == 2} {
