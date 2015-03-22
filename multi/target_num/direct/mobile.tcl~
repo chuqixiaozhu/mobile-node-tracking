@@ -48,8 +48,8 @@ set opt(dist_limit) 15;        # Maximum distance from target to active nodes
 set opt(lag_time) [expr 2 * $opt(time_click)]
 set opt(ntarget) 3;                         # number of targets
 set opt(EC) 0;                              # Energy Consumption
-set opt(weight_GT) 100;                # Weight of attracting force from target
-set opt(weight_GM) 300;     # Weight of repulsive force from other mobile nodes
+#set opt(weight_GT) 100;                # Weight of attracting force from target
+#set opt(weight_GM) 300;     # Weight of repulsive force from other mobile nodes
 set opt(AVG_EMT) 0;           # Average Effective Monitoring Time of targets
 
 source $opt(normal)
@@ -381,7 +381,7 @@ proc local_probability {dist dist_threshold} {
     }
     set member \
         [expr $opt(sen_intensity_threshold) \
-            - ($source_intensity + $opt(noise_avg))]
+            - $source_intensity - $opt(noise_avg)]
     set y [expr double($member) / $opt(noise_std)]
     if {$y < 0} {
         if {[string length $y] == 2} {
