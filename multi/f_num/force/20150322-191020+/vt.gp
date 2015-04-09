@@ -22,6 +22,6 @@ set key Left
 #set key width 10
 #set key spacing 10
 set key right bottom at 198, 11
-plot "f_num-m-force_vs_vt" w lp lt 1 lw 2 pt 5 ps 2 title "Force", "f_num-f_vs_vt" w lp lt 2 lw 2 pt 2 ps 2 title "FT"
+plot "f_num-m-force_vs_vt" w lp lt 1 lw 2 pt 5 ps 2 title "Force", "f_num-f_vs_vt" w lp lt 2 lw 2 pt 2 ps 2 title "FT", "f_num-c_vs_vt" w lp lt 3 lw 2 pt 4 ps 2 title "CT"
 set output
 #!pdftops -eps 20_m_num_vs_vt.pdf

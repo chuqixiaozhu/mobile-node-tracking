@@ -15,8 +15,8 @@ if len(argvs) <= 1:
     count = 2
 else:
     count = int(argvs[1])
-for hole_num in range(5):
-    for i in range(count):
+for i in range(count):
+    for hole_num in range(5):
         subprocess.call(['ns', 'mobile.tcl', str(hole_num + 1), result_file])
 
 # Process the results

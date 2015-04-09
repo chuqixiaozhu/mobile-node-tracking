@@ -15,9 +15,9 @@ if len(argvs) <= 1:
     count = 2
 else:
     count = int(argvs[1])
-for mnode_num in range(-1, 20):
-    for i in range(count):
-        subprocess.call(['ns', 'mobile.tcl', str(mnode_num + 1), result_file])
+for i in range(count):
+    for mnode_num in range(0, 21):
+        subprocess.call(['ns', 'mobile.tcl', str(mnode_num), result_file])
 
 # Process the results
 rf = open(result_file, 'r')

@@ -35,11 +35,11 @@ for line in rf:
         ec[var] = 0.0
     vt[var] += time
     ec[var] += energy
-    
-for i in range(-1, 20):
-    vt_file.write('{0} {1}\n'.format(i + 1, vt[var] / count))
-    ec_file.write('{0} {1}\n'.format(i + 1, ec[var] / count))
-    
+vt[var] /= count
+ec[var] /= count
+for i in range(21):
+    vt_file.write('{0} {1}\n'.format(i, vt[var]))
+    ec_file.write('{0} {1}\n'.format(i, ec[var]))
 #vars = sorted(vt.keys())
 #for var in vars:
 #    #print('{0} {1} {2}'.format(var, vt[var]/count, ec[var]/count))
