@@ -1,0 +1,847 @@
+========== 0 ==========
+fixed node 0 ADDED
+fixed node 1 SLEEPS
+fixed node 2 SLEEPS
+Let's compute now!
+fixed node 0 lag = 1, NOT enough.
+active_fnode_num = 1, energy_consumption = 1
+========== 1 ==========
+fixed node 0 SLEEPS
+fixed node 1 ADDED
+fixed node 2 SLEEPS
+Let's compute now!
+fixed node 1 lag = 1, NOT enough.
+active_fnode_num = 1, energy_consumption = 2
+========== 2 ==========
+fixed node 0 SLEEPS
+fixed node 1 ADDED
+fixed node 2 SLEEPS
+Let's compute now!
+fixed node 1 lag = 2, NOT enough.
+active_fnode_num = 1, energy_consumption = 3
+========== 3 ==========
+fixed node 0 SLEEPS
+fixed node 1 ADDED
+fixed node 2 SLEEPS
+Let's compute now!
+fixed node 1 lag = 3, OK.
+active_fnode_num = 1, energy_consumption = 4
+========== 4 ==========
+fixed node 0 ADDED
+fixed node 1 SLEEPS
+fixed node 2 SLEEPS
+Let's compute now!
+fixed node 0 lag = 1, NOT enough.
+active_fnode_num = 1, energy_consumption = 5
+========== 5 ==========
+fixed node 0 ADDED
+fixed node 1 SLEEPS
+fixed node 2 SLEEPS
+Let's compute now!
+fixed node 0 lag = 2, NOT enough.
+active_fnode_num = 1, energy_consumption = 6
+========== 6 ==========
+fixed node 0 ADDED
+fixed node 1 SLEEPS
+fixed node 2 ADDED
+Let's compute now!
+fixed node 0 lag = 3, OK.
+fixed node 2 lag = 1, NOT enough.
+active_fnode_num = 2, energy_consumption = 8
+========== 7 ==========
+fixed node 0 ADDED
+fixed node 1 SLEEPS
+fixed node 2 ADDED
+Let's compute now!
+fixed node 0 lag = 4, OK.
+fixed node 2 lag = 2, NOT enough.
+active_fnode_num = 2, energy_consumption = 10
+========== 8 ==========
+fixed node 0 ADDED
+fixed node 1 SLEEPS
+fixed node 2 ADDED
+Let's compute now!
+fixed node 0 lag = 5, OK.
+fixed node 2 lag = 3, OK.
+BREAK. sys_proba is enough. EMT(0) = 1
+active_fnode_num = 2, energy_consumption = 12
+========== 9 ==========
+fixed node 0 ADDED
+fixed node 1 SLEEPS
+fixed node 2 ADDED
+Let's compute now!
+fixed node 0 lag = 6, OK.
+fixed node 2 lag = 4, OK.
+BREAK. sys_proba is enough. EMT(0) = 2
+active_fnode_num = 2, energy_consumption = 14
+========== 10 ==========
+fixed node 0 ADDED
+fixed node 1 SLEEPS
+fixed node 2 ADDED
+Let's compute now!
+fixed node 2 lag = 5, OK.
+fixed node 0 lag = 7, OK.
+BREAK. sys_proba is enough. EMT(0) = 3
+active_fnode_num = 2, energy_consumption = 16
+========== 11 ==========
+fixed node 0 ADDED
+fixed node 1 SLEEPS
+fixed node 2 ADDED
+Let's compute now!
+fixed node 2 lag = 6, OK.
+fixed node 0 lag = 8, OK.
+BREAK. sys_proba is enough. EMT(0) = 4
+active_fnode_num = 2, energy_consumption = 18
+========== 12 ==========
+fixed node 0 ADDED
+fixed node 1 SLEEPS
+fixed node 2 ADDED
+Let's compute now!
+fixed node 2 lag = 7, OK.
+fixed node 0 lag = 9, OK.
+BREAK. sys_proba is enough. EMT(0) = 5
+active_fnode_num = 2, energy_consumption = 20
+========== 13 ==========
+fixed node 0 ADDED
+fixed node 1 SLEEPS
+fixed node 2 ADDED
+Let's compute now!
+fixed node 2 lag = 8, OK.
+fixed node 0 lag = 10, OK.
+BREAK. sys_proba is enough. EMT(0) = 6
+active_fnode_num = 2, energy_consumption = 22
+========== 14 ==========
+fixed node 0 ADDED
+fixed node 1 SLEEPS
+fixed node 2 ADDED
+Let's compute now!
+fixed node 2 lag = 9, OK.
+fixed node 0 lag = 11, OK.
+BREAK. sys_proba is enough. EMT(0) = 7
+active_fnode_num = 2, energy_consumption = 24
+========== 15 ==========
+fixed node 0 ADDED
+fixed node 1 SLEEPS
+fixed node 2 ADDED
+Let's compute now!
+fixed node 2 lag = 10, OK.
+fixed node 0 lag = 12, OK.
+BREAK. sys_proba is enough. EMT(0) = 8
+active_fnode_num = 2, energy_consumption = 26
+========== 16 ==========
+fixed node 0 ADDED
+fixed node 1 SLEEPS
+fixed node 2 ADDED
+Let's compute now!
+fixed node 2 lag = 11, OK.
+fixed node 0 lag = 13, OK.
+BREAK. sys_proba is enough. EMT(0) = 9
+active_fnode_num = 2, energy_consumption = 28
+========== 17 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 ADDED
+Let's compute now!
+fixed node 2 lag = 12, OK.
+fixed node 0 lag = 14, OK.
+BREAK. sys_proba is enough. EMT(0) = 10
+active_fnode_num = 2, energy_consumption = 30
+========== 18 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 ADDED
+Let's compute now!
+fixed node 0 lag = 15, OK.
+fixed node 1 lag = 2, NOT enough.
+fixed node 2 lag = 13, OK.
+BREAK. sys_proba is enough. EMT(0) = 11
+active_fnode_num = 3, energy_consumption = 33
+========== 19 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 ADDED
+Let's compute now!
+fixed node 0 lag = 16, OK.
+fixed node 1 lag = 3, OK.
+BREAK. sys_proba is enough. EMT(0) = 12
+active_fnode_num = 2, energy_consumption = 35
+========== 20 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 SLEEPS
+Let's compute now!
+fixed node 1 lag = 4, OK.
+fixed node 0 lag = 17, OK.
+BREAK. sys_proba is enough. EMT(0) = 13
+active_fnode_num = 2, energy_consumption = 37
+========== 21 ==========
+fixed node 0 SLEEPS
+fixed node 1 SLEEPS
+fixed node 2 SLEEPS
+Let's compute now!
+active_fnode_num = 0, energy_consumption = 37
+========== 22 ==========
+fixed node 0 SLEEPS
+fixed node 1 SLEEPS
+fixed node 2 SLEEPS
+Let's compute now!
+active_fnode_num = 0, energy_consumption = 37
+========== 23 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 SLEEPS
+Let's compute now!
+fixed node 1 lag = 1, NOT enough.
+fixed node 0 lag = 1, NOT enough.
+active_fnode_num = 2, energy_consumption = 39
+========== 24 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 SLEEPS
+Let's compute now!
+fixed node 1 lag = 2, NOT enough.
+fixed node 0 lag = 2, NOT enough.
+active_fnode_num = 2, energy_consumption = 41
+========== 25 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 SLEEPS
+Let's compute now!
+fixed node 1 lag = 3, OK.
+fixed node 0 lag = 3, OK.
+BREAK. sys_proba is enough. EMT(0) = 14
+active_fnode_num = 2, energy_consumption = 43
+========== 26 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 SLEEPS
+Let's compute now!
+fixed node 1 lag = 4, OK.
+fixed node 0 lag = 4, OK.
+BREAK. sys_proba is enough. EMT(0) = 15
+active_fnode_num = 2, energy_consumption = 45
+========== 27 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 SLEEPS
+Let's compute now!
+fixed node 1 lag = 5, OK.
+fixed node 0 lag = 5, OK.
+BREAK. sys_proba is enough. EMT(0) = 16
+active_fnode_num = 2, energy_consumption = 47
+========== 28 ==========
+fixed node 0 SLEEPS
+fixed node 1 ADDED
+fixed node 2 SLEEPS
+Let's compute now!
+fixed node 1 lag = 6, OK.
+active_fnode_num = 1, energy_consumption = 48
+========== 29 ==========
+fixed node 0 SLEEPS
+fixed node 1 ADDED
+fixed node 2 SLEEPS
+Let's compute now!
+fixed node 1 lag = 7, OK.
+active_fnode_num = 1, energy_consumption = 49
+========== 30 ==========
+fixed node 0 SLEEPS
+fixed node 1 ADDED
+fixed node 2 SLEEPS
+Let's compute now!
+fixed node 1 lag = 8, OK.
+active_fnode_num = 1, energy_consumption = 50
+========== 31 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 SLEEPS
+Let's compute now!
+fixed node 1 lag = 9, OK.
+fixed node 0 lag = 1, NOT enough.
+active_fnode_num = 2, energy_consumption = 52
+========== 32 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 SLEEPS
+Let's compute now!
+fixed node 1 lag = 10, OK.
+fixed node 0 lag = 2, NOT enough.
+active_fnode_num = 2, energy_consumption = 54
+========== 33 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 SLEEPS
+Let's compute now!
+fixed node 0 lag = 3, OK.
+fixed node 1 lag = 11, OK.
+BREAK. sys_proba is enough. EMT(0) = 17
+active_fnode_num = 2, energy_consumption = 56
+========== 34 ==========
+fixed node 0 ADDED
+fixed node 1 SLEEPS
+fixed node 2 SLEEPS
+Let's compute now!
+fixed node 0 lag = 4, OK.
+active_fnode_num = 1, energy_consumption = 57
+========== 35 ==========
+fixed node 0 ADDED
+fixed node 1 SLEEPS
+fixed node 2 SLEEPS
+Let's compute now!
+fixed node 0 lag = 5, OK.
+active_fnode_num = 1, energy_consumption = 58
+========== 36 ==========
+fixed node 0 ADDED
+fixed node 1 SLEEPS
+fixed node 2 SLEEPS
+Let's compute now!
+fixed node 0 lag = 6, OK.
+active_fnode_num = 1, energy_consumption = 59
+========== 37 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 SLEEPS
+Let's compute now!
+fixed node 0 lag = 7, OK.
+fixed node 1 lag = 1, NOT enough.
+active_fnode_num = 2, energy_consumption = 61
+========== 38 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 SLEEPS
+Let's compute now!
+fixed node 1 lag = 2, NOT enough.
+fixed node 0 lag = 8, OK.
+active_fnode_num = 2, energy_consumption = 63
+========== 39 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 SLEEPS
+Let's compute now!
+fixed node 1 lag = 3, OK.
+fixed node 0 lag = 9, OK.
+BREAK. sys_proba is enough. EMT(0) = 18
+active_fnode_num = 2, energy_consumption = 65
+========== 40 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 SLEEPS
+Let's compute now!
+fixed node 1 lag = 4, OK.
+fixed node 0 lag = 10, OK.
+BREAK. sys_proba is enough. EMT(0) = 19
+active_fnode_num = 2, energy_consumption = 67
+========== 41 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 SLEEPS
+Let's compute now!
+fixed node 0 lag = 11, OK.
+fixed node 1 lag = 5, OK.
+BREAK. sys_proba is enough. EMT(0) = 20
+active_fnode_num = 2, energy_consumption = 69
+========== 42 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 SLEEPS
+Let's compute now!
+fixed node 0 lag = 12, OK.
+fixed node 1 lag = 6, OK.
+BREAK. sys_proba is enough. EMT(0) = 21
+active_fnode_num = 2, energy_consumption = 71
+========== 43 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 ADDED
+Let's compute now!
+fixed node 0 lag = 13, OK.
+fixed node 1 lag = 7, OK.
+BREAK. sys_proba is enough. EMT(0) = 22
+active_fnode_num = 2, energy_consumption = 73
+========== 44 ==========
+fixed node 0 ADDED
+fixed node 1 SLEEPS
+fixed node 2 ADDED
+Let's compute now!
+fixed node 0 lag = 14, OK.
+fixed node 2 lag = 2, NOT enough.
+active_fnode_num = 2, energy_consumption = 75
+========== 45 ==========
+fixed node 0 ADDED
+fixed node 1 SLEEPS
+fixed node 2 ADDED
+Let's compute now!
+fixed node 0 lag = 15, OK.
+fixed node 2 lag = 3, OK.
+BREAK. sys_proba is enough. EMT(0) = 23
+active_fnode_num = 2, energy_consumption = 77
+========== 46 ==========
+fixed node 0 ADDED
+fixed node 1 SLEEPS
+fixed node 2 ADDED
+Let's compute now!
+fixed node 0 lag = 16, OK.
+fixed node 2 lag = 4, OK.
+BREAK. sys_proba is enough. EMT(0) = 24
+active_fnode_num = 2, energy_consumption = 79
+========== 47 ==========
+fixed node 0 ADDED
+fixed node 1 SLEEPS
+fixed node 2 ADDED
+Let's compute now!
+fixed node 0 lag = 17, OK.
+fixed node 2 lag = 5, OK.
+BREAK. sys_proba is enough. EMT(0) = 25
+active_fnode_num = 2, energy_consumption = 81
+========== 48 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 ADDED
+Let's compute now!
+fixed node 0 lag = 18, OK.
+fixed node 2 lag = 6, OK.
+BREAK. sys_proba is enough. EMT(0) = 26
+active_fnode_num = 2, energy_consumption = 83
+========== 49 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 ADDED
+Let's compute now!
+fixed node 0 lag = 19, OK.
+fixed node 1 lag = 2, NOT enough.
+fixed node 2 lag = 7, OK.
+BREAK. sys_proba is enough. EMT(0) = 27
+active_fnode_num = 3, energy_consumption = 86
+========== 50 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 ADDED
+Let's compute now!
+fixed node 0 lag = 20, OK.
+fixed node 1 lag = 3, OK.
+BREAK. sys_proba is enough. EMT(0) = 28
+active_fnode_num = 2, energy_consumption = 88
+========== 51 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 ADDED
+Let's compute now!
+fixed node 1 lag = 4, OK.
+fixed node 0 lag = 21, OK.
+BREAK. sys_proba is enough. EMT(0) = 29
+active_fnode_num = 2, energy_consumption = 90
+========== 52 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 ADDED
+Let's compute now!
+fixed node 1 lag = 5, OK.
+fixed node 0 lag = 22, OK.
+BREAK. sys_proba is enough. EMT(0) = 30
+active_fnode_num = 2, energy_consumption = 92
+========== 53 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 SLEEPS
+Let's compute now!
+fixed node 1 lag = 6, OK.
+fixed node 0 lag = 23, OK.
+BREAK. sys_proba is enough. EMT(0) = 31
+active_fnode_num = 2, energy_consumption = 94
+========== 54 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 SLEEPS
+Let's compute now!
+fixed node 1 lag = 7, OK.
+fixed node 0 lag = 24, OK.
+BREAK. sys_proba is enough. EMT(0) = 32
+active_fnode_num = 2, energy_consumption = 96
+========== 55 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 SLEEPS
+Let's compute now!
+fixed node 1 lag = 8, OK.
+fixed node 0 lag = 25, OK.
+BREAK. sys_proba is enough. EMT(0) = 33
+active_fnode_num = 2, energy_consumption = 98
+========== 56 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 SLEEPS
+Let's compute now!
+fixed node 1 lag = 9, OK.
+fixed node 0 lag = 26, OK.
+BREAK. sys_proba is enough. EMT(0) = 34
+active_fnode_num = 2, energy_consumption = 100
+========== 57 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 SLEEPS
+Let's compute now!
+fixed node 1 lag = 10, OK.
+fixed node 0 lag = 27, OK.
+BREAK. sys_proba is enough. EMT(0) = 35
+active_fnode_num = 2, energy_consumption = 102
+========== 58 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 ADDED
+Let's compute now!
+fixed node 1 lag = 11, OK.
+fixed node 0 lag = 28, OK.
+BREAK. sys_proba is enough. EMT(0) = 36
+active_fnode_num = 2, energy_consumption = 104
+========== 59 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 ADDED
+Let's compute now!
+fixed node 0 lag = 29, OK.
+fixed node 1 lag = 12, OK.
+BREAK. sys_proba is enough. EMT(0) = 37
+active_fnode_num = 2, energy_consumption = 106
+========== 60 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 ADDED
+Let's compute now!
+fixed node 0 lag = 30, OK.
+fixed node 2 lag = 3, OK.
+BREAK. sys_proba is enough. EMT(0) = 38
+active_fnode_num = 2, energy_consumption = 108
+========== 61 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 ADDED
+Let's compute now!
+fixed node 0 lag = 31, OK.
+fixed node 2 lag = 4, OK.
+BREAK. sys_proba is enough. EMT(0) = 39
+active_fnode_num = 2, energy_consumption = 110
+========== 62 ==========
+fixed node 0 ADDED
+fixed node 1 SLEEPS
+fixed node 2 ADDED
+Let's compute now!
+fixed node 0 lag = 32, OK.
+fixed node 2 lag = 5, OK.
+BREAK. sys_proba is enough. EMT(0) = 40
+active_fnode_num = 2, energy_consumption = 112
+========== 63 ==========
+fixed node 0 ADDED
+fixed node 1 SLEEPS
+fixed node 2 ADDED
+Let's compute now!
+fixed node 0 lag = 33, OK.
+fixed node 2 lag = 6, OK.
+BREAK. sys_proba is enough. EMT(0) = 41
+active_fnode_num = 2, energy_consumption = 114
+========== 64 ==========
+fixed node 0 ADDED
+fixed node 1 SLEEPS
+fixed node 2 ADDED
+Let's compute now!
+fixed node 0 lag = 34, OK.
+fixed node 2 lag = 7, OK.
+BREAK. sys_proba is enough. EMT(0) = 42
+active_fnode_num = 2, energy_consumption = 116
+========== 65 ==========
+fixed node 0 ADDED
+fixed node 1 SLEEPS
+fixed node 2 ADDED
+Let's compute now!
+fixed node 0 lag = 35, OK.
+fixed node 2 lag = 8, OK.
+BREAK. sys_proba is enough. EMT(0) = 43
+active_fnode_num = 2, energy_consumption = 118
+========== 66 ==========
+fixed node 0 ADDED
+fixed node 1 SLEEPS
+fixed node 2 ADDED
+Let's compute now!
+fixed node 0 lag = 36, OK.
+fixed node 2 lag = 9, OK.
+BREAK. sys_proba is enough. EMT(0) = 44
+active_fnode_num = 2, energy_consumption = 120
+========== 67 ==========
+fixed node 0 ADDED
+fixed node 1 SLEEPS
+fixed node 2 ADDED
+Let's compute now!
+fixed node 0 lag = 37, OK.
+fixed node 2 lag = 10, OK.
+BREAK. sys_proba is enough. EMT(0) = 45
+active_fnode_num = 2, energy_consumption = 122
+========== 68 ==========
+fixed node 0 ADDED
+fixed node 1 SLEEPS
+fixed node 2 ADDED
+Let's compute now!
+fixed node 0 lag = 38, OK.
+fixed node 2 lag = 11, OK.
+BREAK. sys_proba is enough. EMT(0) = 46
+active_fnode_num = 2, energy_consumption = 124
+========== 69 ==========
+fixed node 0 ADDED
+fixed node 1 SLEEPS
+fixed node 2 ADDED
+Let's compute now!
+fixed node 0 lag = 39, OK.
+fixed node 2 lag = 12, OK.
+BREAK. sys_proba is enough. EMT(0) = 47
+active_fnode_num = 2, energy_consumption = 126
+========== 70 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 ADDED
+Let's compute now!
+fixed node 0 lag = 40, OK.
+fixed node 2 lag = 13, OK.
+BREAK. sys_proba is enough. EMT(0) = 48
+active_fnode_num = 2, energy_consumption = 128
+========== 71 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 ADDED
+Let's compute now!
+fixed node 0 lag = 41, OK.
+fixed node 1 lag = 2, NOT enough.
+fixed node 2 lag = 14, OK.
+BREAK. sys_proba is enough. EMT(0) = 49
+active_fnode_num = 3, energy_consumption = 131
+========== 72 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 ADDED
+Let's compute now!
+fixed node 1 lag = 3, OK.
+fixed node 0 lag = 42, OK.
+BREAK. sys_proba is enough. EMT(0) = 50
+active_fnode_num = 2, energy_consumption = 133
+========== 73 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 ADDED
+Let's compute now!
+fixed node 1 lag = 4, OK.
+fixed node 0 lag = 43, OK.
+BREAK. sys_proba is enough. EMT(0) = 51
+active_fnode_num = 2, energy_consumption = 135
+========== 74 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 ADDED
+Let's compute now!
+fixed node 0 lag = 44, OK.
+fixed node 1 lag = 5, OK.
+BREAK. sys_proba is enough. EMT(0) = 52
+active_fnode_num = 2, energy_consumption = 137
+========== 75 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 ADDED
+Let's compute now!
+fixed node 0 lag = 45, OK.
+fixed node 2 lag = 18, OK.
+BREAK. sys_proba is enough. EMT(0) = 53
+active_fnode_num = 2, energy_consumption = 139
+========== 76 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 ADDED
+Let's compute now!
+fixed node 0 lag = 46, OK.
+fixed node 2 lag = 19, OK.
+BREAK. sys_proba is enough. EMT(0) = 54
+active_fnode_num = 2, energy_consumption = 141
+========== 77 ==========
+fixed node 0 ADDED
+fixed node 1 SLEEPS
+fixed node 2 ADDED
+Let's compute now!
+fixed node 0 lag = 47, OK.
+fixed node 2 lag = 20, OK.
+BREAK. sys_proba is enough. EMT(0) = 55
+active_fnode_num = 2, energy_consumption = 143
+========== 78 ==========
+fixed node 0 ADDED
+fixed node 1 SLEEPS
+fixed node 2 ADDED
+Let's compute now!
+fixed node 0 lag = 48, OK.
+fixed node 2 lag = 21, OK.
+BREAK. sys_proba is enough. EMT(0) = 56
+active_fnode_num = 2, energy_consumption = 145
+========== 79 ==========
+fixed node 0 ADDED
+fixed node 1 SLEEPS
+fixed node 2 ADDED
+Let's compute now!
+fixed node 0 lag = 49, OK.
+fixed node 2 lag = 22, OK.
+BREAK. sys_proba is enough. EMT(0) = 57
+active_fnode_num = 2, energy_consumption = 147
+========== 80 ==========
+fixed node 0 ADDED
+fixed node 1 SLEEPS
+fixed node 2 ADDED
+Let's compute now!
+fixed node 0 lag = 50, OK.
+fixed node 2 lag = 23, OK.
+BREAK. sys_proba is enough. EMT(0) = 58
+active_fnode_num = 2, energy_consumption = 149
+========== 81 ==========
+fixed node 0 ADDED
+fixed node 1 SLEEPS
+fixed node 2 SLEEPS
+Let's compute now!
+fixed node 0 lag = 51, OK.
+active_fnode_num = 1, energy_consumption = 150
+========== 82 ==========
+fixed node 0 SLEEPS
+fixed node 1 SLEEPS
+fixed node 2 SLEEPS
+Let's compute now!
+active_fnode_num = 0, energy_consumption = 150
+========== 83 ==========
+fixed node 0 SLEEPS
+fixed node 1 SLEEPS
+fixed node 2 SLEEPS
+Let's compute now!
+active_fnode_num = 0, energy_consumption = 150
+========== 84 ==========
+fixed node 0 SLEEPS
+fixed node 1 SLEEPS
+fixed node 2 SLEEPS
+Let's compute now!
+active_fnode_num = 0, energy_consumption = 150
+========== 85 ==========
+fixed node 0 SLEEPS
+fixed node 1 SLEEPS
+fixed node 2 SLEEPS
+Let's compute now!
+active_fnode_num = 0, energy_consumption = 150
+========== 86 ==========
+fixed node 0 SLEEPS
+fixed node 1 SLEEPS
+fixed node 2 SLEEPS
+Let's compute now!
+active_fnode_num = 0, energy_consumption = 150
+========== 87 ==========
+fixed node 0 SLEEPS
+fixed node 1 SLEEPS
+fixed node 2 SLEEPS
+Let's compute now!
+active_fnode_num = 0, energy_consumption = 150
+========== 88 ==========
+fixed node 0 ADDED
+fixed node 1 SLEEPS
+fixed node 2 SLEEPS
+Let's compute now!
+fixed node 0 lag = 1, NOT enough.
+active_fnode_num = 1, energy_consumption = 151
+========== 89 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 SLEEPS
+Let's compute now!
+fixed node 0 lag = 2, NOT enough.
+fixed node 1 lag = 1, NOT enough.
+active_fnode_num = 2, energy_consumption = 153
+========== 90 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 ADDED
+Let's compute now!
+fixed node 0 lag = 3, OK.
+fixed node 1 lag = 2, NOT enough.
+fixed node 2 lag = 1, NOT enough.
+active_fnode_num = 3, energy_consumption = 156
+========== 91 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 ADDED
+Let's compute now!
+fixed node 0 lag = 4, OK.
+fixed node 2 lag = 2, NOT enough.
+fixed node 1 lag = 3, OK.
+BREAK. sys_proba is enough. EMT(0) = 59
+active_fnode_num = 3, energy_consumption = 159
+========== 92 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 ADDED
+Let's compute now!
+fixed node 0 lag = 5, OK.
+fixed node 2 lag = 3, OK.
+BREAK. sys_proba is enough. EMT(0) = 60
+active_fnode_num = 2, energy_consumption = 161
+========== 93 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 ADDED
+Let's compute now!
+fixed node 2 lag = 4, OK.
+fixed node 0 lag = 6, OK.
+BREAK. sys_proba is enough. EMT(0) = 61
+active_fnode_num = 2, energy_consumption = 163
+========== 94 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 ADDED
+Let's compute now!
+fixed node 2 lag = 5, OK.
+fixed node 0 lag = 7, OK.
+BREAK. sys_proba is enough. EMT(0) = 62
+active_fnode_num = 2, energy_consumption = 165
+========== 95 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 ADDED
+Let's compute now!
+fixed node 2 lag = 6, OK.
+fixed node 0 lag = 8, OK.
+BREAK. sys_proba is enough. EMT(0) = 63
+active_fnode_num = 2, energy_consumption = 167
+========== 96 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 ADDED
+Let's compute now!
+fixed node 2 lag = 7, OK.
+fixed node 0 lag = 9, OK.
+BREAK. sys_proba is enough. EMT(0) = 64
+active_fnode_num = 2, energy_consumption = 169
+========== 97 ==========
+fixed node 0 ADDED
+fixed node 1 ADDED
+fixed node 2 ADDED
+Let's compute now!
+fixed node 2 lag = 8, OK.
+fixed node 0 lag = 10, OK.
+BREAK. sys_proba is enough. EMT(0) = 65
+active_fnode_num = 2, energy_consumption = 171
+========== 98 ==========
+fixed node 0 ADDED
+fixed node 1 SLEEPS
+fixed node 2 ADDED
+Let's compute now!
+fixed node 2 lag = 9, OK.
+fixed node 0 lag = 11, OK.
+BREAK. sys_proba is enough. EMT(0) = 66
+active_fnode_num = 2, energy_consumption = 173
+========== 99 ==========
+fixed node 0 ADDED
+fixed node 1 SLEEPS
+fixed node 2 ADDED
+Let's compute now!
+fixed node 0 lag = 12, OK.
+fixed node 2 lag = 10, OK.
+BREAK. sys_proba is enough. EMT(0) = 67
+active_fnode_num = 2, energy_consumption = 175
+average_effective_monitoring_time = 67.0
+energy_consumption = 175
+num_nodes is set 4
+channel.cc:sendUp - Calc highestAntennaZ_ and distCST_
+highestAntennaZ_ = 1.5,  distCST_ = 550.0

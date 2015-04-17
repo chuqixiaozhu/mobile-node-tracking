@@ -45,7 +45,7 @@ set opt(nam_file) "out.nam"
 set opt(hole_number) 2;                     # number of holes
 set opt(hole_length) 30;                    # Length of a hole edge
 set opt(dist_limit) 15;        # Maximum distance from target to active nodes
-set opt(lag_time) [expr 2 * $opt(time_click)]
+set opt(lag_time) [expr 3 * $opt(time_click)]
 set opt(ntarget) 1;                         # number of targets
 set opt(EC) 0;                              # Energy Consumption
 set opt(weight_GT) 100;                # Weight of attracting force from target

@@ -45,7 +45,7 @@ set opt(nam_file) "out.nam"
 set opt(hole_number) 2;                     # number of holes
 set opt(hole_length) 30;                    # Length of a hole edge
 set opt(dist_limit) 15;        # Maximum distance from target to active nodes
-set opt(lag_time) [expr 2 * $opt(time_click)]
+set opt(lag_time) [expr 3 * $opt(time_click)]
 set opt(ntarget) 1;                         # number of targets
 set opt(EC) 0;                              # Energy Consumption
 set opt(weight_GT) 0.1;              # Weight of attracting force from target
@@ -510,7 +510,7 @@ proc mobile_node_action {time_stamp} {
         set moving_mnode_index($i) ""
     }
 # For every mobile node, choose a target
-        for {set i 0} {$i < $opt(nmnode)} {incr i} {
+    for {set i 0} {$i < $opt(nmnode)} {incr i} {
         set switch_on 0
         # del 150328
         #set force_max -InF
@@ -540,6 +540,7 @@ proc mobile_node_action {time_stamp} {
                 break
             } else {
                 lappend moving_mnode_index($j) [list $i $dist]
+                set_destination $mnode($i) $target($j) $time_stamp
             }
 
 # Computing the force from this target($j)

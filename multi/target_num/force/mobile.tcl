@@ -45,7 +45,7 @@ set opt(nam_file) "out.nam"
 set opt(hole_number) 2;                     # number of holes
 set opt(hole_length) 30;                    # Length of a hole edge
 set opt(dist_limit) 15;        # Maximum distance from target to active nodes
-set opt(lag_time) [expr 2 * $opt(time_click)]
+set opt(lag_time) [expr 3 * $opt(time_click)]
 set opt(ntarget) 10;                         # number of targets
 set opt(EC) 0;                              # Energy Consumption
 set opt(weight_GT) 0.1;                # Weight of attracting force from target
@@ -670,8 +670,8 @@ proc output_file {} {
 proc finish {} {
     global ns tracefile namfile opt argc
     getting_results
-    puts "average_effective_monitoring_time = $opt(AVG_EMT)"
-    puts "energy_consumption = $opt(energy_consumption)"
+    #puts "average_effective_monitoring_time = $opt(AVG_EMT)"
+    #puts "energy_consumption = $opt(energy_consumption)"
     $ns flush-trace
     if {0 < $argc} {
         output_file

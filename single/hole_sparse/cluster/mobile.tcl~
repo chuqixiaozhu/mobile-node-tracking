@@ -497,38 +497,18 @@ proc fixed_node_action {m_m_index_ time_stamp} {
 # For every fixed node, choose a taraget
     for {set i 0} {$i < $opt(nfnode)} {incr i} {
         set switch_on 0
-        set distance_min [expr 2 * $opt(x)]
         $fnode($i) color "black"
         for {set j 0} {$j < $opt(ntarget)} {incr j} {
             set dist [distance $fnode($i) $target($j) $time_stamp]
-            if {$dist > $opt(radius_cluster)} { # modified 150324
+            if {$dist > $opt(dist_limit)} {
+                set lag([$fnode($i) id]) 0
                 continue
             }
             if {!$switch_on} {
                 set switch_on 1
                 incr lag([$fnode($i) id]) $opt(time_click)
             }
-            # del 150322-17:29
-            #if {$lag([$fnode($i) id])  <= $opt(lag_time)} {
-            #    break
-            #}
-            # /del
-
-# Computing the distance, choose the shortest
-            if {$dist < $distance_min} {
-                set distance_min $dist
-                set sense_target($i) $j
-                set dist_target $dist
-            }
-        }
-        if {$switch_on} {
-            #if {$distance_min < 2 * $opt(x)} { } del 150322-17:29
-            lappend sensing_fnode_index($sense_target($i)) \
-                [list $i $dist_target]
-            #{ } /del
-        } else {
-            set sense_target($i) -1
-            set lag([$fnode($i) id]) 0
+            lappend sensing_fnode_index($j) [list $i $dist]
         }
     }
 

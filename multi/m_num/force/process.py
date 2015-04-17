@@ -46,3 +46,13 @@ rf.close()
 subprocess.call(['mv', result_file, path])
 subprocess.call(['mv', vt_file.name, path])
 subprocess.call(['mv', ec_file.name, path])
+
+f_vt_file = open('m_num-f_vs_vt', 'w')
+f_ec_file = open('m_num-f_vs_ec', 'w')
+for i in range(0, vars[len(vars) - 1] + 1):
+    f_vt_file.write('{0} {1}\n'.format(i, vt[0] / count))
+    f_ec_file.write('{0} {1}\n'.format(i, ec[0] / count))
+f_vt_file.close()
+f_ec_file.close()
+subprocess.call(['mv', f_vt_file.name, path])
+subprocess.call(['mv', f_ec_file.name, path])

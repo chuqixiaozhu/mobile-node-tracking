@@ -669,7 +669,7 @@ proc finish {} {
     $ns at $opt(stop) "$ns nam-end-wireless $opt(stop)"
     close $tracefile
     close $namfile
-    exec nam out.nam &
+    #exec nam out.nam &
     exit 0
 }
 

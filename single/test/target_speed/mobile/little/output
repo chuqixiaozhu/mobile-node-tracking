@@ -1,0 +1,1112 @@
+========== 0 ==========
+Mobile node 0 lag = 1, NOT enough
+Mobile node 1 lag = 1, NOT enough
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Then is Fixed.
+Fixed node 1 lag = 1, NOT enough
+Fixed node 2 lag = 1, NOT enough
+Fixed node 0 lag = 1, NOT enough
+active_fnode_num = 3, energy_consumption = 3
+========== 1 ==========
+Mobile node 0 SLEEPS
+Mobile node 1 lag = 2, NOT enough
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Then is Fixed.
+Fixed node 0 lag = 2, NOT enough
+Fixed node 1 lag = 2, NOT enough
+Fixed node 2 lag = 2, NOT enough
+active_fnode_num = 3, energy_consumption = 6
+========== 2 ==========
+Mobile node 0 SLEEPS
+Mobile node 1 lag = 3, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 1 is TRACKING
+Then is Fixed.
+Fixed node 0 lag = 3, OK and DETECTING
+Fixed BREAK. sys_proba is enough. EMT = 1
+active_fnode_num = 1, energy_consumption = 7
+========== 3 ==========
+Mobile node 0 SLEEPS
+Mobile node 1 lag = 4, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 1 is TRACKING
+Then is Fixed.
+Fixed node 0 lag = 4, OK and DETECTING
+Fixed BREAK. sys_proba is enough. EMT = 2
+active_fnode_num = 1, energy_consumption = 8
+========== 4 ==========
+Mobile node 0 SLEEPS
+Mobile node 1 lag = 5, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 1 is TRACKING
+Then is Fixed.
+Fixed node 0 lag = 5, OK and DETECTING
+Fixed BREAK. sys_proba is enough. EMT = 3
+active_fnode_num = 1, energy_consumption = 9
+========== 5 ==========
+Mobile node 0 lag = 1, NOT enough
+Mobile node 1 lag = 6, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 1 is TRACKING
+Then is Fixed.
+Fixed node 1 lag = 6, OK and DETECTING
+Fixed BREAK. sys_proba is enough. EMT = 4
+active_fnode_num = 1, energy_consumption = 10
+========== 6 ==========
+Mobile node 0 lag = 2, NOT enough
+Mobile node 1 lag = 7, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 1 is TRACKING
+Then is Fixed.
+Fixed node 1 lag = 7, OK and DETECTING
+Fixed BREAK. sys_proba is enough. EMT = 5
+active_fnode_num = 1, energy_consumption = 11
+========== 7 ==========
+Mobile node 0 lag = 3, OK and JOINED
+Mobile node 1 lag = 8, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 6
+active_fnode_num = 0, energy_consumption = 11
+========== 8 ==========
+Mobile node 0 lag = 4, OK and JOINED
+Mobile node 1 lag = 9, OK and JOINED
+Fixed node 0 SLEEPS
+Fixed node 1 JOINED
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 7
+active_fnode_num = 0, energy_consumption = 11
+========== 9 ==========
+Mobile node 0 lag = 5, OK and JOINED
+Mobile node 1 lag = 10, OK and JOINED
+Fixed node 0 SLEEPS
+Fixed node 1 SLEEPS
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 8
+active_fnode_num = 0, energy_consumption = 11
+========== 10 ==========
+Mobile node 0 lag = 6, OK and JOINED
+Mobile node 1 lag = 11, OK and JOINED
+Fixed node 0 SLEEPS
+Fixed node 1 SLEEPS
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 9
+active_fnode_num = 0, energy_consumption = 11
+========== 11 ==========
+Mobile node 0 lag = 7, OK and JOINED
+Mobile node 1 lag = 12, OK and JOINED
+Fixed node 0 SLEEPS
+Fixed node 1 SLEEPS
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 10
+active_fnode_num = 0, energy_consumption = 11
+========== 12 ==========
+Mobile node 0 lag = 8, OK and JOINED
+Mobile node 1 lag = 13, OK and JOINED
+Fixed node 0 SLEEPS
+Fixed node 1 SLEEPS
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 11
+active_fnode_num = 0, energy_consumption = 11
+========== 13 ==========
+Mobile node 0 lag = 9, OK and JOINED
+Mobile node 1 lag = 14, OK and JOINED
+Fixed node 0 SLEEPS
+Fixed node 1 JOINED
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 12
+active_fnode_num = 0, energy_consumption = 11
+========== 14 ==========
+Mobile node 0 lag = 10, OK and JOINED
+Mobile node 1 lag = 15, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 13
+active_fnode_num = 0, energy_consumption = 11
+========== 15 ==========
+Mobile node 0 lag = 11, OK and JOINED
+Mobile node 1 lag = 16, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 14
+active_fnode_num = 0, energy_consumption = 11
+========== 16 ==========
+Mobile node 0 lag = 12, OK and JOINED
+Mobile node 1 lag = 17, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 15
+active_fnode_num = 0, energy_consumption = 11
+========== 17 ==========
+Mobile node 0 lag = 13, OK and JOINED
+Mobile node 1 lag = 18, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 16
+active_fnode_num = 0, energy_consumption = 11
+========== 18 ==========
+Mobile node 0 lag = 14, OK and JOINED
+Mobile node 1 lag = 19, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 17
+active_fnode_num = 0, energy_consumption = 11
+========== 19 ==========
+Mobile node 0 lag = 15, OK and JOINED
+Mobile node 1 lag = 20, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 18
+active_fnode_num = 0, energy_consumption = 11
+========== 20 ==========
+Mobile node 0 lag = 16, OK and JOINED
+Mobile node 1 lag = 21, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 19
+active_fnode_num = 0, energy_consumption = 11
+========== 21 ==========
+Mobile node 0 lag = 17, OK and JOINED
+Mobile node 1 lag = 22, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 20
+active_fnode_num = 0, energy_consumption = 11
+========== 22 ==========
+Mobile node 0 lag = 18, OK and JOINED
+Mobile node 1 lag = 23, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 21
+active_fnode_num = 0, energy_consumption = 11
+========== 23 ==========
+Mobile node 0 lag = 19, OK and JOINED
+Mobile node 1 lag = 24, OK and JOINED
+Fixed node 0 SLEEPS
+Fixed node 1 JOINED
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 22
+active_fnode_num = 0, energy_consumption = 11
+========== 24 ==========
+Mobile node 0 lag = 20, OK and JOINED
+Mobile node 1 lag = 25, OK and JOINED
+Fixed node 0 SLEEPS
+Fixed node 1 JOINED
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 23
+active_fnode_num = 0, energy_consumption = 11
+========== 25 ==========
+Mobile node 0 lag = 21, OK and JOINED
+Mobile node 1 lag = 26, OK and JOINED
+Fixed node 0 SLEEPS
+Fixed node 1 JOINED
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 24
+active_fnode_num = 0, energy_consumption = 11
+========== 26 ==========
+Mobile node 0 lag = 22, OK and JOINED
+Mobile node 1 lag = 27, OK and JOINED
+Fixed node 0 SLEEPS
+Fixed node 1 JOINED
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 25
+active_fnode_num = 0, energy_consumption = 11
+========== 27 ==========
+Mobile node 0 lag = 23, OK and JOINED
+Mobile node 1 lag = 28, OK and JOINED
+Fixed node 0 SLEEPS
+Fixed node 1 JOINED
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 26
+active_fnode_num = 0, energy_consumption = 11
+========== 28 ==========
+Mobile node 0 lag = 24, OK and JOINED
+Mobile node 1 lag = 29, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 27
+active_fnode_num = 0, energy_consumption = 11
+========== 29 ==========
+Mobile node 0 lag = 25, OK and JOINED
+Mobile node 1 lag = 30, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 28
+active_fnode_num = 0, energy_consumption = 11
+========== 30 ==========
+Mobile node 0 lag = 26, OK and JOINED
+Mobile node 1 lag = 31, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 29
+active_fnode_num = 0, energy_consumption = 11
+========== 31 ==========
+Mobile node 0 lag = 27, OK and JOINED
+Mobile node 1 lag = 32, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 30
+active_fnode_num = 0, energy_consumption = 11
+========== 32 ==========
+Mobile node 0 lag = 28, OK and JOINED
+Mobile node 1 lag = 33, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 31
+active_fnode_num = 0, energy_consumption = 11
+========== 33 ==========
+Mobile node 0 lag = 29, OK and JOINED
+Mobile node 1 lag = 34, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 32
+active_fnode_num = 0, energy_consumption = 11
+========== 34 ==========
+Mobile node 0 lag = 30, OK and JOINED
+Mobile node 1 lag = 35, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 33
+active_fnode_num = 0, energy_consumption = 11
+========== 35 ==========
+Mobile node 0 lag = 31, OK and JOINED
+Mobile node 1 lag = 36, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 34
+active_fnode_num = 0, energy_consumption = 11
+========== 36 ==========
+Mobile node 0 lag = 32, OK and JOINED
+Mobile node 1 lag = 37, OK and JOINED
+Fixed node 0 SLEEPS
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 35
+active_fnode_num = 0, energy_consumption = 11
+========== 37 ==========
+Mobile node 0 lag = 33, OK and JOINED
+Mobile node 1 lag = 38, OK and JOINED
+Fixed node 0 SLEEPS
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 36
+active_fnode_num = 0, energy_consumption = 11
+========== 38 ==========
+Mobile node 0 lag = 34, OK and JOINED
+Mobile node 1 lag = 39, OK and JOINED
+Fixed node 0 SLEEPS
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 37
+active_fnode_num = 0, energy_consumption = 11
+========== 39 ==========
+Mobile node 0 lag = 35, OK and JOINED
+Mobile node 1 lag = 40, OK and JOINED
+Fixed node 0 SLEEPS
+Fixed node 1 JOINED
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 38
+active_fnode_num = 0, energy_consumption = 11
+========== 40 ==========
+Mobile node 0 lag = 36, OK and JOINED
+Mobile node 1 lag = 41, OK and JOINED
+Fixed node 0 SLEEPS
+Fixed node 1 JOINED
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 39
+active_fnode_num = 0, energy_consumption = 11
+========== 41 ==========
+Mobile node 0 lag = 37, OK and JOINED
+Mobile node 1 lag = 42, OK and JOINED
+Fixed node 0 SLEEPS
+Fixed node 1 JOINED
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 40
+active_fnode_num = 0, energy_consumption = 11
+========== 42 ==========
+Mobile node 0 lag = 38, OK and JOINED
+Mobile node 1 lag = 43, OK and JOINED
+Fixed node 0 SLEEPS
+Fixed node 1 SLEEPS
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 41
+active_fnode_num = 0, energy_consumption = 11
+========== 43 ==========
+Mobile node 0 lag = 39, OK and JOINED
+Mobile node 1 lag = 44, OK and JOINED
+Fixed node 0 SLEEPS
+Fixed node 1 SLEEPS
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 42
+active_fnode_num = 0, energy_consumption = 11
+========== 44 ==========
+Mobile node 0 lag = 40, OK and JOINED
+Mobile node 1 lag = 45, OK and JOINED
+Fixed node 0 SLEEPS
+Fixed node 1 SLEEPS
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 43
+active_fnode_num = 0, energy_consumption = 11
+========== 45 ==========
+Mobile node 0 lag = 41, OK and JOINED
+Mobile node 1 lag = 46, OK and JOINED
+Fixed node 0 SLEEPS
+Fixed node 1 SLEEPS
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 44
+active_fnode_num = 0, energy_consumption = 11
+========== 46 ==========
+Mobile node 0 lag = 42, OK and JOINED
+Mobile node 1 lag = 47, OK and JOINED
+Fixed node 0 SLEEPS
+Fixed node 1 JOINED
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 45
+active_fnode_num = 0, energy_consumption = 11
+========== 47 ==========
+Mobile node 0 lag = 43, OK and JOINED
+Mobile node 1 lag = 48, OK and JOINED
+Fixed node 0 SLEEPS
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 46
+active_fnode_num = 0, energy_consumption = 11
+========== 48 ==========
+Mobile node 0 lag = 44, OK and JOINED
+Mobile node 1 lag = 49, OK and JOINED
+Fixed node 0 SLEEPS
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 47
+active_fnode_num = 0, energy_consumption = 11
+========== 49 ==========
+Mobile node 0 lag = 45, OK and JOINED
+Mobile node 1 lag = 50, OK and JOINED
+Fixed node 0 SLEEPS
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 48
+active_fnode_num = 0, energy_consumption = 11
+========== 50 ==========
+Mobile node 0 lag = 46, OK and JOINED
+Mobile node 1 lag = 51, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 49
+active_fnode_num = 0, energy_consumption = 11
+========== 51 ==========
+Mobile node 0 lag = 47, OK and JOINED
+Mobile node 1 lag = 52, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 50
+active_fnode_num = 0, energy_consumption = 11
+========== 52 ==========
+Mobile node 0 lag = 48, OK and JOINED
+Mobile node 1 lag = 53, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 51
+active_fnode_num = 0, energy_consumption = 11
+========== 53 ==========
+Mobile node 0 lag = 49, OK and JOINED
+Mobile node 1 lag = 54, OK and JOINED
+Fixed node 0 SLEEPS
+Fixed node 1 SLEEPS
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 52
+active_fnode_num = 0, energy_consumption = 11
+========== 54 ==========
+Mobile node 0 lag = 50, OK and JOINED
+Mobile node 1 lag = 55, OK and JOINED
+Fixed node 0 SLEEPS
+Fixed node 1 SLEEPS
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 53
+active_fnode_num = 0, energy_consumption = 11
+========== 55 ==========
+Mobile node 0 lag = 51, OK and JOINED
+Mobile node 1 lag = 56, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 54
+active_fnode_num = 0, energy_consumption = 11
+========== 56 ==========
+Mobile node 0 lag = 52, OK and JOINED
+Mobile node 1 lag = 57, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 55
+active_fnode_num = 0, energy_consumption = 11
+========== 57 ==========
+Mobile node 0 lag = 53, OK and JOINED
+Mobile node 1 lag = 58, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 56
+active_fnode_num = 0, energy_consumption = 11
+========== 58 ==========
+Mobile node 0 lag = 54, OK and JOINED
+Mobile node 1 lag = 59, OK and JOINED
+Fixed node 0 SLEEPS
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 57
+active_fnode_num = 0, energy_consumption = 11
+========== 59 ==========
+Mobile node 0 lag = 55, OK and JOINED
+Mobile node 1 lag = 60, OK and JOINED
+Fixed node 0 SLEEPS
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 58
+active_fnode_num = 0, energy_consumption = 11
+========== 60 ==========
+Mobile node 0 lag = 56, OK and JOINED
+Mobile node 1 lag = 61, OK and JOINED
+Fixed node 0 SLEEPS
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 59
+active_fnode_num = 0, energy_consumption = 11
+========== 61 ==========
+Mobile node 0 lag = 57, OK and JOINED
+Mobile node 1 lag = 62, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 60
+active_fnode_num = 0, energy_consumption = 11
+========== 62 ==========
+Mobile node 0 lag = 58, OK and JOINED
+Mobile node 1 lag = 63, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 61
+active_fnode_num = 0, energy_consumption = 11
+========== 63 ==========
+Mobile node 0 lag = 59, OK and JOINED
+Mobile node 1 lag = 64, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 62
+active_fnode_num = 0, energy_consumption = 11
+========== 64 ==========
+Mobile node 0 lag = 60, OK and JOINED
+Mobile node 1 lag = 65, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 63
+active_fnode_num = 0, energy_consumption = 11
+========== 65 ==========
+Mobile node 0 lag = 61, OK and JOINED
+Mobile node 1 lag = 66, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 SLEEPS
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 64
+active_fnode_num = 0, energy_consumption = 11
+========== 66 ==========
+Mobile node 0 lag = 62, OK and JOINED
+Mobile node 1 lag = 67, OK and JOINED
+Fixed node 0 SLEEPS
+Fixed node 1 SLEEPS
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 65
+active_fnode_num = 0, energy_consumption = 11
+========== 67 ==========
+Mobile node 0 lag = 63, OK and JOINED
+Mobile node 1 lag = 68, OK and JOINED
+Fixed node 0 SLEEPS
+Fixed node 1 SLEEPS
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 66
+active_fnode_num = 0, energy_consumption = 11
+========== 68 ==========
+Mobile node 0 lag = 64, OK and JOINED
+Mobile node 1 lag = 69, OK and JOINED
+Fixed node 0 SLEEPS
+Fixed node 1 SLEEPS
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 67
+active_fnode_num = 0, energy_consumption = 11
+========== 69 ==========
+Mobile node 0 lag = 65, OK and JOINED
+Mobile node 1 lag = 70, OK and JOINED
+Fixed node 0 SLEEPS
+Fixed node 1 SLEEPS
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 68
+active_fnode_num = 0, energy_consumption = 11
+========== 70 ==========
+Mobile node 0 lag = 66, OK and JOINED
+Mobile node 1 lag = 71, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 69
+active_fnode_num = 0, energy_consumption = 11
+========== 71 ==========
+Mobile node 0 lag = 67, OK and JOINED
+Mobile node 1 lag = 72, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 70
+active_fnode_num = 0, energy_consumption = 11
+========== 72 ==========
+Mobile node 0 lag = 68, OK and JOINED
+Mobile node 1 lag = 73, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 SLEEPS
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 71
+active_fnode_num = 0, energy_consumption = 11
+========== 73 ==========
+Mobile node 0 lag = 69, OK and JOINED
+Mobile node 1 lag = 74, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 SLEEPS
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 72
+active_fnode_num = 0, energy_consumption = 11
+========== 74 ==========
+Mobile node 0 lag = 70, OK and JOINED
+Mobile node 1 lag = 75, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 SLEEPS
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 73
+active_fnode_num = 0, energy_consumption = 11
+========== 75 ==========
+Mobile node 0 lag = 71, OK and JOINED
+Mobile node 1 lag = 76, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 SLEEPS
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 74
+active_fnode_num = 0, energy_consumption = 11
+========== 76 ==========
+Mobile node 0 lag = 72, OK and JOINED
+Mobile node 1 lag = 77, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 75
+active_fnode_num = 0, energy_consumption = 11
+========== 77 ==========
+Mobile node 0 lag = 73, OK and JOINED
+Mobile node 1 lag = 78, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 76
+active_fnode_num = 0, energy_consumption = 11
+========== 78 ==========
+Mobile node 0 lag = 74, OK and JOINED
+Mobile node 1 lag = 79, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 77
+active_fnode_num = 0, energy_consumption = 11
+========== 79 ==========
+Mobile node 0 lag = 75, OK and JOINED
+Mobile node 1 lag = 80, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 78
+active_fnode_num = 0, energy_consumption = 11
+========== 80 ==========
+Mobile node 0 lag = 76, OK and JOINED
+Mobile node 1 lag = 81, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 79
+active_fnode_num = 0, energy_consumption = 11
+========== 81 ==========
+Mobile node 0 lag = 77, OK and JOINED
+Mobile node 1 lag = 82, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 80
+active_fnode_num = 0, energy_consumption = 11
+========== 82 ==========
+Mobile node 0 lag = 78, OK and JOINED
+Mobile node 1 lag = 83, OK and JOINED
+Fixed node 0 SLEEPS
+Fixed node 1 SLEEPS
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 81
+active_fnode_num = 0, energy_consumption = 11
+========== 83 ==========
+Mobile node 0 lag = 79, OK and JOINED
+Mobile node 1 lag = 84, OK and JOINED
+Fixed node 0 SLEEPS
+Fixed node 1 SLEEPS
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 82
+active_fnode_num = 0, energy_consumption = 11
+========== 84 ==========
+Mobile node 0 lag = 80, OK and JOINED
+Mobile node 1 lag = 85, OK and JOINED
+Fixed node 0 SLEEPS
+Fixed node 1 SLEEPS
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 83
+active_fnode_num = 0, energy_consumption = 11
+========== 85 ==========
+Mobile node 0 lag = 81, OK and JOINED
+Mobile node 1 lag = 86, OK and JOINED
+Fixed node 0 SLEEPS
+Fixed node 1 SLEEPS
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 84
+active_fnode_num = 0, energy_consumption = 11
+========== 86 ==========
+Mobile node 0 lag = 82, OK and JOINED
+Mobile node 1 lag = 87, OK and JOINED
+Fixed node 0 SLEEPS
+Fixed node 1 SLEEPS
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 85
+active_fnode_num = 0, energy_consumption = 11
+========== 87 ==========
+Mobile node 0 lag = 83, OK and JOINED
+Mobile node 1 lag = 88, OK and JOINED
+Fixed node 0 SLEEPS
+Fixed node 1 SLEEPS
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 86
+active_fnode_num = 0, energy_consumption = 11
+========== 88 ==========
+Mobile node 0 lag = 84, OK and JOINED
+Mobile node 1 lag = 89, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 SLEEPS
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 87
+active_fnode_num = 0, energy_consumption = 11
+========== 89 ==========
+Mobile node 0 lag = 85, OK and JOINED
+Mobile node 1 lag = 90, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 88
+active_fnode_num = 0, energy_consumption = 11
+========== 90 ==========
+Mobile node 0 lag = 86, OK and JOINED
+Mobile node 1 lag = 91, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 89
+active_fnode_num = 0, energy_consumption = 11
+========== 91 ==========
+Mobile node 0 lag = 87, OK and JOINED
+Mobile node 1 lag = 92, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 90
+active_fnode_num = 0, energy_consumption = 11
+========== 92 ==========
+Mobile node 0 lag = 88, OK and JOINED
+Mobile node 1 lag = 93, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 91
+active_fnode_num = 0, energy_consumption = 11
+========== 93 ==========
+Mobile node 0 lag = 89, OK and JOINED
+Mobile node 1 lag = 94, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 92
+active_fnode_num = 0, energy_consumption = 11
+========== 94 ==========
+Mobile node 0 lag = 90, OK and JOINED
+Mobile node 1 lag = 95, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 93
+active_fnode_num = 0, energy_consumption = 11
+========== 95 ==========
+Mobile node 0 lag = 91, OK and JOINED
+Mobile node 1 lag = 96, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 94
+active_fnode_num = 0, energy_consumption = 11
+========== 96 ==========
+Mobile node 0 lag = 92, OK and JOINED
+Mobile node 1 lag = 97, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 95
+active_fnode_num = 0, energy_consumption = 11
+========== 97 ==========
+Mobile node 0 lag = 93, OK and JOINED
+Mobile node 1 lag = 98, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 96
+active_fnode_num = 0, energy_consumption = 11
+========== 98 ==========
+Mobile node 0 lag = 94, OK and JOINED
+Mobile node 1 lag = 99, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 97
+active_fnode_num = 0, energy_consumption = 11
+========== 99 ==========
+Mobile node 0 lag = 95, OK and JOINED
+Mobile node 1 lag = 100, OK and JOINED
+Fixed node 0 JOINED
+Fixed node 1 JOINED
+Fixed node 2 JOINED
+Let's compute now. Mobile first.
+Mobile node 0 is TRACKING
+Mobile node 1 is TRACKING
+Mobile BREAK. sys_proba is enough. EMT = 98
+active_fnode_num = 0, energy_consumption = 11
+average_effective_monitoring_time = 98.0
+energy_consumption = 11
+num_nodes is set 6
+channel.cc:sendUp - Calc highestAntennaZ_ and distCST_
+highestAntennaZ_ = 1.5,  distCST_ = 550.0

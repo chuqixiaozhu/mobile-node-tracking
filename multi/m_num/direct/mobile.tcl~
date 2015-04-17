@@ -450,6 +450,11 @@ proc tracking_target_computing {m_m_index_ s_f_index_ time_stamp} {
                 incr active_fnode_num
                 set i [lindex $i_d 0]
                 set dist [lindex $i_d 1]
+		# add 150322-17:29
+                if {$lag([$fnode($i) id])  <= $opt(lag_time)} {
+                    continue
+                }
+                # /add
                 $fnode($i) color "green"
                 set f_local_proba \
                     [local_probability $dist $opt(dist_threshold_f)]
@@ -488,9 +493,11 @@ proc fixed_node_action {m_m_index_ time_stamp} {
                 set switch_on 1
                 incr lag([$fnode($i) id]) $opt(time_click)
             }
-            if {$lag([$fnode($i) id])  <= $opt(lag_time)} {
-                break
-            }
+            # del 150322-17:29
+            #if {$lag([$fnode($i) id])  <= $opt(lag_time)} {
+            #    break
+            #}
+            # /del
 
 # Computing the distance, choose the shortest
             if {$dist < $distance_min} {
@@ -500,10 +507,10 @@ proc fixed_node_action {m_m_index_ time_stamp} {
             }
         }
         if {$switch_on} {
-            if {$distance_min < 2 * $opt(x)} {
-                lappend sensing_fnode_index($sense_target($i)) \
-                        [list $i $dist_target]
-            }
+            #if {$distance_min < 2 * $opt(x)} { } del 150322-17:29
+            lappend sensing_fnode_index($sense_target($i)) \
+                [list $i $dist_target]
+            #{ } /del
         } else {
             set sense_target($i) -1
             set lag([$fnode($i) id]) 0

@@ -25,7 +25,7 @@ set opt(node_size) 1                       ;# Size of nodes
 set opt(target_size) 2                     ;# Size of the target
 set opt(radius_m) 15                       ;# Sensing Radius of Mobile nodes
 set opt(mnode_speed) 1;                     # Velocity of Mobile nodes
-set opt(target_speed_max) 3;                    # Maximum velocity of the Target
+set opt(target_speed_max) 7;                    # Maximum velocity of the Target
 set opt(target_speed_min) 0.7;                  # Minimum velocity of the Target
 set opt(time_click) 1;                      # Duration of a time slice
 set opt(energy_consumption) 0;           # Energy comsumption of fixed noded
@@ -70,10 +70,10 @@ if {0 < $argc} {
     #set opt(dist_limit) \
     #set opt(dist_limit) 15
 }
-set opt(target_speed_min) [expr $opt(target_speed_max) - 2.3]
-if {$opt(target_speed_min) < 0} {
-    set opt(target_speed_min) 0.7
-}
+#set opt(target_speed_min) [expr $opt(target_speed_max) - 2.3]
+#if {$opt(target_speed_min) < 0} {
+#    set opt(target_speed_min) 0.7
+#}
 set opt(nn) \
     [expr $opt(ntarget) + $opt(nfnode) + $opt(nmnode)] ;# sum of nodes
 #===================================
@@ -272,23 +272,25 @@ for {set i 0} {$i < $opt(ntarget)} {incr i} {
 #===================================
 
 # If node can sense the target
-proc be_sensed {node target radius itime} {
-    global ns
-    $node update_position
-    $target update_position
-    set node_x [$node set X_]
-    set node_y [$node set Y_]
-    set target_x [$target set X_]
-    set target_y [$target set Y_]
-    set dx [expr $node_x - $target_x]
-    set dy [expr $node_y - $target_y]
-    set dist [expr sqrt($dx * $dx + $dy * $dy)]
-    if {$dist <= $radius} {
-        return 1
-    } else {
-        return 0
-    }
-}
+# del 150409
+#proc be_sensed {node target radius itime} {
+#    global ns
+#    $node update_position
+#    $target update_position
+#    set node_x [$node set X_]
+#    set node_y [$node set Y_]
+#    set target_x [$target set X_]
+#    set target_y [$target set Y_]
+#    set dx [expr $node_x - $target_x]
+#    set dy [expr $node_y - $target_y]
+#    set dist [expr sqrt($dx * $dx + $dy * $dy)]
+#    if {$dist <= $radius} {
+#        return 1
+#    } else {
+#        return 0
+#    }
+#}
+# /del
 
 # Set destination of the node to the target
 proc set_destination {node target itime} {
@@ -325,54 +327,57 @@ proc distance {node target time_stamp} {
     return $dist
 }
 
+# del 150409
 # Get the Attracting Force from target to mobile node
-proc attracting_force {node target time_stamp} {
-    global opt
-    set dist [distance $node $target $time_stamp]
-    if {!$dist} {
-        set dist 0.001
-    }
-    set force [expr $opt(weight_GT) / pow($dist, 2)]
-    return $force
-}
-
-# Get the Repulsive Force from other mobile nodes to the node
-proc repulsive_force {node target index time_stamp} {
-    global opt mnode
-    set force 0.0
-    set d_nt [distance $node $target $time_stamp]
-    if {!$d_nt} {
-        set d_nt 0.001
-    }
-    for {set i 0} {$i < $opt(nmnode)} {incr i} {
-        if {$i == $index} {
-            continue
-        }
-        set d_ni [distance $mnode($i) $node $time_stamp]
-        if {$d_ni > $opt(radius_m)} {
-            continue
-        }
-        if {!$d_ni} {
-            set d_ni 0.001
-        }
-        set d_it [distance $mnode($i) $target $time_stamp]
-        set cos_theta \
-            [expr (pow($d_nt, 2) + pow($d_ni, 2) - pow($d_it, 2)) \
-                 / (2 * $d_nt * $d_ni)]
-        set ft [expr $cos_theta / pow($d_ni, 2)]
-        set force [expr $force + $ft]
-    }
-    set force [expr -1 * $opt(weight_GM) * $force]
-    return $force
-}
-
-# Get the Acting Force from target to mobile node
-proc acting_force {node target index time_stamp} {
-    global ns opt
-    set force [expr [attracting_force $node $target $time_stamp] \
-                   + [repulsive_force $node $target $index $time_stamp]]
-    return $force
-}
+#proc attracting_force {node target time_stamp} {
+#    global opt
+#    set dist [distance $node $target $time_stamp]
+#    if {!$dist} {
+#        set dist 0.001
+#    }
+#    set force [expr $opt(weight_GT) / pow($dist, 2)]
+#    return $force
+#}
+#
+## Get the Repulsive Force from other mobile nodes to the node
+#proc repulsive_force {node target index time_stamp} {
+#    global opt mnode
+#    set force 0.0
+#    set d_nt [distance $node $target $time_stamp]
+#    if {!$d_nt} {
+#        set d_nt 0.001
+#    }
+#    for {set i 0} {$i < $opt(nmnode)} {incr i} {
+#        if {$i == $index} {
+#            continue
+#        }
+#        set d_ni [distance $mnode($i) $node $time_stamp]
+#        if {$d_ni > $opt(radius_m)} {
+#            continue
+#        }
+#        if {!$d_ni} {
+#            set d_ni 0.001
+#        }
+#        set d_it [distance $mnode($i) $target $time_stamp]
+#        set cos_theta \
+#            [expr (pow($d_nt, 2) + pow($d_ni, 2) - pow($d_it, 2)) \
+#                 / (2 * $d_nt * $d_ni)]
+#        set ft [expr $cos_theta / pow($d_ni, 2)]
+#        set force [expr $force + $ft]
+#    }
+#    set force [expr -1 * $opt(weight_GM) * $force]
+#    return $force
+#}
+# 
+#
+## Get the Acting Force from target to mobile node
+#proc acting_force {node target index time_stamp} {
+#    global ns opt
+#    set force [expr [attracting_force $node $target $time_stamp] \
+#                   + [repulsive_force $node $target $index $time_stamp]]
+#    return $force
+#}
+# /del
 
 # Compute local probability
 proc local_probability {dist dist_threshold} {

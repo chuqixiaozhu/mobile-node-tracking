@@ -56,9 +56,9 @@ set opt(AVG_EMT) 0;           # Average Effective Monitoring Time of targets
 source $opt(normal)
 if {0 < $argc} {
     #set opt(nfnode) [lindex $argv 0]
-    set opt(nmnode) [lindex $argv 0]
+    #set opt(nmnode) [lindex $argv 0]
     #set opt(hole_number) [lindex $argv 0]
-    #set opt(target_speed_max) [lindex $argv 0]
+    set opt(target_speed_max) [lindex $argv 0]
     #set opt(weight_GM) [lindex $argv 0]
     set opt(result_file) [lindex $argv 1]
     #set opt(x) [lindex $argv 0]
@@ -382,7 +382,7 @@ proc local_probability {dist dist_threshold} {
     }
     set member \
         [expr $opt(sen_intensity_threshold) \
-            - ($source_intensity + $opt(noise_avg))]
+            - $source_intensity - $opt(noise_avg)]
     set y [expr double($member) / $opt(noise_std)]
     if {$y < 0} {
         if {[string length $y] == 2} {
@@ -452,6 +452,11 @@ proc tracking_target_computing {m_m_index_ s_f_index_ time_stamp} {
                 set i [lindex $i_d 0]
                 set dist [lindex $i_d 1]
                 $fnode($i) color "green"
+                # add 150322-17:29
+                if {$lag([$fnode($i) id])  <= $opt(lag_time)} {
+                    continue
+                }
+                # /add
                 set f_local_proba \
                     [local_probability $dist $opt(dist_threshold_f)]
                 set sys_proba_tmp \
@@ -489,9 +494,11 @@ proc fixed_node_action {m_m_index_ time_stamp} {
                 set switch_on 1
                 incr lag([$fnode($i) id]) $opt(time_click)
             }
-            if {$lag([$fnode($i) id])  <= $opt(lag_time)} {
-                break
-            }
+            # del 150322-17:29
+            #if {$lag([$fnode($i) id])  <= $opt(lag_time)} {
+            #    break
+            #}
+            # /del
 
 # Computing the distance, choose the shortest
             if {$dist < $distance_min} {
@@ -501,10 +508,10 @@ proc fixed_node_action {m_m_index_ time_stamp} {
             }
         }
         if {$switch_on} {
-            if {$distance_min < 2 * $opt(x)} {
-                lappend sensing_fnode_index($sense_target($i)) \
-                        [list $i $dist_target]
-            }
+            #if {$distance_min < 2 * $opt(x)} { } del 150322-17:29
+            lappend sensing_fnode_index($sense_target($i)) \
+                [list $i $dist_target]
+            #{ } /del
         } else {
             set sense_target($i) -1
             set lag([$fnode($i) id]) 0
@@ -527,10 +534,10 @@ proc mobile_node_action {time_stamp} {
         set switch_on 0
         set force_max -InF
         if {$to_target($i) != -1} {
-            set switch_on 1
             set dist \
                 [distance $mnode($i) $target($to_target($i)) $time_stamp]
             if {$dist < ($opt(radius_m) / 2)} {
+                set switch_on 1
                 lappend moving_mnode_index($to_target($i)) [list $i $dist]
                 set_destination \
                     $mnode($i) $target($to_target($i)) $time_stamp
@@ -654,7 +661,7 @@ proc output_file {} {
     global ns opt
     set result_file [open $opt(result_file) a]
     puts $result_file \
-         "$opt(nmnode) \
+         "$opt(target_speed_max) \
           $opt(AVG_EMT) \
           $opt(energy_consumption)"
     flush $result_file
@@ -663,8 +670,8 @@ proc output_file {} {
 proc finish {} {
     global ns tracefile namfile opt argc
     getting_results
-    puts "average_effective_monitoring_time = $opt(AVG_EMT)"
-    puts "energy_consumption = $opt(energy_consumption)"
+    #puts "average_effective_monitoring_time = $opt(AVG_EMT)"
+    #puts "energy_consumption = $opt(energy_consumption)"
     $ns flush-trace
     if {0 < $argc} {
         output_file

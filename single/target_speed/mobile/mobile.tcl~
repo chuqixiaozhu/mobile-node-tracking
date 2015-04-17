@@ -540,6 +540,7 @@ proc mobile_node_action {time_stamp} {
                 break
             } else {
                 lappend moving_mnode_index($j) [list $i $dist]
+                set_destination $mnode($i) $target($j) $time_stamp
             }
 
 # Computing the force from this target($j)

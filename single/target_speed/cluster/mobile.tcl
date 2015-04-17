@@ -30,8 +30,8 @@ set opt(target_speed_min) 0.7;                  # Minimum velocity of the Target
 set opt(time_click) 1;                      # Duration of a time slice
 set opt(energy_consumption) 0;           # Energy comsumption of fixed noded
 #set opt(valid_time) 0;                      # Valid surveillance time
-set opt(noise_avg) 0.01;                       # Noise average
-set opt(noise_std) 0.1;                       # Noise standard deviation
+set opt(noise_avg) 0.1;                       # Noise average
+set opt(noise_std) 0.2;                       # Noise standard deviation
 set opt(source_signal_max) 5;              # Maximum of source singal
 set opt(decay_factor) 2;                    # Decay factor
 set opt(dist_threshold_f) 7             ;# Distance threshold of Fixed nodes
@@ -45,7 +45,7 @@ set opt(nam_file) "out.nam"
 set opt(hole_number) 2;                     # number of holes
 set opt(hole_length) 30;                    # Length of a hole edge
 set opt(dist_limit) 15;        # Maximum distance from target to active nodes
-set opt(lag_time) [expr 2 * $opt(time_click)]
+set opt(lag_time) [expr 3 * $opt(time_click)]
 set opt(ntarget) 1;                         # number of targets
 set opt(EC) 0;                              # Energy Consumption
 #set opt(weight_GT) 100;                # Weight of attracting force from target
