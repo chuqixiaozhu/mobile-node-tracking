@@ -22,6 +22,6 @@ set key Left
 #set key width 10
 #set key spacing 10
 set key right bottom at 6.9, 1.05
-plot "t_speed-m-force_vs_ec" u 1:($2/1000.0) w lp lt 1 lw 2 pt 5 ps 2 title "Force", "t_speed-f_vs_ec" u 1:($2/1000.0) w lp lt 2 lw 2 pt 2 ps 2 title "FT", "t_speed-c_vs_ec" u 1:($2/1000.0) w lp lt 3 lw 2 pt 4 ps 2 title "CT"
+plot "t_speed-m-force_vs_ec" u 1:($2/1000.0) w lp lt 1 lw 2 pt 5 ps 2 title "Force", "t_speed-f_vs_ec" u 1:($2/1000.0) w lp lt 2 lw 2 pt 2 ps 2 title "FT", "t_speed-m-fl_vs_ec" u 1:($2/1000.0) w lp lt 4 lw 2 pt 3 ps 2 title "Fill","t_speed-c_vs_ec" u 1:($2/1000.0) w lp lt 3 lw 2 pt 4 ps 2 title "CT"
 set output
 #!pdftops -eps 20_hole_vs_vt.pdf
