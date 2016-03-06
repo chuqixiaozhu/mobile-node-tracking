@@ -98,17 +98,17 @@ n -t * -s 96  -x 49.240229999999997 -y 87.474239999999995 -Z 0 -z 3  -v circle -
 n -t * -s 97  -x 5.8547269999999996 -y 27.84046 -Z 0 -z 3  -v circle -c black
 n -t * -s 98  -x 17.950209999999998 -y 69.58981 -Z 0 -z 3  -v circle -c black
 n -t * -s 99  -x 26.168900000000001 -y 39.536769999999997 -Z 0 -z 3  -v circle -c black
-n -t * -s 100  -x 3.025979 -y 23.43507 -Z 0 -z 3  -v circle -c black
-n -t * -s 101  -x 20.717549999999999 -y 59.59731 -Z 0 -z 3  -v circle -c black
-n -t * -s 102  -x 48.298139999999997 -y 4.1020349999999999 -Z 0 -z 3  -v circle -c black
-n -t * -s 103  -x 67.869140000000002 -y 59.15137 -Z 0 -z 3  -v circle -c black
-n -t * -s 104  -x 53.516820000000003 -y 21.757149999999999 -Z 0 -z 3  -v circle -c black
-n -t * -s 105  -x 86.33426 -y 5.805186 -Z 0 -z 3  -v circle -c black
-n -t * -s 106  -x 80.070959999999999 -y 40.246259999999999 -Z 0 -z 3  -v circle -c black
-n -t * -s 107  -x 29.791149999999998 -y 98.8476 -Z 0 -z 3  -v circle -c black
-n -t * -s 108  -x 84.262209999999996 -y 65.605170000000001 -Z 0 -z 3  -v circle -c black
-n -t * -s 109  -x 95.090360000000004 -y 63.308779999999999 -Z 0 -z 3  -v circle -c black
-n -t * -s 110  -x 72.052109999999999 -y 83.080849999999998 -Z 0 -z 5  -v circle -c black
+n -t * -s 100  -x 3.025979 -y 23.43507 -Z 0 -z 3  -v square -c blue
+n -t * -s 101  -x 20.717549999999999 -y 59.59731 -Z 0 -z 3  -v square -c blue
+n -t * -s 102  -x 48.298139999999997 -y 4.1020349999999999 -Z 0 -z 3  -v square -c blue
+n -t * -s 103  -x 67.869140000000002 -y 59.15137 -Z 0 -z 3  -v square -c blue
+n -t * -s 104  -x 53.516820000000003 -y 21.757149999999999 -Z 0 -z 3  -v square -c blue
+n -t * -s 105  -x 86.33426 -y 5.805186 -Z 0 -z 3  -v square -c blue
+n -t * -s 106  -x 80.070959999999999 -y 40.246259999999999 -Z 0 -z 3  -v square -c blue
+n -t * -s 107  -x 29.791149999999998 -y 98.8476 -Z 0 -z 3  -v square -c blue
+n -t * -s 108  -x 84.262209999999996 -y 65.605170000000001 -Z 0 -z 3  -v square -c blue
+n -t * -s 109  -x 95.090360000000004 -y 63.308779999999999 -Z 0 -z 3  -v square -c blue
+n -t * -s 110  -x 47.052109999999999 -y 53.080849999999998 -Z 0 -z 5  -v hexagon -c red
 V -t * -v 1.0a5 -a 0
 W -t * -x 100 -y 100
 A -t * -n 1 -p 0 -o 0x7fffffff -c 30 -a 1

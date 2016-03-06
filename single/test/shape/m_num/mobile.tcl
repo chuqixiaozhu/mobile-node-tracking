@@ -18,7 +18,7 @@ set opt(ifqlen) 50                         ;# max packet in ifq
 set opt(rp)     DSDV                       ;# routing protocol
 set opt(x)      100                        ;# X dimension of topography
 set opt(y)      100                        ;# Y dimension of topography
-set opt(stop)   100                        ;# time of simulation end
+set opt(stop)   1                        ;# time of simulation end
 set opt(nfnode) 100                        ;# number of fixed nodes
 set opt(nmnode) 10                         ;# number of mobile nodes
 set opt(node_size) 3                       ;# Size of nodes
@@ -219,7 +219,7 @@ for {set i 0} {$i < $opt(nfnode)} {incr i} {
     set fnode($i) [$ns node]
     set xf [$rd_x value]
     set yf [$rd_y value]
-    create_holes xf yf
+    #create_holes xf yf
     $fnode($i) set X_ $xf
     $fnode($i) set Y_ $yf
     $fnode($i) set Z_ 0
@@ -236,7 +236,7 @@ for {set i 0} {$i < $opt(nmnode)} {incr i} {
     set mnode($i) [$ns node]
     set xm [$rd_x value]
     set ym [$rd_y value]
-    create_holes xm ym
+    #create_holes xm ym
     $mnode($i) set X_ $xm
     $mnode($i) set Y_ $ym
     $mnode($i) set Z_ 0
@@ -573,54 +573,54 @@ proc mobile_node_action {time_stamp} {
 #===================================
 #        Generate movement
 #===================================
-# The schedule of Targets' Movement
-for {set i 0}  {$i < $opt(ntarget)} {incr i} {
-    set time_line 0
-    set target_lx [$target($i) set X_]
-    set target_ly [$target($i) set Y_]
-    set to_move 1
-    while {$time_line < $opt(stop)} {
-        set time_stamp $time_line
-
-# A Stop after a movement
-        if {!$to_move} {
-            set stop_time [expr int($move_time / 3)]
-            if {!$stop_time} {
-                set stop_time 1
-            }
-            if {$opt(stop) <= [expr $time_line + $stop_time]} {
-                set stop_time [expr $opt(stop) - $time_line]
-            }
-            incr time_line $stop_time
-            set to_move 1
-            continue
-        }
-
-# A Movement of this Target
-        set dest_x [$rd_x value]
-        set dest_y [$rd_y value]
-        set target_speed [$rd_target_speed value]
-        set dx [expr $dest_x - $target_lx]
-        set dy [expr $dest_y - $target_ly]
-        set target_lx $dest_x
-        set target_ly $dest_y
-        set dist [expr sqrt(pow($dx, 2) + pow($dy, 2))]
-        set move_time [expr int(floor(double($dist) / $target_speed) + 1)]
-        if {$opt(stop) <= [expr $time_line + $move_time]} {
-            set move_time [expr $opt(stop) - $time_line]
-        }
-        $ns at $time_line "$target($i) setdest $dest_x $dest_y $target_speed"
-        incr time_line $move_time
-        set to_move 0
-    }
-}
-
-# The schedule of Mobile Nodes' Movement
-set time_line 0
-while {$time_line < $opt(stop)} {
-    $ns at $time_line "mobile_node_action $time_line"
-    incr time_line $opt(time_click)
-}
+## The schedule of Targets' Movement
+#for {set i 0}  {$i < $opt(ntarget)} {incr i} {
+#    set time_line 0
+#    set target_lx [$target($i) set X_]
+#    set target_ly [$target($i) set Y_]
+#    set to_move 1
+#    while {$time_line < $opt(stop)} {
+#        set time_stamp $time_line
+#
+## A Stop after a movement
+#        if {!$to_move} {
+#            set stop_time [expr int($move_time / 3)]
+#            if {!$stop_time} {
+#                set stop_time 1
+#            }
+#            if {$opt(stop) <= [expr $time_line + $stop_time]} {
+#                set stop_time [expr $opt(stop) - $time_line]
+#            }
+#            incr time_line $stop_time
+#            set to_move 1
+#            continue
+#        }
+#
+## A Movement of this Target
+#        set dest_x [$rd_x value]
+#        set dest_y [$rd_y value]
+#        set target_speed [$rd_target_speed value]
+#        set dx [expr $dest_x - $target_lx]
+#        set dy [expr $dest_y - $target_ly]
+#        set target_lx $dest_x
+#        set target_ly $dest_y
+#        set dist [expr sqrt(pow($dx, 2) + pow($dy, 2))]
+#        set move_time [expr int(floor(double($dist) / $target_speed) + 1)]
+#        if {$opt(stop) <= [expr $time_line + $move_time]} {
+#            set move_time [expr $opt(stop) - $time_line]
+#        }
+#        $ns at $time_line "$target($i) setdest $dest_x $dest_y $target_speed"
+#        incr time_line $move_time
+#        set to_move 0
+#    }
+#}
+#
+## The schedule of Mobile Nodes' Movement
+#set time_line 0
+#while {$time_line < $opt(stop)} {
+#    $ns at $time_line "mobile_node_action $time_line"
+#    incr time_line $opt(time_click)
+#}
 #===================================
 #        Agents Definition
 #===================================

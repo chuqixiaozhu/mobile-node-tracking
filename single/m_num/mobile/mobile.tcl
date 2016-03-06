@@ -660,8 +660,8 @@ proc output_file {} {
 proc finish {} {
     global ns tracefile namfile opt argc
     getting_results
-    #puts "average_effective_monitoring_time = $opt(AVG_EMT)"
-    #puts "energy_consumption = $opt(energy_consumption)"
+    puts "average_effective_monitoring_time = $opt(AVG_EMT)"
+    puts "energy_consumption = $opt(energy_consumption)"
     $ns flush-trace
     if {0 < $argc} {
         output_file
